@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- ============================================================
-       HALAMAN UTAMA - HIGH PRIORITY
+       HALAMAN UTAMA
        ============================================================ -->
 
-  <!-- Halaman Beranda -->
   <url>
     <loc>https://vendorhampers.web.id/</loc>
     <lastmod>2026-07-31</lastmod>
   </url>
 
-  <url>
-    <loc>https://vendorhampers.web.id/index.html</loc>
-    <lastmod>2026-07-31</lastmod>
-  </url>
 
   <!-- ============================================================
-       HALAMAN STATIS - HIGH PRIORITY
+       HALAMAN STATIS
        ============================================================ -->
 
   <url>
@@ -49,8 +41,9 @@
     <lastmod>2026-07-26</lastmod>
   </url>
 
+
   <!-- ============================================================
-       BLOG DETAIL ARTICLES - MEDIUM PRIORITY
+       BLOG DETAIL
        ============================================================ -->
 
   <url>
@@ -108,49 +101,58 @@
     <lastmod>2026-07-31</lastmod>
   </url>
 
+
   <!-- ============================================================
-       DETAIL PRODUK - LOW PRIORITY
+       PRODUK HAMPERS
        ============================================================ -->
 
-  <!-- Produk Lebaran -->
+
+  <!-- Lebaran -->
+
   <url>
     <loc>https://vendorhampers.web.id/Set-Kue-Kering-Premium.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
-  <!-- Produk Natal -->
+
+  <!-- Natal -->
+
   <url>
-    <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&-Scented-Candle.html</loc>
+    <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&amp;-Scented-Candle.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&-Mug-Tema-Natal.html</loc>
+    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&amp;-Mug-Tema-Natal.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/Premium-Wine-&-Roasted-Nuts.html</loc>
+    <loc>https://vendorhampers.web.id/Premium-Wine-&amp;-Roasted-Nuts.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
-  <!-- Produk Tahun Baru -->
-  <url>
-    <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&-Planner-Book.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
+
+  <!-- Tahun Baru -->
 
   <url>
-    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&-Premium-Coffee-Blend.html</loc>
+    <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&amp;-Planner-Book.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/Tumbler-Custom-&-Diffuser-Set.html</loc>
+    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&amp;-Premium-Coffee-Blend.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
+
+  <url>
+    <loc>https://vendorhampers.web.id/Tumbler-Custom-&amp;-Diffuser-Set.html</loc>
+    <lastmod>2026-07-26</lastmod>
+  </url>
+
 
   <!-- Souvenir Custom -->
+
   <url>
     <loc>https://vendorhampers.web.id/Tumbler-Custom-Logo.html</loc>
     <lastmod>2026-07-26</lastmod>
@@ -161,13 +163,17 @@
     <lastmod>2026-07-26</lastmod>
   </url>
 
+
   <!-- Seminar Kit -->
+
   <url>
     <loc>https://vendorhampers.web.id/Paket-Seminar-Lengkap.html</loc>
     <lastmod>2026-07-26</lastmod>
   </url>
 
+
   <!-- Corporate Gift -->
+
   <url>
     <loc>https://vendorhampers.web.id/Hampers-Eksekutif.html</loc>
     <lastmod>2026-07-26</lastmod>
@@ -183,6 +189,7 @@
     <lastmod>2026-07-26</lastmod>
   </url>
 
+
   <!-- ============================================================
        PRODUK TAMBAHAN
        ============================================================ -->
@@ -193,8 +200,9 @@
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&-Artisan-Tea.html</loc>
+    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&amp;-Artisan-Tea.html</loc>
     <lastmod>2026-07-30</lastmod>
   </url>
+
 
 </urlset>
