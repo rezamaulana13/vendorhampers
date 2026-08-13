@@ -13,19 +13,11 @@
   <url>
     <loc>https://vendorhampers.web.id/</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/favicon.png</image:loc>
-      <image:title>GHampers - Hampers Custom Premium</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/index.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <!-- ============================================================
@@ -35,36 +27,26 @@
   <url>
     <loc>https://vendorhampers.web.id/produk.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/about.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/galeri.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/kontak.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <!-- ============================================================
@@ -74,122 +56,56 @@
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-20-ide-hampers-perusahaan-custom-momen-corporate.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
-      <image:title>20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-corporate-premium-perusahaan.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
-      <image:title>Hampers Corporate dengan Pilihan Isi Premium untuk Berbagai Agenda Perusahaan</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-custom-untuk-perusahaan.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
-      <image:title>Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-kantor-berkualitas-momen-perusahaan.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
-      <image:title>Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-kantor-office-essentials-fungsional.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
-      <image:title>Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-perusahaan-healthy-lifestyle-fungsional.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
-      <image:title>Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-perusahaan-premium-gift-box-branding.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
-      <image:title>Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-premium-perusahaan-strategi-apresiasi.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
-      <image:title>Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-hampers-premium-perusahaan.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
-      <image:title>Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
-      <image:title>Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/blog-detail-premium-office-hampers-karyawan-mitra-bisnis.html</loc>
     <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
-      <image:title>Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis</image:title>
-    </image:image>
   </url>
 
   <!-- ============================================================
@@ -200,149 +116,71 @@
   <url>
     <loc>https://vendorhampers.web.id/Set-Kue-Kering-Premium.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/kue kering.webp</image:loc>
-      <image:title>Set Kue Kering Premium - Hampers Lebaran</image:title>
-    </image:image>
   </url>
 
   <!-- Produk Natal -->
   <url>
     <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&-Scented-Candle.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/coklat.webp</image:loc>
-      <image:title>Artisan Chocolate Box &amp; Scented Candle - Hampers Natal</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&-Mug-Tema-Natal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/gelas.webp</image:loc>
-      <image:title>Gingerbread Cookies &amp; Mug Tema Natal</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Premium-Wine-&-Roasted-Nuts.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/wine.webp</image:loc>
-      <image:title>Premium Wine &amp; Roasted Nuts - Hampers Natal</image:title>
-    </image:image>
   </url>
 
   <!-- Produk Tahun Baru -->
   <url>
     <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&-Planner-Book.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/kalender.webp</image:loc>
-      <image:title>Desk Calendar Premium 2027 &amp; Planner Book</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&-Premium-Coffee-Blend.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/snack.webp</image:loc>
-      <image:title>Gourmet Snack Box &amp; Premium Coffee Blend</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Tumbler-Custom-&-Diffuser-Set.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/tumblers.webp</image:loc>
-      <image:title>Tumbler Custom &amp; Diffuser Set</image:title>
-    </image:image>
   </url>
 
   <!-- Souvenir Custom -->
   <url>
     <loc>https://vendorhampers.web.id/Tumbler-Custom-Logo.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/tamblercustom.webp</image:loc>
-      <image:title>Tumbler Custom Logo - Souvenir Custom</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Totebag-Kanvas.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/totebagcustom.webp</image:loc>
-      <image:title>Totebag Kanvas - Souvenir Custom</image:title>
-    </image:image>
   </url>
 
   <!-- Seminar Kit -->
   <url>
     <loc>https://vendorhampers.web.id/Paket-Seminar-Lengkap.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/seminarkit.webp</image:loc>
-      <image:title>Paket Seminar Lengkap - Seminar Kit</image:title>
-    </image:image>
   </url>
 
   <!-- Corporate Gift -->
   <url>
     <loc>https://vendorhampers.web.id/Hampers-Eksekutif.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/eksekutif.webp</image:loc>
-      <image:title>Hampers Eksekutif - Corporate Gift</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Parcel-Hari-Raya-Korporat.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/parcelHR.webp</image:loc>
-      <image:title>Parcel Hari Raya Korporat - Corporate Gift</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://vendorhampers.web.id/Gift-Set-Apresiasi-Karyawan.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/apresiasi.webp</image:loc>
-      <image:title>Gift Set Apresiasi Karyawan - Corporate Gift</image:title>
-    </image:image>
   </url>
 
   <!-- ============================================================
@@ -352,23 +190,11 @@
   <url>
     <loc>https://vendorhampers.web.id/Paket-Ibadah.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/paket-ibadah.webp</image:loc>
-      <image:title>Paket Ibadah - Hampers Lebaran</image:title>
-    </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&amp;-Artisan-Tea.html</loc>
+    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&-Artisan-Tea.html</loc>
     <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/produk/set cangkir.webp</image:loc>
-      <image:title>Set Cangkir Keramik &amp; Artisan Tea - Hampers Lebaran</image:title>
-    </image:image>
   </url>
 
 </urlset>
