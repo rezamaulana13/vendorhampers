@@ -99,7 +99,6 @@ Disallow: /assets/img/about/
 # ========================================================
 User-agent: Googlebot-News
 Allow: /blog.html
-Allow: /blog-detail-*.html
 
 # ========================================================
 # USER-AGENT: BINGBOT
