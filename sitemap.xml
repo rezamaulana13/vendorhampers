@@ -1,227 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- ============================================================
-       HALAMAN UTAMA
-       ============================================================ -->
-
+  <!-- HALAMAN UTAMA -->
   <url>
     <loc>https://vendorhampers.web.id/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 
-
-  <!-- ============================================================
-       HALAMAN STATIS
-       ============================================================ -->
-
+  <!-- HALAMAN UTAMA & UTILITY -->
   <url>
     <loc>https://vendorhampers.web.id/produk.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://vendorhampers.web.id/about.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://vendorhampers.web.id/blog.html</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://vendorhampers.web.id/galeri.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://vendorhampers.web.id/kontak.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
-
-  <!-- ============================================================
-       BLOG DETAIL
-       ============================================================ -->
-
+  <!-- PRODUK & ARTIKEL BLOG -->
+  <url>
+    <loc>https://vendorhampers.web.id/16-hampers-corporate-siap-kirim-seluruh-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://vendorhampers.web.id/20-ide-hampers-perusahaan-custom-momen-corporate.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-corporate-premium-perusahaan.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-custom-untuk-perusahaan.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-kantor-berkualitas-momen-perusahaan.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-kantor-office-essentials-fungsional.html</loc>
-    <lastmod>2026-07-31</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-perusahaan-healthy-lifestyle-fungsional.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-perusahaan-premium-gift-box-branding.html</loc>
-    <lastmod>2026-07-31</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-strategi-apresiasi.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan.html</loc>
-    <lastmod>2026-07-30</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html</loc>
-    <lastmod>2026-07-31</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/premium-office-hampers-karyawan-mitra-bisnis.html</loc>
-    <lastmod>2026-07-31</lastmod>
-  </url>
-
-
-  <!-- ============================================================
-       PRODUK HAMPERS
-       ============================================================ -->
-
-
-  <!-- Lebaran -->
-
-  <url>
-    <loc>https://vendorhampers.web.id/Set-Kue-Kering-Premium.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-
-  <!-- Natal -->
-
   <url>
     <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&amp;-Scented-Candle.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&amp;-Mug-Tema-Natal.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Premium-Wine-&amp;-Roasted-Nuts.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-
-  <!-- Tahun Baru -->
-
   <url>
     <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&amp;-Planner-Book.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&amp;-Premium-Coffee-Blend.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Tumbler-Custom-&amp;-Diffuser-Set.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-
-  <!-- Souvenir Custom -->
-
-  <url>
-    <loc>https://vendorhampers.web.id/Tumbler-Custom-Logo.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Totebag-Kanvas.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-
-  <!-- Seminar Kit -->
-
-  <url>
-    <loc>https://vendorhampers.web.id/Paket-Seminar-Lengkap.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-
-  <!-- Corporate Gift -->
-
-  <url>
-    <loc>https://vendorhampers.web.id/Hampers-Eksekutif.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
-  <url>
-    <loc>https://vendorhampers.web.id/Parcel-Hari-Raya-Korporat.html</loc>
-    <lastmod>2026-07-26</lastmod>
-  </url>
-
   <url>
     <loc>https://vendorhampers.web.id/Gift-Set-Apresiasi-Karyawan.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-
-  <!-- ============================================================
-       PRODUK TAMBAHAN
-       ============================================================ -->
-
   <url>
-    <loc>https://vendorhampers.web.id/Paket-Ibadah.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&amp;-Mug-Tema-Natal.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&amp;-Artisan-Tea.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&amp;-Premium-Coffee-Blend.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-
-  <!-- ============================================================
-       ARTIKEL BLOG - CLUSTER HAMPERS BISNIS
-       ============================================================ -->
-
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-corporate-executive-gift-box.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-corporate-office-essentials.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-corporate-palembang-jambi-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-corporate-premium-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-custom-premium-gift-box-yogyakarta.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-custom-produk-lifestyle.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-custom-untuk-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Hampers-Eksekutif.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-kantor-berkualitas-momen-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-kantor-office-essentials-fungsional.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-kantor-premium-semarang-salatiga-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-kantor-tumbler-notebook-mug-snack.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-korporat-solusi-hadiah-bisnis-profesional.html</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-perusahaan-healthy-lifestyle-fungsional.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-perusahaan-premium-gift-box-branding.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-bandung-depok-bogor-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-coffee-break-set-relasi-bisnis.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-denpasar-mataram-indonesia.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-office-essentials-lifestyle.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-strategi-apresiasi.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-premium-produk-lifestyle-branding-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/inspirasi-hampers-custom-tumbler-mug-notebook-snack.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/inspirasi-hampers-premium-mug-tumbler-snack-elegan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Paket-Ibadah.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Paket-Seminar-Lengkap.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Parcel-Hari-Raya-Korporat.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://vendorhampers.web.id/parcel-perusahaan-hadiah-elegan-relasi-bisnis.html</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://vendorhampers.web.id/premium-office-hampers-karyawan-mitra-bisnis.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Premium-Wine-&amp;-Roasted-Nuts.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&amp;-Artisan-Tea.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Set-Kue-Kering-Premium.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/souvenir-kantor-premium-elegan-branding-perusahaan.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://vendorhampers.web.id/souvenir-korporat-hadiah-berkesan-klien-mitra.html</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Totebag-Kanvas.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Tumbler-Custom-&amp;-Diffuser-Set.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Tumbler-Custom-Logo.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
