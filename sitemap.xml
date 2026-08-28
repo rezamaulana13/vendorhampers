@@ -1,323 +1,1005 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- HALAMAN UTAMA -->
-  <url>
-    <loc>https://vendorhampers.web.id/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- HALAMAN UTAMA & UTILITY -->
-  <url>
-    <loc>https://vendorhampers.web.id/produk.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vendorhampers.web.id/about.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vendorhampers.web.id/blog.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vendorhampers.web.id/galeri.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vendorhampers.web.id/kontak.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- PRODUK & ARTIKEL BLOG -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vendorhampers.web.id/16-hampers-corporate-siap-kirim-seluruh-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-premium-mug.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/20-ide-hampers-perusahaan-custom-momen-corporate.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-premium-mug.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/about.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&amp;-Scented-Candle.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/artikel-ide-hampers-lebaran-day1.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&amp;-Planner-Book.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/artikel-rekomendasi-souvenir-day1.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Artisan-Chocolate-Box-&-Scented-Candle.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/coklat.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/blog.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-premium-mug.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-coffee-break-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lifestyle-branding.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pemenuhan-hampers-nasional.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-premium-pengiriman.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-tumbler-notebook-mug-snack.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-denpasar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-office-essentials-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-lifestyle-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-premium-yogyakarta-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/parcel-hampers-custom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/sourvenir-corporate.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Desk-Calendar-Premium-2027-&-Planner-Book.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kalender.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/galeri.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tamblercustom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/mug%20custom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/totebagcustom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/gantungan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/n.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/polo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/jam.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/payung.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kayu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/parcelHR.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/apresiasi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/klien%20premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/seminarkit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tas%20seminar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/id%20card.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/pin.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kalender.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kue-kering.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Gift-Set-Apresiasi-Karyawan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/apresiasi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&-Mug-Tema-Natal.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/gelas.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/googleba3cab13af257b2f.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Gingerbread-Cookies-&amp;-Mug-Tema-Natal.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&-Premium-Coffee-Blend.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vendorhampers.web.id/Gourmet-Snack-Box-&amp;-Premium-Coffee-Blend.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-corporate-executive-gift-box.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-corporate-office-essentials.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-corporate-palembang-jambi-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-corporate-premium-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-custom-premium-gift-box-yogyakarta.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-premium-yogyakarta-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-lifestyle-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-custom-produk-lifestyle.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-lifestyle-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-premium-yogyakarta-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-custom-untuk-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-lifestyle-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-premium-yogyakarta-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Hampers-Eksekutif.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/eksekutif.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-kantor-berkualitas-momen-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-premium-pengiriman.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-tumbler-notebook-mug-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-kantor-office-essentials-fungsional.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-premium-pengiriman.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-tumbler-notebook-mug-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-kantor-premium-semarang-salatiga-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-premium-pengiriman.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-tumbler-notebook-mug-snack.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-kantor-tumbler-notebook-mug-snack.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-tumbler-notebook-mug-snack.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-premium-pengiriman.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-korporat-solusi-hadiah-bisnis-profesional.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/parcel-hampers-custom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/sourvenir-corporate.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-perusahaan-healthy-lifestyle-fungsional.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-perusahaan-premium-gift-box-branding.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-bandung-depok-bogor-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pemenuhan-hampers-nasional.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-coffee-break-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lifestyle-branding.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-coffee-break-set-relasi-bisnis.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-coffee-break-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lifestyle-branding.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pemenuhan-hampers-nasional.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-denpasar-mataram-indonesia.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-denpasar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-office-essentials-lifestyle.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-office-essentials-lifestyle.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-office-essentials-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-denpasar.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-perusahaan-strategi-apresiasi.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-coffee-break-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lifestyle-branding.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pemenuhan-hampers-nasional.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-denpasar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-office-essentials-lifestyle.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-premium-produk-lifestyle-branding-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lifestyle-branding.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-coffee-break-set.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pemenuhan-hampers-nasional.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/index.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/Hampers%20Happy%20New%20Years.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/paket%20reguler.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/paket%20populer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/paket%20corporat.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/tumbler.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/totebag.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/hampers%20executive.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/seminar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/mug%20custom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/index/notebook.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/inspirasi-hampers-custom-tumbler-mug-notebook-snack.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-lifestyle-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-premium-yogyakarta-01.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/inspirasi-hampers-premium-mug-tumbler-snack-elegan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-premium-mug.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/kontak.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/inspirasi-hampers-premium-mug.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Paket-Ibadah.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/paket-ibadah.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Paket-Seminar-Lengkap.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/seminarkit.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Parcel-Hari-Raya-Korporat.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/parcelHR.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/parcel-perusahaan-hadiah-elegan-relasi-bisnis.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/parcel-hampers-custom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/sourvenir-corporate.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/premium-office-hampers-karyawan-mitra-bisnis.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-denpasar.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-office-essentials-lifestyle.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Premium-Wine-&amp;-Roasted-Nuts.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/Premium-Wine-&-Roasted-Nuts.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/wine.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&amp;-Artisan-Tea.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/produk.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kue-kering.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/paket-ibadah.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/set%20cangkir.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/coklat.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/gelas.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/wine.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kalender.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/snack.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tumblers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tamblercustom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/totebagcustom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/seminarkit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/eksekutif.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/parcelHR.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/apresiasi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/seminar-kit-day1.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/executive-gift-box-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-hampers-set.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/Set-Cangkir-Keramik-&-Artisan-Tea.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/set%20cangkir.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Set-Kue-Kering-Premium.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/kue-kering.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/souvenir-kantor-premium-elegan-branding-perusahaan.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/souvenir-korporat-hadiah-berkesan-klien-mitra.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/sourvenir-corporate.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/parcel-hampers-custom.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Totebag-Kanvas.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/totebagcustom.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://vendorhampers.web.id/Tumbler-Custom-&amp;-Diffuser-Set.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <loc>https://vendorhampers.web.id/Tumbler-Custom-&-Diffuser-Set.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tumblers.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/Tumbler-Custom-Logo.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/produk/tamblercustom.webp</image:loc>
+    </image:image>
   </url>
-
 </urlset>
