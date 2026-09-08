@@ -641,6 +641,30 @@
     .footer .copyright .sitename { font-size: 15px; }
 
     @media (max-width: 768px) {
+      .wa-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .scroll-top {
+        width: 42px;
+        height: 42px;
+        right: 24px;
+        bottom: 85px;
+      }
+
+      .scroll-top.active {
+        bottom: 85px;
+        right: 24px;
+      }
+
+      .scroll-top i {
+        font-size: 20px;
+      }
+
       .footer .footer-about, .footer .footer-about p, .footer .footer-links ul, .footer .footer-contact, .footer .footer-contact p, .footer h4 { text-align: center; }
       .footer .footer-links ul a { text-align: center; display: block; }
       .footer .social-links { justify-content: center; }
@@ -658,13 +682,13 @@
     @keyframes wa-pulse { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(1.4); opacity: 0; } }
 
     .scroll-top {
-      position: fixed; visibility: hidden; opacity: 0; right: 30px; bottom: 100px; z-index: 99999;
+      position: fixed; visibility: hidden; opacity: 0; right: 35px; bottom: 105px; z-index: 99999;
       background: var(--gold-gradient); width: 50px; height: 50px; border-radius: 50%;
       transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); box-shadow: 0 4px 25px rgba(201,168,76,0.25);
       display: flex; align-items: center; justify-content: center; text-decoration: none; border: none; cursor: pointer;
     }
     .scroll-top i { font-size: 24px; color: #fff; line-height: 0; }
-    .scroll-top.active { visibility: visible; opacity: 1; bottom: 100px; }
+    .scroll-top.active { visibility: visible; opacity: 1; bottom: 105px; right: 35px; }
     .scroll-top:hover { transform: translateY(-5px); box-shadow: 0 8px 35px rgba(201,168,76,0.35); text-decoration: none; }
 
     /* ---------- Responsive ---------- */
@@ -924,15 +948,14 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+        <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+      <div class="row g-4 justify-content-between">
+        <div class="col-lg-3 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
             <span class="sitename">Vendor Hampers</span>
           </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen
-            berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
+          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
           <div class="social-links d-flex mt-3">
             <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
               target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
@@ -942,7 +965,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
           <h4>Jelajahi</h4>
           <ul>
             <li><a href="index.html">Beranda</a></li>
@@ -953,31 +976,62 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Kategori Produk</h4>
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
+          <h4>Kategori</h4>
           <ul>
             <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
             <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
             <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
+            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
             <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6288989643555" target="_blank"
-              rel="noopener">+6288989643555</a></p>
+        <div class="col-lg-2 col-md-6 footer-cities">
+          <h4>Lokasi Layanan</h4>
+          <div class="row g-0">
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Jakarta</span></li>
+                <li><span>Surabaya</span></li>
+                <li><span>Bandung</span></li>
+                <li><span>Yogyakarta</span></li>
+                <li><span>Semarang</span></li>
+                <li><span>Malang</span></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Denpasar</span></li>
+                <li><span>Makassar</span></li>
+                <li><span>Balikpapan</span></li>
+                <li><span>Samarinda</span></li>
+                <li><span>Palembang</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p class="mb-2">
+            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
+              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
+            </a>
+          </p>
+          <div class="footer-partner-box mt-3">
+            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
+            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
+              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4" style="text-align: center !important;">
-      <p style="text-align: center !important; margin: 0 auto;">© <span>2026</span> <strong
-          class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
     </div>
-
   </footer>
 
   <!-- Floating WhatsApp Button -->

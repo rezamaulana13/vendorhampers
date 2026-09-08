@@ -484,18 +484,29 @@
 
 /* Value badges (about / value produk) */
 .value-badges {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 20px;
 }
 .value-badges span {
   background: color-mix(in srgb, var(--accent-color), transparent 90%);
   color: var(--accent-color);
-  padding: 8px 16px;
+  padding: 10px 12px;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+@media (max-width: 576px) {
+  .value-badges {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Gallery category label overlay */

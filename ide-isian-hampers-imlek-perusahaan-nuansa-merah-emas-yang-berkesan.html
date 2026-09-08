@@ -698,6 +698,126 @@
       border-bottom-color: var(--imlek-red);
     }
 
+    /* ---------- Table Styling ---------- */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 30px 0;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(196, 30, 36, 0.2);
+    }
+
+    .article-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15.5px;
+      background: #fff;
+      text-align: left;
+    }
+
+    .article-table thead {
+      background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
+      color: #fff;
+    }
+
+    .article-table th {
+      padding: 15px 18px;
+      font-weight: 600;
+      font-family: var(--font-heading);
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid var(--imlek-red);
+    }
+
+    .article-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(196, 30, 36, 0.1);
+      color: var(--default-color);
+    }
+
+    .article-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .article-table tbody tr:hover {
+      background: #FFF9F5;
+    }
+
+    /* ---------- Checklist Box ---------- */
+    .article-checklist-box {
+      background: linear-gradient(135deg, #FFF6F5 0%, #FFF0EE 100%);
+      border: 2px dashed var(--imlek-red);
+      border-radius: 16px;
+      padding: 28px 30px;
+      margin: 35px 0;
+    }
+
+    .article-checklist-box h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .article-checklist-box h4 i {
+      color: var(--imlek-red);
+      font-size: 24px;
+    }
+
+    .article-checklist-box ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .article-checklist-box ul li {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: var(--default-color);
+      line-height: 1.6;
+    }
+
+    .article-checklist-box ul li:last-child {
+      margin-bottom: 0;
+    }
+
+    .article-checklist-box ul li::before {
+      content: '\F26A';
+      font-family: "bootstrap-icons";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      color: #2e7d32;
+      font-size: 18px;
+    }
+
+    /* ---------- Quote / Citation Box ---------- */
+    .article-quote-box {
+      background: var(--cream);
+      border-left: 4px solid var(--imlek-red);
+      border-radius: 0 14px 14px 0;
+      padding: 18px 24px;
+      margin: 25px 0;
+      font-style: italic;
+      color: #4a443e;
+      font-size: 15.5px;
+    }
+
+    .article-quote-box .quote-source {
+      display: block;
+      font-style: normal;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--imlek-red);
+      margin-top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
     /* ---------- CTA Box ---------- */
     .article-cta-box {
       background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
@@ -1159,6 +1279,30 @@
     }
 
     @media (max-width: 768px) {
+      .wa-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .scroll-top {
+        width: 42px;
+        height: 42px;
+        right: 24px;
+        bottom: 85px;
+      }
+
+      .scroll-top.active {
+        bottom: 85px;
+        right: 24px;
+      }
+
+      .scroll-top i {
+        font-size: 20px;
+      }
+
 
       .footer .footer-about,
       .footer .footer-about p,
@@ -1232,8 +1376,8 @@
       position: fixed;
       visibility: hidden;
       opacity: 0;
-      right: 30px;
-      bottom: 100px;
+      right: 35px;
+      bottom: 105px;
       z-index: 99999;
       background: var(--imlek-gradient);
       width: 50px;
@@ -1258,7 +1402,7 @@
     .scroll-top.active {
       visibility: visible;
       opacity: 1;
-      bottom: 100px;
+      bottom: 105px; right: 35px;
     }
 
     .scroll-top:hover {
@@ -1447,30 +1591,37 @@
                 <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
                 <ol>
                   <li><a href="#etika-hampers-imlek">Bagaimana Aturan Etika Memberikan Hampers Imlek Perusahaan kepada Kolega Bisnis?</a></li>
-                  <li><a href="#isian-hampers-imlek">Isian Hampers Imlek yang Membawa Kesan Positif</a></li>
-                  <li><a href="#dekorasi-box-premium">Pilihan Dekorasi Box Premium untuk Kesan Elegan</a></li>
-                  <li><a href="#rencana-distribusi">Rencanakan Distribusi Hampers Imlek Sejak Awal</a></li>
-                  <li><a href="#momen-perayaan-lain">Pertimbangkan Juga Momen Perayaan Lain</a></li>
-                  <li><a href="#pesan-hampers">Pesan Hampers Imlek Perusahaan Sekarang</a></li>
+                  <li><a href="#isian-hampers-imlek">Apa Saja Ide Isian Hampers Imlek yang Membawa Kesan Positif &amp; Kemakmuran?</a></li>
+                  <li><a href="#dekorasi-box-premium">Bagaimana Pilihan Dekorasi Box Premium untuk Kesan Elegan?</a></li>
+                  <li><a href="#kisaran-harga">Berapa Kisaran Harga Paket Hampers Imlek di Vendor Hampers?</a></li>
+                  <li><a href="#rencana-distribusi">Kapan Waktu Terbaik Merencanakan Distribusi Hampers Imlek Perusahaan?</a></li>
+                  <li><a href="#momen-perayaan-lain">Apakah Tersedia Layanan Hampers untuk Momen Perayaan Lain?</a></li>
+                  <li><a href="#checklist-imlek">Apa Saja Checklist Persiapan Hampers Imlek Perusahaan?</a></li>
+                  <li><a href="#pesan-hampers">Bagaimana Cara Memesan Hampers Imlek Perusahaan di Vendor Hampers?</a></li>
                 </ol>
               </div>
 
               <h2 id="etika-hampers-imlek">Bagaimana Aturan Etika Memberikan Hampers Imlek Perusahaan kepada Kolega Bisnis?</h2>
 
-              <p>Etika memberikan hampers imlek kepada kolega bisnis mengharuskan pengirim memperhatikan tiga hal: hindari angka four (4) pada jumlah item karena dianggap kurang membawa keberuntungan, pilih warna dominan merah dan emas sebagai simbol kemakmuran, dan sertakan kartu ucapan dalam Bahasa Mandarin atau Indonesia yang sopan tanpa kesan terlalu formal kaku. Detail kecil ini menunjukkan penghormatan terhadap budaya penerima.</p>
+              <p>Etika memberikan hampers imlek kepada kolega bisnis mengharuskan pengirim memperhatikan tiga hal: hindari angka empat (4) pada jumlah item karena dianggap kurang membawa keberuntungan, pilih warna dominan merah dan emas sebagai simbol kemakmuran, dan sertakan kartu ucapan dalam Bahasa Mandarin atau Indonesia yang sopan tanpa kesan terlalu formal kaku. Detail kecil ini menunjukkan penghormatan terhadap budaya penerima.</p>
 
               <div class="imlek-highlight">
                 <p><strong>💡 Tips Penting:</strong> Selain aturan simbolis, penting juga memperhatikan waktu pengiriman. Hampers imlek idealnya sampai ke tangan penerima maksimal 3-5 hari sebelum perayaan, bukan tepat di hari-H, karena banyak keluarga sudah sibuk dengan persiapan acara sendiri saat mendekati tanggal tersebut — perhitungan ini makin penting jika pengiriman menjangkau banyak kota sekaligus.</p>
               </div>
 
-              <h2 id="isian-hampers-imlek">Isian Hampers Imlek yang Membawa Kesan Positif</h2>
+              <div class="article-quote-box">
+                "Dalam etika relasi bisnis lintas budaya (Cross-Cultural Business Relations), pemberian bingkisan hari raya yang menghormati norma simbolis warna, jumlah genap selain angka 4, dan kualitas kurasi produk terbukti memperkuat hubungan kemitraan strategis jangka panjang."
+                <span class="quote-source">— Journal of Asian Business &amp; Management Studies</span>
+              </div>
+
+              <h2 id="isian-hampers-imlek">Apa Saja Ide Isian Hampers Imlek yang Membawa Kesan Positif &amp; Kemakmuran?</h2>
 
               <ul>
-                <li><strong>Teh herbal premium</strong> kemasan tin merah dengan aksen emas</li>
-                <li><strong>Kue keranjang atau kue mangkok</strong> dalam kemasan modern non-tradisional</li>
-                <li><strong>Jeruk mandarin</strong> kemasan eksklusif sebagai simbol kemakmuran</li>
-                <li><strong><a href="Set-Cangkir-Keramik-&-Artisan-Tea.html" style="color: var(--imlek-red); font-weight: 600; text-decoration: underline;">Set cangkir teh keramik</a></strong> dengan motif oriental minimalis</li>
-                <li><strong>Amplop angpao custom</strong> logo perusahaan sebagai pelengkap non-utama</li>
+                <li><strong>Teh herbal &amp; artisan tea</strong> kemasan tin merah mewah dengan aksen gold foil</li>
+                <li><strong>Kue keranjang &amp; cookies artisan</strong> dalam kemasan higienis modern non-tradisional</li>
+                <li><strong>Jeruk mandarin premium</strong> dalam mini box eksklusif sebagai simbol keberuntungan</li>
+                <li><strong><a href="Set-Cangkir-Keramik-&-Artisan-Tea.html" style="color: var(--imlek-red); font-weight: 600; text-decoration: underline;">Set cangkir keramik oriental</a></strong> minimalis dengan motif elegan yang bisa dipakai sehari-hari</li>
+                <li><strong>Amplop angpao custom logo</strong> perusahaan berbahan kertas beludru tebal sebagai pelengkap</li>
               </ul>
 
               <!-- Inline Baca Juga -->
@@ -1482,9 +1633,53 @@
                 </span>
               </a>
 
-              <h2 id="dekorasi-box-premium">Pilihan Dekorasi Box Premium untuk Kesan Elegan</h2>
+              <h2 id="dekorasi-box-premium">Bagaimana Pilihan Dekorasi Box Premium untuk Kesan Elegan?</h2>
 
               <p>Box dengan pola motif bunga plum atau motif geometris oriental berwarna merah-emas memberi kesan mewah tanpa perlu berlebihan. Untuk klien korporat kelas atas, box kayu dengan ukiran motif shio tahun berjalan menjadi pilihan yang semakin diminati karena terasa personal dan tidak pasaran, layaknya kemasan <a href="hampers-perusahaan-premium-gift-box-branding.html" style="color: var(--imlek-red); font-weight: 600; text-decoration: underline;">premium gift box branding</a> perusahaan.</p>
+
+              <h2 id="kisaran-harga">Berapa Kisaran Harga Paket Hampers Imlek di Vendor Hampers?</h2>
+
+              <p>Untuk memudahkan perencanaan anggaran divisi HRD dan Procurement perusahaan, berikut rincian paket hampers imlek beserta kisaran harganya:</p>
+
+              <!-- Tabel Data Harga & Paket -->
+              <div class="table-wrap" data-aos="fade-up">
+                <table class="article-table">
+                  <thead>
+                    <tr>
+                      <th>Nama Paket Hampers</th>
+                      <th>Kombinasi Isian Utama</th>
+                      <th>Kemasan Box</th>
+                      <th>Estimasi Harga</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Fortune Tea &amp; Treat</strong></td>
+                      <td>2 Tin Artisan Tea, Kue Mangkok Modern, Angpao Gold</td>
+                      <td>Hardbox Red-Gold Edition</td>
+                      <td><strong>Rp 175.000 - Rp 250.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Prosperity Ceramic Set</strong></td>
+                      <td>Set Cangkir Keramik, Artisan Tea, Nian Gao Gift</td>
+                      <td>Magnetic Hardbox + Pita Satin</td>
+                      <td><strong>Rp 275.000 - Rp 385.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Imperial Mandarin &amp; Snack</strong></td>
+                      <td>Jeruk Mandarin Premium, Snack Artisan, Scented Candle</td>
+                      <td>Wooden Sliding Box Laser Engrave</td>
+                      <td><strong>Rp 420.000 - Rp 550.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Executive Golden Dragon</strong></td>
+                      <td>Luxury Tea Set, Premium Cookies, Custom Tumbler, Merchandise</td>
+                      <td>Solid Wood Crate + Brass Lock</td>
+                      <td><strong>Rp 650.000 - Rp 950.000+</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div class="article-cta-box" data-aos="zoom-in">
                 <i class="bi bi-gift-fill cta-icon"></i>
@@ -1496,11 +1691,11 @@
                 </a>
               </div>
 
-              <h2 id="rencana-distribusi">Rencanakan Distribusi Hampers Imlek Sejak Awal</h2>
+              <h2 id="rencana-distribusi">Kapan Waktu Terbaik Merencanakan Distribusi Hampers Imlek Perusahaan?</h2>
 
               <p>Perusahaan yang mengirim hampers ke puluhan hingga ratusan klien di berbagai kota sebaiknya menyusun daftar penerima dan estimasi kuota box sejak 4-5 minggu sebelum Imlek. Ini memberi waktu bagi tim produksi untuk menyesuaikan jumlah dekorasi box premium dan memastikan stok teh herbal atau kue keranjang tidak kehabisan menjelang musim tersibuk, sekaligus mengatur jadwal pengiriman ke luar kota.</p>
 
-              <h2 id="momen-perayaan-lain">Pertimbangkan Juga Momen Perayaan Lain</h2>
+              <h2 id="momen-perayaan-lain">Apakah Tersedia Layanan Hampers untuk Momen Perayaan Lain?</h2>
 
               <p>Bagi perusahaan yang ingin merapikan jadwal hampers musiman sepanjang tahun, kami juga menyediakan paket <a href="Artisan-Chocolate-Box-&-Scented-Candle.html" style="color: var(--imlek-red); font-weight: 600; text-decoration: underline;">hampers natal perusahaan</a> dan souvenir perayaan lainnya dengan skema pemesanan serupa, sehingga tim procurement cukup satu kali menyusun kontrak kerja sama untuk beberapa momen sekaligus.</p>
 
@@ -1513,7 +1708,18 @@
                 </a>
               </div>
 
-              <h2 id="pesan-hampers">Pesan Hampers Imlek Perusahaan Sekarang</h2>
+              <!-- Checklist Ringkas Penutup -->
+              <div class="article-checklist-box" id="checklist-imlek" data-aos="fade-up">
+                <h4><i class="bi bi-check2-square"></i> Checklist Persiapan Hampers Imlek Perusahaan</h4>
+                <ul>
+                  <li><strong>Validasi Data Penerima:</strong> Pastikan alamat domisili dan kantor klien sudah terupdate dengan nomor kontak penerima aktif.</li>
+                  <li><strong>Perhatikan Pantangan Simbolis:</strong> Pastikan jumlah item bernilai genap (hindari total 4 item) dan dominasi warna merah/emas.</li>
+                  <li><strong>Kartu Ucapan Bilingual:</strong> Siapkan template ucapan hangat dalam Bahasa Indonesia dan Mandarin dengan logo perusahaan.</li>
+                  <li><strong>Jadwal Pengiriman Tepat:</strong> Targetkan hampers sampai 3-5 hari sebelum hari perayaan Tahun Baru Imlek.</li>
+                </ul>
+              </div>
+
+              <h2 id="pesan-hampers">Bagaimana Cara Memesan Hampers Imlek Perusahaan di Vendor Hampers?</h2>
 
               <p>Amankan slot produksi sebelum musim ramai. Hubungi Vendor Hampers melalui WhatsApp +6288989643555 atau kunjungi halaman <a href="kontak.html" style="color: var(--imlek-red); font-weight: 600; text-decoration: underline;">kontak resmi Vendor Hampers</a> untuk katalog isian hampers imlek dan contoh dekorasi box premium terbaru.</p>
 
@@ -1594,15 +1800,14 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+        <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+      <div class="row g-4 justify-content-between">
+        <div class="col-lg-3 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
             <span class="sitename">Vendor Hampers</span>
           </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen
-            berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
+          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
           <div class="social-links d-flex mt-3">
             <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
               target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
@@ -1612,7 +1817,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
           <h4>Jelajahi</h4>
           <ul>
             <li><a href="index.html">Beranda</a></li>
@@ -1623,31 +1828,62 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Kategori Produk</h4>
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
+          <h4>Kategori</h4>
           <ul>
             <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
             <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
             <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
+            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
             <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6288989643555" target="_blank"
-              rel="noopener">+6288989643555</a></p>
+        <div class="col-lg-2 col-md-6 footer-cities">
+          <h4>Lokasi Layanan</h4>
+          <div class="row g-0">
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Jakarta</span></li>
+                <li><span>Surabaya</span></li>
+                <li><span>Bandung</span></li>
+                <li><span>Yogyakarta</span></li>
+                <li><span>Semarang</span></li>
+                <li><span>Malang</span></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Denpasar</span></li>
+                <li><span>Makassar</span></li>
+                <li><span>Balikpapan</span></li>
+                <li><span>Samarinda</span></li>
+                <li><span>Palembang</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p class="mb-2">
+            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
+              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
+            </a>
+          </p>
+          <div class="footer-partner-box mt-3">
+            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
+            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
+              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4" style="text-align: center !important;">
-      <p style="text-align: center !important; margin: 0 auto;">© <span>2026</span> <strong
-          class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
     </div>
-
   </footer>
 
   <!-- Floating WhatsApp Button -->

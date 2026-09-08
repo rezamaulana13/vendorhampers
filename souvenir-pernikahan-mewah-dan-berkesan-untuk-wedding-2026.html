@@ -691,6 +691,126 @@
       border-bottom-color: var(--gold);
     }
 
+    /* ---------- Table Styling ---------- */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 30px 0;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    .article-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15.5px;
+      background: #fff;
+      text-align: left;
+    }
+
+    .article-table thead {
+      background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
+      color: #fff;
+    }
+
+    .article-table th {
+      padding: 15px 18px;
+      font-weight: 600;
+      font-family: var(--font-heading);
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid var(--gold);
+    }
+
+    .article-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+      color: var(--default-color);
+    }
+
+    .article-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .article-table tbody tr:hover {
+      background: var(--cream);
+    }
+
+    /* ---------- Checklist Box ---------- */
+    .article-checklist-box {
+      background: linear-gradient(135deg, #FAF6F0 0%, #F5EDE0 100%);
+      border: 2px dashed var(--gold);
+      border-radius: 16px;
+      padding: 28px 30px;
+      margin: 35px 0;
+    }
+
+    .article-checklist-box h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .article-checklist-box h4 i {
+      color: var(--gold-dark);
+      font-size: 24px;
+    }
+
+    .article-checklist-box ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .article-checklist-box ul li {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: var(--default-color);
+      line-height: 1.6;
+    }
+
+    .article-checklist-box ul li:last-child {
+      margin-bottom: 0;
+    }
+
+    .article-checklist-box ul li::before {
+      content: '\F26A';
+      font-family: "bootstrap-icons";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      color: #2e7d32;
+      font-size: 18px;
+    }
+
+    /* ---------- Quote / Citation Box ---------- */
+    .article-quote-box {
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 14px 14px 0;
+      padding: 18px 24px;
+      margin: 25px 0;
+      font-style: italic;
+      color: #4a443e;
+      font-size: 15.5px;
+    }
+
+    .article-quote-box .quote-source {
+      display: block;
+      font-style: normal;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold-dark);
+      margin-top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
     /* ---------- CTA Box ---------- */
     .article-cta-box {
       background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
@@ -1151,6 +1271,30 @@
     }
 
     @media (max-width: 768px) {
+      .wa-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .scroll-top {
+        width: 42px;
+        height: 42px;
+        right: 24px;
+        bottom: 85px;
+      }
+
+      .scroll-top.active {
+        bottom: 85px;
+        right: 24px;
+      }
+
+      .scroll-top i {
+        font-size: 20px;
+      }
+
 
       .footer .footer-about,
       .footer .footer-about p,
@@ -1224,8 +1368,8 @@
       position: fixed;
       visibility: hidden;
       opacity: 0;
-      right: 30px;
-      bottom: 100px;
+      right: 35px;
+      bottom: 105px;
       z-index: 99999;
       background: var(--gold-gradient);
       width: 50px;
@@ -1250,7 +1394,7 @@
     .scroll-top.active {
       visibility: visible;
       opacity: 1;
-      bottom: 100px;
+      bottom: 105px; right: 35px;
     }
 
     .scroll-top:hover {
@@ -1472,11 +1616,12 @@
                 <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
                 <ol>
                   <li><a href="#contoh-souvenir">Apa Saja Contoh Souvenir Pernikahan Mewah dan Fungsional?</a></li>
-                  <li><a href="#material-premium">Material yang Membedakan Souvenir Mewah dari Souvenir Standar</a></li>
-                  <li><a href="#perbandingan-budget">Perbandingan Level Souvenir Pernikahan Berdasarkan Budget</a></li>
+                  <li><a href="#material-premium">Material Apa yang Membedakan Souvenir Mewah dari Souvenir Standar?</a></li>
+                  <li><a href="#perbandingan-budget">Bagaimana Perbandingan Level Souvenir Pernikahan Berdasarkan Budget?</a></li>
                   <li><a href="#waktu-produksi">Berapa Lama Waktu Produksi Souvenir Pernikahan Mewah?</a></li>
-                  <li><a href="#kombinasi-souvenir">Kombinasikan dengan Rekomendasi Souvenir Lain</a></li>
-                  <li><a href="#wujudkan-impian">Wujudkan Souvenir Pernikahan Impian Anda</a></li>
+                  <li><a href="#kombinasi-souvenir">Bagaimana Cara Mengombinasikan Souvenir VIP dengan Souvenir Reguler?</a></li>
+                  <li><a href="#checklist-wedding">Apa Saja Checklist Persiapan Memesan Souvenir Pernikahan Mewah?</a></li>
+                  <li><a href="#wujudkan-impian">Bagaimana Cara Konsultasi dan Memesan Souvenir Pernikahan Mewah di Vendor Hampers?</a></li>
                 </ol>
               </div>
 
@@ -1486,7 +1631,12 @@
 
               <p>Perbedaan utama souvenir mewah dengan souvenir standar terletak pada detail finishing: engraving laser presisi dibanding cetak stiker, kemasan box magnet dibanding kantong plastik, serta pemilihan warna yang senada dengan tema dekorasi resepsi. Detail-detail kecil inilah yang membuat souvenir terasa dirancang khusus, bukan dibeli massal dari katalog umum.</p>
 
-              <h2 id="material-premium">Material yang Membedakan Souvenir Mewah dari Souvenir Standar</h2>
+              <div class="article-quote-box">
+                "Lebih dari 68% calon pengantin modern kini memprioritaskan souvenir yang memiliki kegunaan fungsional harian (high utility) dan kemasan berestetika tinggi dibanding sekadar barang pajangan konvensional."
+                <span class="quote-source">— Indonesia Wedding Industry Trend Report, Bridestory</span>
+              </div>
+
+              <h2 id="material-premium">Material Apa yang Membedakan Souvenir Mewah dari Souvenir Standar?</h2>
 
               <ul>
                 <li><strong>Stainless steel food grade</strong> untuk tumbler dan botol minum, tahan karat dan tidak mudah penyok</li>
@@ -1504,37 +1654,44 @@
                 </span>
               </a>
 
-              <h2 id="perbandingan-budget">Perbandingan Level Souvenir Pernikahan Berdasarkan Budget</h2>
+              <h2 id="perbandingan-budget">Bagaimana Perbandingan Level Souvenir Pernikahan Berdasarkan Budget?</h2>
+
+              <p>Berikut kisaran estimasi harga per unit berdasarkan tingkatan kelas souvenir di Vendor Hampers untuk mempermudah alokasi anggaran pesta pernikahan Anda:</p>
 
               <div class="table-wrap">
-                <table>
+                <table class="article-table">
                   <thead>
                     <tr>
                       <th>Level Souvenir</th>
                       <th>Kisaran Harga per Pcs</th>
-                      <th>Contoh Item</th>
+                      <th>Contoh Item Rekomendasi</th>
+                      <th>Kemasan Standar</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td><strong>Standar</strong></td>
                       <td>Rp 8.000 - Rp 15.000</td>
-                      <td>Gantungan kunci, sendok madu</td>
+                      <td>Gantungan kunci akrilik, sendok madu kayu</td>
+                      <td>Plastik seal + pita satin</td>
                     </tr>
                     <tr>
                       <td><strong>Menengah</strong></td>
                       <td>Rp 15.000 - Rp 35.000</td>
-                      <td>Tumbler mini, totebag custom</td>
+                      <td>Tumbler mini, totebag kanvas custom</td>
+                      <td>Kraft box + thanks card</td>
                     </tr>
                     <tr>
                       <td><strong>Mewah</strong></td>
                       <td>Rp 35.000 - Rp 75.000</td>
-                      <td>Tumbler stainless finishing matte, card holder kulit</td>
+                      <td>Tumbler stainless matte, card holder kulit asli</td>
+                      <td>Hardbox exclusive + hotprint gold</td>
                     </tr>
                     <tr>
-                      <td><strong>Eksklusif</strong></td>
-                      <td>Rp 75.000 ke atas</td>
-                      <td>Set kristal mini, box kayu custom engraving</td>
+                      <td><strong>Eksklusif (VIP)</strong></td>
+                      <td>Rp 75.000 - Rp 185.000+</td>
+                      <td>Set kristal mini, diffuser set, box kayu grafir laser</td>
+                      <td>Magnetic sliding box / wooden box</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1554,11 +1711,22 @@
                 </a>
               </div>
 
-              <h2 id="kombinasi-souvenir">Kombinasikan dengan Rekomendasi Souvenir Lain</h2>
+              <h2 id="kombinasi-souvenir">Bagaimana Cara Mengombinasikan Souvenir VIP dengan Souvenir Reguler?</h2>
 
               <p>Jika budget terbatas namun tetap ingin kesan mewah, pengantin bisa mengombinasikan satu item premium untuk tamu VIP dengan pilihan dari <a href="artikel-rekomendasi-souvenir-day1.html" style="color: var(--gold-dark); font-weight: 600; text-decoration: underline;">daftar rekomendasi souvenir pernikahan</a> yang lebih terjangkau untuk tamu umum atau mengecek katalog di halaman <a href="produk.html" style="color: var(--gold-dark); font-weight: 600; text-decoration: underline;">produk souvenir & merchandise</a> kami — strategi ini banyak dipakai pasangan untuk menyeimbangkan kesan eksklusif dan efisiensi anggaran.</p>
 
-              <h2 id="wujudkan-impian">Wujudkan Souvenir Pernikahan Impian Anda</h2>
+              <!-- Checklist Ringkas Penutup -->
+              <div class="article-checklist-box" id="checklist-wedding" data-aos="fade-up">
+                <h4><i class="bi bi-check2-square"></i> Checklist Persiapan Memesan Souvenir Pernikahan Mewah</h4>
+                <ul>
+                  <li><strong>Finalisasi Jumlah Tamu Undangan:</strong> Tambahkan buffer ekstra 10% dari total undangan untuk antisipasi tamu tambahan.</li>
+                  <li><strong>Tentukan Segregasi VIP vs Reguler:</strong> Alokasikan sekitar 10-20% kuota untuk souvenir khusus keluarga besar dan tamu VIP.</li>
+                  <li><strong>Approval Sampel Fisik:</strong> Mintalah proofing fisik atau video mockup detail grafir sebelum produksi massal berjalan.</li>
+                  <li><strong>Jadwalkan Pengiriman Aman:</strong> Pastikan seluruh pesanan tiba di rumah atau lokasi venue minimal 2 minggu sebelum hari-H.</li>
+                </ul>
+              </div>
+
+              <h2 id="wujudkan-impian">Bagaimana Cara Konsultasi dan Memesan Souvenir Pernikahan Mewah di Vendor Hampers?</h2>
 
               <p>Jangan biarkan souvenir jadi elemen yang terlupakan dalam persiapan pernikahan. Hubungi Vendor Hampers melalui WhatsApp +6288989643555 atau kunjungi halaman <a href="kontak.html" style="color: var(--gold-dark); font-weight: 600; text-decoration: underline;">kontak resmi Vendor Hampers</a> sekarang untuk konsultasi desain gratis dan cek ketersediaan slot produksi untuk resepsi Anda.</p>
 
@@ -1639,15 +1807,14 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+        <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+      <div class="row g-4 justify-content-between">
+        <div class="col-lg-3 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
             <span class="sitename">Vendor Hampers</span>
           </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen
-            berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
+          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
           <div class="social-links d-flex mt-3">
             <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
               target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
@@ -1657,7 +1824,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
           <h4>Jelajahi</h4>
           <ul>
             <li><a href="index.html">Beranda</a></li>
@@ -1668,31 +1835,62 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Kategori Produk</h4>
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
+          <h4>Kategori</h4>
           <ul>
             <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
             <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
             <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
+            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
             <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6288989643555" target="_blank"
-              rel="noopener">+6288989643555</a></p>
+        <div class="col-lg-2 col-md-6 footer-cities">
+          <h4>Lokasi Layanan</h4>
+          <div class="row g-0">
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Jakarta</span></li>
+                <li><span>Surabaya</span></li>
+                <li><span>Bandung</span></li>
+                <li><span>Yogyakarta</span></li>
+                <li><span>Semarang</span></li>
+                <li><span>Malang</span></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Denpasar</span></li>
+                <li><span>Makassar</span></li>
+                <li><span>Balikpapan</span></li>
+                <li><span>Samarinda</span></li>
+                <li><span>Palembang</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p class="mb-2">
+            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
+              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
+            </a>
+          </p>
+          <div class="footer-partner-box mt-3">
+            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
+            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
+              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4" style="text-align: center !important;">
-      <p style="text-align: center !important; margin: 0 auto;">© <span>2026</span> <strong
-          class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
     </div>
-
   </footer>
 
   <!-- Floating WhatsApp Button -->

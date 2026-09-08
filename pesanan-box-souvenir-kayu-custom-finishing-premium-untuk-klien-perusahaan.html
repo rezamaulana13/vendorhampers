@@ -698,6 +698,126 @@
       border-bottom-color: var(--wood-brown);
     }
 
+    /* ---------- Table Styling ---------- */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 30px 0;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    .article-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15.5px;
+      background: #fff;
+      text-align: left;
+    }
+
+    .article-table thead {
+      background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
+      color: #fff;
+    }
+
+    .article-table th {
+      padding: 15px 18px;
+      font-weight: 600;
+      font-family: var(--font-heading);
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid var(--gold);
+    }
+
+    .article-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+      color: var(--default-color);
+    }
+
+    .article-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .article-table tbody tr:hover {
+      background: var(--cream);
+    }
+
+    /* ---------- Checklist Box ---------- */
+    .article-checklist-box {
+      background: linear-gradient(135deg, #FAF6F0 0%, #F5EDE0 100%);
+      border: 2px dashed var(--gold);
+      border-radius: 16px;
+      padding: 28px 30px;
+      margin: 35px 0;
+    }
+
+    .article-checklist-box h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .article-checklist-box h4 i {
+      color: var(--gold-dark);
+      font-size: 24px;
+    }
+
+    .article-checklist-box ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .article-checklist-box ul li {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: var(--default-color);
+      line-height: 1.6;
+    }
+
+    .article-checklist-box ul li:last-child {
+      margin-bottom: 0;
+    }
+
+    .article-checklist-box ul li::before {
+      content: '\F26A';
+      font-family: "bootstrap-icons";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      color: #2e7d32;
+      font-size: 18px;
+    }
+
+    /* ---------- Quote / Citation Box ---------- */
+    .article-quote-box {
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 14px 14px 0;
+      padding: 18px 24px;
+      margin: 25px 0;
+      font-style: italic;
+      color: #4a443e;
+      font-size: 15.5px;
+    }
+
+    .article-quote-box .quote-source {
+      display: block;
+      font-style: normal;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold-dark);
+      margin-top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
     /* ---------- CTA Box ---------- */
     .article-cta-box {
       background: linear-gradient(135deg, var(--charcoal) 0%, #3a322c 100%);
@@ -1159,6 +1279,30 @@
     }
 
     @media (max-width: 768px) {
+      .wa-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .scroll-top {
+        width: 42px;
+        height: 42px;
+        right: 24px;
+        bottom: 85px;
+      }
+
+      .scroll-top.active {
+        bottom: 85px;
+        right: 24px;
+      }
+
+      .scroll-top i {
+        font-size: 20px;
+      }
+
 
       .footer .footer-about,
       .footer .footer-about p,
@@ -1232,8 +1376,8 @@
       position: fixed;
       visibility: hidden;
       opacity: 0;
-      right: 30px;
-      bottom: 100px;
+      right: 35px;
+      bottom: 105px;
       z-index: 99999;
       background: var(--gold-gradient);
       width: 50px;
@@ -1258,7 +1402,7 @@
     .scroll-top.active {
       visibility: visible;
       opacity: 1;
-      bottom: 100px;
+      bottom: 105px; right: 35px;
     }
 
     .scroll-top:hover {
@@ -1447,11 +1591,13 @@
                 <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
                 <ol>
                   <li><a href="#vendor-tepercaya">Di Mana Memesan Box Souvenir Kayu Custom Tepercaya di Indonesia?</a></li>
-                  <li><a href="#tahapan-produksi">Tahapan Produksi Box Souvenir Kayu Custom</a></li>
-                  <li><a href="#pilihan-finishing">Pilihan Finishing Kayu yang Tersedia</a></li>
+                  <li><a href="#tahapan-produksi">Bagaimana Tahapan Produksi Box Souvenir Kayu Custom?</a></li>
+                  <li><a href="#pilihan-finishing">Apa Saja Pilihan Finishing Kayu yang Tersedia?</a></li>
+                  <li><a href="#kisaran-harga">Berapa Kisaran Harga Box Souvenir Kayu Custom di Vendor Hampers?</a></li>
                   <li><a href="#waktu-produksi">Berapa Lama Waktu Produksi Box Kayu Custom?</a></li>
-                  <li><a href="#packaging-lain">Lengkapi dengan Packaging Unik Lainnya</a></li>
-                  <li><a href="#pesan-sekarang">Pesan Box Souvenir Kayu Custom Anda Sekarang</a></li>
+                  <li><a href="#packaging-lain">Mengapa Perlu Melengkapi Box Kayu dengan Packaging Unik Lainnya?</a></li>
+                  <li><a href="#checklist-pemesanan">Apa Saja Checklist Persiapan Sebelum Memesan Box Kayu?</a></li>
+                  <li><a href="#pesan-sekarang">Bagaimana Cara Memesan Box Souvenir Kayu Custom di Vendor Hampers?</a></li>
                 </ol>
               </div>
 
@@ -1463,14 +1609,19 @@
                 <p><strong>🌳 Material Unggulan:</strong> Kayu jati belanda menjadi salah satu material favorit karena seratnya yang khas dan harganya lebih terjangkau dibanding kayu jati asli, namun tetap kokoh untuk dijadikan box souvenir. Proses grafir laser pada permukaan kayu ini menghasilkan detail logo atau nama yang presisi dan tidak mudah pudar, berbeda dengan cetak sablon yang berisiko terkelupas seiring waktu.</p>
               </div>
 
-              <h2 id="tahapan-produksi">Tahapan Produksi Box Souvenir Kayu Custom</h2>
+              <div class="article-quote-box">
+                "Kebutuhan kemasan ramah lingkungan dan berbasis material alami terus meningkat hingga lebih dari 30% dalam sektor kriya dan merchandise korporat nasional, didorong oleh komitmen keberlanjutan (sustainability) perusahaan modern."
+                <span class="quote-source">— Laporan Tren Kriya &amp; Desain Produk, Kemenparekraf RI</span>
+              </div>
+
+              <h2 id="tahapan-produksi">Bagaimana Tahapan Produksi Box Souvenir Kayu Custom?</h2>
 
               <ul>
                 <li><strong>Konsultasi desain dan ukuran</strong> box sesuai isi souvenir yang akan dikemas</li>
                 <li><strong>Pembuatan mock-up digital</strong> untuk approval logo dan tata letak grafir</li>
                 <li><strong>Proses pemotongan dan perakitan</strong> kayu jati belanda sesuai spesifikasi</li>
-                <li><strong>Grafir laser</strong> logo atau nama pada permukaan box</li>
-                <li><strong>Quality control</strong> jahitan sambungan dan finishing sebelum dikirim ke lokasi Anda</li>
+                <li><strong>Grafir laser presisi tinggi</strong> untuk logo atau nama pada permukaan box</li>
+                <li><strong>Quality control</strong> jahitan sambungan, engsel, dan finishing sebelum dikirim ke lokasi Anda</li>
               </ul>
 
               <!-- Inline Baca Juga -->
@@ -1482,9 +1633,58 @@
                 </span>
               </a>
 
-              <h2 id="pilihan-finishing">Pilihan Finishing Kayu yang Tersedia</h2>
+              <h2 id="pilihan-finishing">Apa Saja Pilihan Finishing Kayu yang Tersedia?</h2>
 
               <p>Finishing melamin doff memberi kesan natural dan minimalis, cocok untuk box souvenir korporat yang ingin tampil elegan tanpa kesan berlebihan. Sementara finishing melamin glossy lebih cocok untuk <a href="souvenir-pernikahan-mewah-dan-berkesan-untuk-wedding-2026.html" style="color: var(--wood-brown); font-weight: 600; text-decoration: underline;">box souvenir pernikahan mewah</a> yang ingin tampil lebih memikat dan mengkilap saat difoto tamu.</p>
+
+              <h2 id="kisaran-harga">Berapa Kisaran Harga Box Souvenir Kayu Custom di Vendor Hampers?</h2>
+
+              <p>Vendor Hampers menyediakan transparansi estimasi harga berdasarkan tipe dimensi, jenis finishing, dan kuantitas pemesanan agar tim procurement Anda dapat menyusun anggaran dengan cepat dan akurat:</p>
+
+              <!-- Tabel Data Harga & Spesifikasi -->
+              <div class="table-wrap" data-aos="fade-up">
+                <table class="article-table">
+                  <thead>
+                    <tr>
+                      <th>Tipe Box Kayu</th>
+                      <th>Dimensi Standar</th>
+                      <th>Pilihan Finishing</th>
+                      <th>Min. Order</th>
+                      <th>Estimasi Harga</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Single Gift Box</strong></td>
+                      <td>20 x 10 x 8 cm</td>
+                      <td>Pinus / Jati Belanda Natural Doff</td>
+                      <td>50 pcs</td>
+                      <td><strong>Rp 45.000 - Rp 65.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Wine / Tumbler Box</strong></td>
+                      <td>32 x 12 x 10 cm</td>
+                      <td>Jati Belanda Glossy + Laser Engrave</td>
+                      <td>50 pcs</td>
+                      <td><strong>Rp 75.000 - Rp 95.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Executive Hampers Box</strong></td>
+                      <td>30 x 25 x 10 cm</td>
+                      <td>Solid Wood + Engsel Vintage Brass</td>
+                      <td>25 pcs</td>
+                      <td><strong>Rp 120.000 - Rp 165.000</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Exclusive Hamper Crate</strong></td>
+                      <td>35 x 30 x 12 cm</td>
+                      <td>Rustic Sanding Fine + Tali Rami / Kulit</td>
+                      <td>20 pcs</td>
+                      <td><strong>Rp 135.000 - Rp 185.000</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div class="article-cta-box" data-aos="zoom-in">
                 <i class="bi bi-box-seam cta-icon"></i>
@@ -1498,9 +1698,9 @@
 
               <h2 id="waktu-produksi">Berapa Lama Waktu Produksi Box Kayu Custom?</h2>
 
-              <p>Waktu produksi box souvenir kayu custom umumnya berkisar 2-3 minggu tergantung tingkat kerumitan desain grafir dan jumlah pesanan. Untuk pesanan di atas 500 pcs atau pengiriman ke luar kota/luar pulau, disarankan memesan minimal 5 minggu sebelum tanggal kebutuhan agar ada ruang untuk quality control dan waktu ekspedisi tambahan.</p>
+              <p>Waktu produksi box souvenir kayu custom umumnya berkisar 2-3 minggu tergantung tingkat kerumitan desain grafir dan jumlah pesanan. Untuk pesanan di atas 500 pcs atau pengiriman ke luar kota/luar pulau, disarankan memesan minimal 4-5 minggu sebelum tanggal kebutuhan agar ada ruang untuk quality control dan waktu ekspedisi tambahan.</p>
 
-              <h2 id="packaging-lain">Lengkapi dengan Packaging Unik Lainnya</h2>
+              <h2 id="packaging-lain">Mengapa Perlu Melengkapi Box Kayu dengan Packaging Unik Lainnya?</h2>
 
               <p>Selain box kayu, kami juga menyediakan referensi packaging hampers unik berbahan lain seperti kraft board dan anyaman rotan, cocok dikombinasikan dengan box kayu untuk klien yang ingin variasi tampilan dalam satu rangkaian pengadaan hadiah korporat.</p>
 
@@ -1513,7 +1713,19 @@
                 </a>
               </div>
 
-              <h2 id="pesan-sekarang">Pesan Box Souvenir Kayu Custom Anda Sekarang</h2>
+              <!-- Checklist Ringkas Penutup -->
+              <div class="article-checklist-box" id="checklist-pemesanan" data-aos="fade-up">
+                <h4><i class="bi bi-check2-square"></i> Checklist Persiapan Pemesanan Box Souvenir Kayu</h4>
+                <ul>
+                  <li><strong>Ukur Dimensi Item:</strong> Pastikan ukuran panjang, lebar, dan tinggi isi hampers sebelum menentukan ukuran box kayu.</li>
+                  <li><strong>Siapkan Format Logo:</strong> File logo vektor (format .AI, .EPS, atau .PNG resolusi tinggi) untuk hasil grafir laser yang tajam.</li>
+                  <li><strong>Pilih Nuansa Finishing:</strong> Tentukan antara <em>Natural Doff</em> (modern minimalis) atau <em>Melamin Glossy</em> (mewah berkilau).</li>
+                  <li><strong>Hitung Kuantitas &amp; Budget:</strong> Sesuaikan kuantitas dengan tabel harga di atas untuk mendapatkan harga grosir terbaik.</li>
+                  <li><strong>Waktu Pemesanan Aman:</strong> Booking slot produksi minimal 3-4 minggu sebelum tanggal distribusi acara Anda.</li>
+                </ul>
+              </div>
+
+              <h2 id="pesan-sekarang">Bagaimana Cara Memesan Box Souvenir Kayu Custom di Vendor Hampers?</h2>
 
               <p>Amankan slot produksi grafir laser sebelum jadwal Anda semakin mepet. Hubungi Vendor Hampers melalui WhatsApp +6288989643555 atau kunjungi halaman <a href="kontak.html" style="color: var(--wood-brown); font-weight: 600; text-decoration: underline;">kontak resmi Vendor Hampers</a> sekarang untuk konsultasi desain dan permintaan sampel fisik box kayu custom.</p>
 
@@ -1594,15 +1806,14 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+        <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+      <div class="row g-4 justify-content-between">
+        <div class="col-lg-3 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
             <span class="sitename">Vendor Hampers</span>
           </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen
-            berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
+          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
           <div class="social-links d-flex mt-3">
             <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
               target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
@@ -1612,7 +1823,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
           <h4>Jelajahi</h4>
           <ul>
             <li><a href="index.html">Beranda</a></li>
@@ -1623,31 +1834,62 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Kategori Produk</h4>
+        <div class="col-lg-2 col-md-3 col-6 footer-links">
+          <h4>Kategori</h4>
           <ul>
             <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
             <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
             <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
+            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
             <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6288989643555" target="_blank"
-              rel="noopener">+6288989643555</a></p>
+        <div class="col-lg-2 col-md-6 footer-cities">
+          <h4>Lokasi Layanan</h4>
+          <div class="row g-0">
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Jakarta</span></li>
+                <li><span>Surabaya</span></li>
+                <li><span>Bandung</span></li>
+                <li><span>Yogyakarta</span></li>
+                <li><span>Semarang</span></li>
+                <li><span>Malang</span></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-city-list">
+                <li><span>Denpasar</span></li>
+                <li><span>Makassar</span></li>
+                <li><span>Balikpapan</span></li>
+                <li><span>Samarinda</span></li>
+                <li><span>Palembang</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p class="mb-2">
+            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
+              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
+            </a>
+          </p>
+          <div class="footer-partner-box mt-3">
+            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
+            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
+              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4" style="text-align: center !important;">
-      <p style="text-align: center !important; margin: 0 auto;">© <span>2026</span> <strong
-          class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
     </div>
-
   </footer>
 
   <!-- Floating WhatsApp Button -->

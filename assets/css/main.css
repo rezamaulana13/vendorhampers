@@ -493,65 +493,234 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Global Footer
+# Footer (5 Kolom Seimbang & Rapi)
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
+  background: linear-gradient(180deg, #181412 0%, #100d0c 100%);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 60px 0 30px;
   position: relative;
+  font-family: var(--font-body, 'Poppins', sans-serif);
 }
 
-.footer h3 {
-  font-size: 36px;
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c9a84c 30%, #e8d5a3 50%, #c9a84c 70%, transparent);
+}
+
+.footer .sitename {
+  font-size: 24px;
   font-weight: 700;
-  position: relative;
-  padding: 0;
-  margin: 0 0 15px 0;
+  font-family: var(--font-heading, 'Playfair Display', serif);
+  background: var(--gold-gradient, linear-gradient(135deg, #c9a84c 0%, #e8d5a3 50%, #c9a84c 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.5px;
 }
 
 .footer p {
-  font-size: 15;
-  font-style: italic;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 0;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  font-family: var(--font-heading, 'Playfair Display', serif);
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 24px;
+  height: 2px;
+  background: var(--gold, #c9a84c);
+  border-radius: 2px;
+}
+
+.footer .footer-links ul,
+.footer .footer-cities ul {
+  list-style: none;
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0;
+}
+
+.footer .footer-links ul li,
+.footer .footer-city-list li {
+  padding: 5px 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+}
+
+.footer .footer-links ul a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer .footer-links ul a:hover {
+  color: var(--gold, #c9a84c);
+  transform: translateX(4px);
+}
+
+.footer .footer-city-list li span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.25s ease;
+}
+
+.footer .footer-city-list li span::before {
+  content: '•';
+  color: var(--gold, #c9a84c);
+  font-size: 12px;
+}
+
+.footer .footer-city-list li span:hover {
+  color: #e8d5a3;
+  transform: translateX(3px);
 }
 
 .footer .social-links {
-  margin: 0 0 30px 0;
+  display: flex;
+  gap: 10px;
 }
 
 .footer .social-links a {
-  font-size: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.8);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  line-height: 1;
-  margin: 0 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+  transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid rgba(201, 168, 76, 0.15);
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .footer .social-links a:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
-  text-decoration: none;
+  background: var(--gold-gradient, linear-gradient(135deg, #c9a84c 0%, #e8d5a3 100%));
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.3);
+  border-color: transparent;
+}
+
+.footer .footer-contact a {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.footer .footer-contact a:hover {
+  color: var(--gold, #c9a84c);
+}
+
+.footer-partner-clean-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 13px;
+  text-decoration: none !important;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.footer-partner-clean-link:hover {
+  background: rgba(201, 168, 76, 0.12);
+  border-color: #c9a84c;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.text-gold {
+  color: #c9a84c !important;
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.footer .credits {
+.footer .copyright .sitename {
   font-size: 13px;
-  padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .sitename,
+  .footer p,
+  .footer h4,
+  .footer .footer-links ul,
+  .footer .footer-contact {
+    text-align: center;
+  }
+
+  .footer h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer .social-links {
+    justify-content: center;
+  }
+
+  .footer .footer-links ul a {
+    justify-content: center;
+  }
+
+  .footer .footer-city-list {
+    text-align: center;
+  }
+
+  .footer .footer-city-list li span {
+    justify-content: center;
+  }
+
+  .footer .footer-contact p {
+    text-align: center;
+  }
+
+  .footer .footer-contact a {
+    justify-content: center;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -600,37 +769,118 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Scroll Top Button
+# Scroll Top Button & Floating WhatsApp
 --------------------------------------------------------------*/
+.wa-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--gold-gradient, linear-gradient(135deg, #c9a84c 0%, #e8c872 50%, #c9a84c 100%));
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 4px 35px rgba(201, 168, 76, 0.35);
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 999;
+  text-decoration: none;
+  border: none;
+}
+
+.wa-float:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 8px 50px rgba(201, 168, 76, 0.45);
+  color: #fff;
+}
+
+.wa-float::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid rgba(201, 168, 76, 0.2);
+  animation: wa-pulse 2s ease-in-out infinite;
+}
+
+@keyframes wa-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
 .scroll-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: -15px;
+  right: 35px;
+  bottom: 105px;
   z-index: 99999;
-  background-color: var(--accent-color);
-  width: 44px;
-  height: 44px;
+  background: var(--gold-gradient, var(--accent-color));
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 25px rgba(201, 168, 76, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--contrast-color);
+  color: #fff;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 35px rgba(201, 168, 76, 0.35);
+  color: #fff;
 }
 
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 105px;
+  right: 35px;
+}
+
+@media (max-width: 768px) {
+  .wa-float {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .scroll-top {
+    width: 42px;
+    height: 42px;
+    right: 24px;
+    bottom: 85px;
+  }
+
+  .scroll-top.active {
+    bottom: 85px;
+    right: 24px;
+  }
+
+  .scroll-top i {
+    font-size: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
