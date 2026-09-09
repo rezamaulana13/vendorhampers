@@ -492,15 +492,23 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer (5 Kolom Seimbang & Rapi)
---------------------------------------------------------------*/
+/* ======================================================
+   ARCHITECTURAL VERTICAL LUXURY FOOTER STYLES
+   ====================================================== */
 .footer {
-  background: linear-gradient(180deg, #181412 0%, #100d0c 100%);
+  margin-top: 70px;
+  background: radial-gradient(ellipse at 50% 0%, #251F1B 0%, #151210 100%);
   color: rgba(255, 255, 255, 0.7);
-  padding: 60px 0 30px;
+  padding: 65px 0 25px;
   position: relative;
   font-family: var(--font-body, 'Poppins', sans-serif);
+  border-top: 1px solid rgba(201, 168, 76, 0.35);
+  box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.45);
+}
+
+.call-to-action {
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .footer::before {
@@ -510,205 +518,505 @@ h6 {
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #c9a84c 30%, #e8d5a3 50%, #c9a84c 70%, transparent);
+  background: linear-gradient(90deg, transparent 0%, #C9A84C 25%, #E8D5A3 50%, #C9A84C 75%, transparent 100%);
 }
 
-.footer .sitename {
-  font-size: 24px;
-  font-weight: 700;
+/* Vertical Block Container */
+.footer-block-side {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  height: 100%;
+}
+
+.footer-vertical-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 8px 2px 0;
+  border-right: 1.5px solid rgba(201, 168, 76, 0.35);
+  flex-shrink: 0;
+}
+
+.footer-vertical-label .vertical-title-link,
+.footer-vertical-label .vertical-title {
   font-family: var(--font-heading, 'Playfair Display', serif);
-  background: var(--gold-gradient, linear-gradient(135deg, #c9a84c 0%, #e8d5a3 50%, #c9a84c 100%));
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: var(--gold-gradient, linear-gradient(135deg, #C9A84C 0%, #E8D5A3 50%, #C9A84C 100%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  letter-spacing: 0.5px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-vertical-label .vertical-title-link span {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+}
+
+.footer-block-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.footer-tagline {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--gold-light, #E8D5A3);
+  font-weight: 600;
+  display: block;
+  margin: 0 0 8px;
+  line-height: 1.4;
 }
 
 .footer p {
   font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 13px;
+  line-height: 1.65;
   color: rgba(255, 255, 255, 0.65);
   margin-bottom: 0;
 }
 
-.footer h4 {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 18px;
-  font-family: var(--font-heading, 'Playfair Display', serif);
-  letter-spacing: 0.5px;
-  position: relative;
-  display: inline-block;
-}
-
-.footer h4::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 24px;
-  height: 2px;
-  background: var(--gold, #c9a84c);
-  border-radius: 2px;
-}
-
-.footer .footer-links ul,
-.footer .footer-cities ul {
+/* Links */
+.footer-nav-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer .footer-links ul li,
-.footer .footer-city-list li {
-  padding: 5px 0;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.4;
+.footer-nav-list li {
+  padding: 3px 0;
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.45;
 }
 
-.footer .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
-  transition: all 0.3s ease;
+.footer-nav-list a {
+  color: rgba(255, 255, 255, 0.65);
+  transition: all 0.25s ease;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13.5px;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
 }
 
-.footer .footer-links ul a:hover {
-  color: var(--gold, #c9a84c);
-  transform: translateX(4px);
+.footer-nav-list a:hover {
+  color: var(--gold-light, #E8D5A3);
+  padding-left: 5px;
 }
 
-.footer .footer-city-list li span {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: rgba(255, 255, 255, 0.6);
-  transition: all 0.25s ease;
-}
-
-.footer .footer-city-list li span::before {
-  content: '•';
-  color: var(--gold, #c9a84c);
-  font-size: 12px;
-}
-
-.footer .footer-city-list li span:hover {
-  color: #e8d5a3;
-  transform: translateX(3px);
-}
-
+/* Social Media Circles */
 .footer .social-links {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .footer .social-links a {
   background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.8);
-  width: 38px;
-  height: 38px;
+  color: rgba(255, 255, 255, 0.85);
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 1px solid rgba(201, 168, 76, 0.15);
+  border: 1px solid rgba(201, 168, 76, 0.2);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .footer .social-links a:hover {
-  background: var(--gold-gradient, linear-gradient(135deg, #c9a84c 0%, #e8d5a3 100%));
-  color: #fff;
+  background: var(--gold-gradient, linear-gradient(135deg, #C9A84C 0%, #E8D5A3 100%));
+  color: #1A1614;
   transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.3);
+  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.35);
   border-color: transparent;
 }
 
-.footer .footer-contact a {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-
-.footer .footer-contact a:hover {
-  color: var(--gold, #c9a84c);
-}
-
-.footer-partner-clean-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: rgba(255, 255, 255, 0.75) !important;
-  font-size: 13px;
-  text-decoration: none !important;
-  padding: 5px 10px;
+/* Column 4: Dedicated Partner Card */
+.partner-card {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(201, 168, 76, 0.2);
-  border-radius: 6px;
-  transition: all 0.3s ease;
+  border-radius: 10px;
+  padding: 12px;
 }
 
-.footer-partner-clean-link:hover {
-  background: rgba(201, 168, 76, 0.12);
-  border-color: #c9a84c;
-  color: #fff !important;
+.partner-desc {
+  font-size: 11.5px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+
+.partner-link-btn {
+  display: block;
+  background: rgba(201, 168, 76, 0.08);
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  color: var(--gold-light, #E8D5A3) !important;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  word-break: break-all;
+}
+
+.partner-link-btn:hover {
+  background: rgba(201, 168, 76, 0.2);
+  color: #FFFFFF !important;
+  border-color: var(--gold, #C9A84C);
   transform: translateY(-1px);
 }
 
-.text-gold {
-  color: #c9a84c !important;
+.partner-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
-.footer .copyright {
+/* Column 5: Hubungi Kami / Concierge Card */
+.footer-concierge-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 10px;
+  padding: 14px;
+  position: relative;
+}
+
+.concierge-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gold-light, #E8D5A3);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.concierge-badge .pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2ECC71;
+  box-shadow: 0 0 8px rgba(46, 204, 113, 0.6);
+  display: inline-block;
+}
+
+.btn-footer-wa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--gold-gradient, linear-gradient(135deg, #C9A84C 0%, #E8D5A3 100%));
+  color: #1A1614 !important;
+  font-weight: 600;
   font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.btn-footer-wa:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.35);
+  color: #1A1614 !important;
+}
+
+.footer-schedule {
+  font-size: 11.5px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.45;
+}
+
+.text-gold {
+  color: var(--gold, #C9A84C) !important;
+}
+
+/* ======================================================
+   FOOTER LOCATIONS STRIP (Dibawah 5 Kolom - Mewah & Rapi)
+   ====================================================== */
+.footer-locations-strip {
+  margin-top: 40px;
+  padding: 18px 0;
+  background: rgba(0, 0, 0, 0.28);
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.locations-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+}
+
+.locations-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gold-light, #E8D5A3);
+  font-family: var(--font-heading, 'Playfair Display', serif);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.locations-header .loc-icon {
+  color: var(--gold, #C9A84C);
+  font-size: 14px;
+}
+
+.locations-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  flex: 1;
+}
+
+.loc-tag {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 168, 76, 0.18);
+  border-radius: 30px;
+  padding: 3px 11px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.loc-tag:hover {
+  background: rgba(201, 168, 76, 0.12);
+  border-color: var(--gold, #C9A84C);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.loc-tag.highlight {
+  background: rgba(201, 168, 76, 0.15);
+  border-color: rgba(201, 168, 76, 0.4);
+  color: var(--gold-light, #E8D5A3);
+  font-weight: 600;
+}
+
+/* Copyright & Legal Bar */
+.footer .copyright {
+  font-size: 12.5px;
   color: rgba(255, 255, 255, 0.45);
   text-align: center;
-  margin-top: 35px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 25px;
+  padding-top: 0;
+  border-top: none;
 }
 
 .footer .copyright .sitename {
   font-size: 13px;
+  font-weight: 600;
 }
 
-@media (max-width: 768px) {
+/* ======================================================
+   RESPONSIVE OPTIMIZATIONS (Mobile & Tablet)
+   ====================================================== */
+@media (max-width: 991px) {
+  .footer {
+    padding: 45px 0 30px;
+  }
+
+  .footer-locations-strip {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Mobile All-Centered Layout */
   .footer {
     text-align: center;
+    padding-bottom: 85px; /* Extra breathing space for floating WhatsApp button */
   }
 
-  .footer .sitename,
-  .footer p,
-  .footer h4,
-  .footer .footer-links ul,
-  .footer .footer-contact {
+  .footer-block-side {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    gap: 10px;
   }
 
-  .footer h4::after {
+  .footer-vertical-label {
+    writing-mode: horizontal-tb;
+    border-right: none;
+    padding: 0;
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .footer-vertical-label::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: var(--gold-gradient, linear-gradient(135deg, #C9A84C 0%, #E8D5A3 100%));
+    border-radius: 2px;
   }
 
-  .footer .social-links {
-    justify-content: center;
+  .footer-vertical-label .vertical-title-link,
+  .footer-vertical-label .vertical-title {
+    font-size: 14.5px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 4px;
+    display: block;
   }
 
-  .footer .footer-links ul a {
-    justify-content: center;
+  .footer-vertical-label .vertical-title-link span {
+    font-size: 17px;
   }
 
-  .footer .footer-city-list {
+  .footer-block-content {
+    width: 100%;
     text-align: center;
   }
+
+  .footer-tagline {
+    text-align: center;
+    margin: 4px auto 10px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .footer .social-links,
+  .footer .footer-block-content .social-links,
+  .footer div.social-links {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 14px auto 0 !important;
+  }
+
+  .footer-nav-list {
+    text-align: center;
+  }
+
+  .footer-nav-list li {
+    text-align: center;
+  }
+
+  .footer-nav-list a {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-nav-list a:hover {
+    padding-left: 0;
+    transform: translateY(-2px);
+  }
+
+  /* Partner Card Center */
+  .partner-card {
+    text-align: center;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .partner-desc {
+    text-align: center;
+  }
+
+  .partner-link-btn {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .partner-badge {
+    justify-content: center;
+  }
+
+  /* Concierge Card Center */
+  .footer-concierge-card {
+    text-align: center;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .concierge-badge {
+    justify-content: center;
+  }
+
+  .footer-schedule {
+    text-align: center;
+  }
+
+  /* Locations Strip - Centered & Max 2 Per Row on Mobile */
+  .locations-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .locations-header {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .locations-tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .loc-tag {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    font-size: 12px;
+    width: 100%;
+    min-height: 34px;
+  }
+
+  .loc-tag.highlight {
+    grid-column: span 2; /* Full width highlighted banner */
+    justify-content: center;
+    padding: 8px 12px;
+    width: 100%;
+  }
+}
 
   .footer .footer-city-list li span {
     justify-content: center;

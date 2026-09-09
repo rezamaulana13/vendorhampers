@@ -25,10 +25,10 @@ Dokumen ini berfungsi sebagai panduan standar operasional dan spesifikasi teknis
 
 | Kriteria | Ketentuan Standar |
 | :--- | :--- |
-| **Format File** | `.webp` *(Wajib format WebP modern)* |
+| **Format File** | `.webp` *(Wajib format WebP modern, file `.jpg` dihapus)* |
 | **Ukuran Maksimal** | **Maksimal 60 KB** (harus terkompresi dengan kualitas visual tetap tajam) |
 | **Rasio & Resolusi** | Rasio `16:9` (Standar: `1200 x 675 px`) |
-| **Watermark** | Wajib memiliki watermark brand (*Vendor Hampers / vendorhampers.web.id*) dengan badge elegan semi-transparan di sudut kanan bawah |
+| **Watermark & Tahun** | **WAJIB** memiliki watermark bernama **`vendorhampers.web.id`** berukuran sedang dan terlihat jelas, serta memuat tahun **`2026`** (Format standar: `vendorhampers.web.id • 2026`). Ditempatkan dalam badge rounded elegan dengan latar kontras/gelap dan border emas di sudut gambar atau terintegrasi jelas pada visual produk. |
 | **Lokasi Penyimpanan** | `assets/img/blog/[nama-gambar].webp` |
 | **Alt Text** | Wajib deskriptif dan mengandung kata kunci utama artikel |
 
@@ -37,12 +37,12 @@ Dokumen ini berfungsi sebagai panduan standar operasional dan spesifikasi teknis
 ## 4. Standar Penulis (Author Standardization)
 
 Mulai pembaruan ini, seluruh artikel baru dan kartu publikasi wajib menggunakan identitas penulis resmi berikut:
-- **Nama Penulis**: `Reza Maulana Nehru`
-- **Inisial Avatar**: `RN`
-- **Avatar Generator URL**: `https://placehold.co/150x150/2b2622/ffffff?text=RN&font=raleway` (untuk halaman artikel) dan `https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway` (untuk kartu blog).
+- **Nama Penulis**: `Published by Yolanda Deva Apriliana Putri (YUL)`
+- **Inisial Avatar**: `YUL`
+- **Avatar Generator URL**: `https://placehold.co/150x150/2b2622/ffffff?text=YUL&font=raleway` (untuk halaman artikel) dan `https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway` (untuk kartu blog).
 - **Bio Penulis**: *Content Writer di Vendor Hampers, aktif menulis seputar souvenir pernikahan, hampers, dan inspirasi hadiah premium untuk berbagai momen spesial.*
 - **Penerapan Identitas**:
-  1. Header meta artikel (`Oleh: Reza Maulana Nehru`)
+  1. Header meta artikel (`Published by Yolanda Deva Apriliana Putri (YUL)`)
   2. Author box di akhir isi artikel
   3. Kartu listing artikel di halaman `blog.html`
 
@@ -52,8 +52,16 @@ Mulai pembaruan ini, seluruh artikel baru dan kartu publikasi wajib menggunakan 
 
 - **Ketentuan Brand**: Seluruh artikel, metadata, schema markup, dan CTA **TIDAK BOLEH** menggunakan sebutan badan usaha seperti **`PT.`** ataupun nama **`PT. Tim Souvenir Indonesia`**.
 - **Nama Brand Resmi**: Wajib menggunakan nama brand resmi **`Vendor Hampers`** (website: `vendorhampers.web.id`).
-- **Nomor WhatsApp & CTA**: Menggunakan WhatsApp resmi `+6288989643555` yang mengatasnamakan `Vendor Hampers`- **Tautan Website Jaringan (Footer)**: Bagian `footer-contact` wajib memuat tombol tautan jaringan/partner menuju `https://vendormerchandise.web.id/` dengan label `vendormerchandise.web.id`.
-- **Lokasi yang Kami Layani (Footer 5-Kolom)**: Ditempatkan pada kolom ke-4 (sebelum kolom *Hubungi Kami*) dalam format daftar teks 2 kolom yang rapi dengan bullet emas, memuat 11 kota layanan resmi: *Jakarta, Surabaya, Bandung, Yogyakarta, Semarang, Malang, Denpasar, Makassar, Balikpapan, Samarinda, Palembang*.
+- **Nomor WhatsApp & CTA**: Menggunakan WhatsApp resmi `+6288989643555` yang mengatasnamakan `Vendor Hampers`.
+- **Tautan Website Jaringan / Rekanan Resmi (Footer Kolom 4)**: Kolom ke-4 khusus didedikasikan untuk rekanan resmi menuju `https://vendormerchandise.web.id/` dengan label `vendormerchandise.web.id` dan badge *Official Network*.
+- **Susunan Footer (5 Kolom Sejajar + Baris Lokasi di Bawah)**:
+  1. *Vendor Hampers* (Brand profile, tagline, deskripsi, sosial media)
+  2. *Jelajahi* (Navigasi halaman)
+  3. *Kategori* (Kategori produk hampers)
+  4. *Rekanan Resmi* (`vendormerchandise.web.id`)
+  5. *Hubungi Kami* (B2B Concierge status, WhatsApp sales button, jadwal operasional & workshop)
+- **Lokasi Layanan & Jangkauan Pengiriman (Baris Horizontal di Bawah 5 Kolom)**: Ditempatkan dalam strip khusus dengan pill badge elegan untuk 11 kota + Seluruh Indonesia (*Jakarta, Surabaya, Bandung, Yogyakarta, Semarang, Malang, Denpasar, Makassar, Balikpapan, Samarinda, Palembang, Seluruh Indonesia*).
+- **Informasi Operasional**: Menyertakan jam kerja *Senin - Sabtu: 09.00 - 18.00 WIB* dan *Workshop Malang • Kirim Seluruh Indonesia*.
 
 ---
 
@@ -139,20 +147,78 @@ Setiap artikel wajib memuat dua jenis tautan internal:
 
 ---
 
-## 8. Prosedur Integrasi & Publikasi (Checklist Publikasi)
+---
+
+## 9. Standar Google Rich Snippets (Rating Bintang & Thumbnail Gambar)
+
+Untuk meningkatkan *Click-Through Rate* (CTR) dari hasil pencarian Google (SERP), minimal **1 dari 3 artikel harian** (khususnya artikel bertema katalog, panduan paket & harga, atau review produk korporat) **WAJIB menyertakan Structured Data Rich Snippet**:
+
+### 9.1. Syarat Kemunculan Thumbnail Gambar di SERP
+1. **Robots Meta Tag**: Wajib menyertakan `max-image-preview:large` pada header:
+   ```html
+   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+   ```
+2. **Featured Image & Schema**: Gambar rasio 16:9 atau 1:1, beresolusi tajam, WebP terkompresi, dan terdaftar di Open Graph `og:image` serta array `image` pada Schema JSON-LD.
+3. **Sitemap XML**: Gambar didaftarkan dalam tag `<image:image><image:loc>...</image:loc></image:image>` di `sitemap.xml`.
+
+### 9.2. Skema Rating Bintang (`Product` & `AggregateRating`)
+Tambahkan blok JSON-LD skema `Product` yang memuat `aggregateRating` dan rentang penawaran harga (`offers`):
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "[Nama Paket / Topik Produk Hampers]",
+  "image": [
+    "https://vendorhampers.web.id/assets/img/blog/[nama-gambar].webp"
+  ],
+  "description": "[Deskripsi ringkas layanan/produk hampers]",
+  "brand": {
+    "@type": "Brand",
+    "name": "Vendor Hampers"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "148",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "IDR",
+    "lowPrice": "89000",
+    "highPrice": "650000",
+    "offerCount": "5",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Vendor Hampers"
+    }
+  }
+}
+</script>
+```
+
+---
+
+## 10. Prosedur Integrasi & Publikasi (Checklist Publikasi)
 
 Sebelum artikel dinyatakan selesai, pastikan langkah-langkah berikut telah terpenuhi:
 
 - [x] **File HTML Dibuat**: File tersimpan di *root* dengan struktur HTML valid dan responsif.
 - [x] **Gambar Terpasang**: Format WebP, berwatermark, ukuran < 60 KB, path sesuai.
 - [x] **Brand Resmi**: Menggunakan nama **Vendor Hampers** tanpa penyebutan `PT.` / `PT. Tim Souvenir Indonesia`.
+- [x] **Penulis Resmi**: Ditulis atas nama **Published by Yolanda Deva Apriliana Putri (YUL)**.
 - [x] **Sub-heading Pertanyaan (H2)**: Seluruh `<h2>` diformat dalam bentuk kalimat tanya yang jelas dan kontekstual.
 - [x] **Daftar Isi & Anchor**: Berfungsi dengan baik saat diklik menuju section pertanyaan terkait.
 - [x] **Tabel Data & Harga**: Memuat minimal 1 tabel data perbandingan/spesifikasi dan kisaran harga produk.
 - [x] **Sumber Valid**: Kutipan data eksternal berasal dari sumber yang nyata dan relevan.
 - [x] **AEO & GEO Ready**: Memuat direct answer ringkas di bawah H2 dan konteks wilayah kota layanan.
+- [x] **Rich Snippet Ready**: Memuat skema `Product` + `AggregateRating` (minimal 1 artikel per hari).
 - [x] **Link Internal Natural**: Tautan kontekstual dan kartu *Baca Juga* terpasang rapi.
 - [x] **Checklist Penutup**: Terdapat checklist ringkas atau bagian referensi sebelum CTA penutup.
 - [x] **Footer Partner Link & Kota Layanan**: Tautan redirect ke `vendormerchandise.web.id` dan 11 kota layanan terpasang di kolom ke-4 footer.
-- [x] **Listing di `blog.html`**: Kartu artikel baru ditambahkan di urutan teratas grid blog dengan nama penulis **Reza Maulana Nehru**.
+- [x] **Listing di `blog.html`**: Kartu artikel baru ditambahkan di urutan teratas grid blog.
 - [x] **Pembaruan `sitemap.xml`**: URL artikel dan gambar baru didaftarkan pada sitemap XML.
+

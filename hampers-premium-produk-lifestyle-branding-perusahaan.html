@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -1150,186 +1150,6 @@
       line-height: 1.7;
     }
 
-    /* ---------- Footer (SAMA DENGAN blog.html) ---------- */
-    .footer {
-      background: linear-gradient(135deg, #1a1614 0%, #2A2420 100%);
-      color: rgba(255, 255, 255, 0.7);
-      padding: 60px 0 30px;
-      position: relative;
-    }
-
-    .footer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: var(--gold-gradient);
-    }
-
-    .footer .sitename {
-      font-size: 26px;
-      font-weight: 700;
-      font-family: var(--font-heading);
-      background: var(--gold-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      letter-spacing: 1px;
-    }
-
-    .footer p {
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 1.8;
-      font-family: var(--font-body);
-      text-align: left;
-    }
-
-    .footer h4 {
-      color: #fff;
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      font-family: var(--font-heading);
-      text-align: left;
-    }
-
-    .footer .footer-links ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: left;
-    }
-
-    .footer .footer-links ul li {
-      padding: 8px 0;
-    }
-
-    .footer .footer-links ul a {
-      color: rgba(255, 255, 255, 0.5);
-      transition: all 0.4s ease;
-      font-weight: 400;
-      font-size: 15px;
-      font-family: var(--font-body);
-      text-align: left;
-      text-decoration: none;
-    }
-
-    .footer .footer-links ul a:hover {
-      color: var(--gold);
-      padding-left: 8px;
-    }
-
-    .footer .social-links {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-start;
-    }
-
-    .footer .social-links a {
-      background: rgba(255, 255, 255, 0.04);
-      color: #fff;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      border: 1px solid rgba(201, 168, 76, 0.1);
-      text-decoration: none;
-    }
-
-    .footer .social-links a:hover {
-      background: var(--gold-gradient);
-      transform: translateY(-4px);
-      box-shadow: 0 4px 25px rgba(201, 168, 76, 0.25);
-      border-color: transparent;
-    }
-
-    .footer .footer-contact {
-      text-align: left;
-    }
-
-    .footer .footer-contact p {
-      font-size: 15px;
-      margin-bottom: 5px;
-      font-family: var(--font-body);
-      text-align: left;
-    }
-
-    .footer .footer-contact a {
-      color: rgba(255, 255, 255, 0.5);
-      transition: color 0.4s ease;
-      font-size: 15px;
-      font-family: var(--font-body);
-      text-decoration: none;
-    }
-
-    .footer .footer-contact a:hover {
-      color: var(--gold);
-    }
-
-    .footer .copyright {
-      padding-top: 30px;
-      border-top: 1px solid rgba(255, 255, 255, 0.04);
-      font-weight: 400;
-      font-size: 14px;
-      font-family: var(--font-body);
-      text-align: center;
-    }
-
-    .footer .copyright .sitename {
-      font-size: 15px;
-    }
-
-    @media (max-width: 768px) {
-      .wa-float {
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-        bottom: 20px;
-        right: 20px;
-      }
-
-      .scroll-top {
-        width: 42px;
-        height: 42px;
-        right: 24px;
-        bottom: 85px;
-      }
-
-      .scroll-top.active {
-        bottom: 85px;
-        right: 24px;
-      }
-
-      .scroll-top i {
-        font-size: 20px;
-      }
-
-
-      .footer .footer-about,
-      .footer .footer-about p,
-      .footer .footer-links ul,
-      .footer .footer-contact,
-      .footer .footer-contact p,
-      .footer h4 {
-        text-align: center;
-      }
-
-      .footer .footer-links ul a {
-        text-align: center;
-        display: block;
-      }
-
-      .footer .social-links {
-        justify-content: center;
-      }
-    }
-
     /* ---------- Floating WhatsApp & Scroll Top ---------- */
     .wa-float {
       position: fixed;
@@ -1571,10 +1391,6 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted d-none d-lg-inline-flex text-decoration-none"
-        href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
-        target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i> Chat WhatsApp</a>
-
     </div>
   </header>
 
@@ -1790,89 +1606,146 @@
 
   </main>
 
-        <footer id="footer" class="footer dark-background">
-    <div class="container footer-top">
+                  <footer id="footer" class="footer dark-background">
+
+    <!-- Main Footer Content (5 Kolom Arsitektural Vertikal) -->
+    <div class="container footer-main">
       <div class="row g-4 justify-content-between">
-        <div class="col-lg-3 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
-            <span class="sitename">Vendor Hampers</span>
-          </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
-          <div class="social-links d-flex mt-3">
-            <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
-              target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        
+        <!-- 1. Vendor Hampers -->
+        <div class="col-lg-3 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <a href="index.html" class="vertical-title-link">
+                <span>Vendor Hampers</span>
+              </a>
+            </div>
+            <div class="footer-block-content">
+              <span class="footer-tagline">Corporate Gift &amp; Hampers Specialist</span>
+              <p>Membantu perusahaan dan korporasi menghadirkan apresiasi berkelas melalui kurasi hampers eksklusif, souvenir kantor fungsional, dan packaging kustom bernilai tinggi.</p>
+              <div class="social-links d-flex justify-content-center justify-content-lg-start mt-3">
+                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
+                  target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 col-6 footer-links">
-          <h4>Jelajahi</h4>
-          <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="produk.html">Produk</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-6 footer-links">
-          <h4>Kategori</h4>
-          <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-cities">
-          <h4>Lokasi Layanan</h4>
-          <div class="row g-0">
-            <div class="col-6">
-              <ul class="footer-city-list">
-                <li><span>Jakarta</span></li>
-                <li><span>Surabaya</span></li>
-                <li><span>Bandung</span></li>
-                <li><span>Yogyakarta</span></li>
-                <li><span>Semarang</span></li>
-                <li><span>Malang</span></li>
-              </ul>
+        <!-- 2. Jelajahi -->
+        <div class="col-lg-2 col-md-3 col-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Jelajahi</span>
             </div>
-            <div class="col-6">
-              <ul class="footer-city-list">
-                <li><span>Denpasar</span></li>
-                <li><span>Makassar</span></li>
-                <li><span>Balikpapan</span></li>
-                <li><span>Samarinda</span></li>
-                <li><span>Palembang</span></li>
+            <div class="footer-block-content">
+              <ul class="footer-nav-list">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="blog.html">Blog &amp; Artikel</a></li>
+                <li><a href="galeri.html">Galeri Foto</a></li>
+                <li><a href="kontak.html">Hubungi Kami</a></li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p class="mb-2">
-            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
-              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
-            </a>
-          </p>
-          <div class="footer-partner-box mt-3">
-            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
-            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
-              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
-            </a>
+        <!-- 3. Kategori -->
+        <div class="col-lg-2 col-md-3 col-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Kategori</span>
+            </div>
+            <div class="footer-block-content">
+              <ul class="footer-nav-list">
+                <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
+                <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
+                <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Tahun Baru 2027</a></li>
+                <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
+                <li><a href="Hampers-Eksekutif.html">Corporate Gift VIP</a></li>
+                <li><a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Box Kayu Custom</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Website Rekanan Resmi -->
+        <div class="col-lg-2 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Rekanan</span>
+            </div>
+            <div class="footer-block-content">
+              <div class="partner-card">
+                <p class="partner-desc">Solusi merchandise promosi &amp; souvenir event kantor terpercaya:</p>
+                <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="partner-link-btn">
+                  <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+                </a>
+                <span class="partner-badge"><i class="bi bi-patch-check-fill text-gold me-1"></i> Official Network</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Hubungi Kami -->
+        <div class="col-lg-3 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Kontak</span>
+            </div>
+            <div class="footer-block-content">
+              <div class="footer-concierge-card">
+                <div class="concierge-badge">
+                  <span class="pulse-dot"></span> B2B Specialist
+                </div>
+                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20konsultasi%20paket%20corporate%20gift" 
+                   target="_blank" rel="noopener" class="btn-footer-wa">
+                  <i class="bi bi-whatsapp"></i> Chat WhatsApp Sales
+                </a>
+                <div class="footer-schedule">
+                  <div><i class="bi bi-clock me-1 text-gold"></i> Senin - Sabtu: 09.00 - 18.00 WIB</div>
+                  <div><i class="bi bi-geo-alt me-1 text-gold"></i> Workshop Malang &bull; Kirim Seluruh Indonesia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lokasi Layanan (Dibawah 5 Kolom - Mewah & Profesional) -->
+    <div class="footer-locations-strip">
+      <div class="container">
+        <div class="locations-wrapper">
+          <div class="locations-header">
+            <span class="loc-icon"><i class="bi bi-geo-alt-fill"></i></span>
+            <span class="loc-title">Jangkauan Layanan &amp; Pengiriman:</span>
+          </div>
+          <div class="locations-tags">
+            <span class="loc-tag">Jakarta</span>
+            <span class="loc-tag">Surabaya</span>
+            <span class="loc-tag">Bandung</span>
+            <span class="loc-tag">Yogyakarta</span>
+            <span class="loc-tag">Semarang</span>
+            <span class="loc-tag">Malang</span>
+            <span class="loc-tag">Denpasar</span>
+            <span class="loc-tag">Makassar</span>
+            <span class="loc-tag">Balikpapan</span>
+            <span class="loc-tag">Samarinda</span>
+            <span class="loc-tag">Palembang</span>
+            <span class="loc-tag highlight"><i class="bi bi-truck me-1"></i>Seluruh Indonesia</span>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <!-- Copyright -->
+    <div class="container copyright text-center">
+      <p class="mb-0">&copy; <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span> &bull; <span class="text-white-50">Solusi Corporate Gift &amp; Hampers Premium Indonesia</span></p>
     </div>
   </footer>
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -738,217 +738,6 @@
       text-decoration: none;
     }
 
-    /* ---------- Footer (SAMA DENGAN PRODUK) ---------- */
-    .footer {
-      background: linear-gradient(135deg, #1a1614 0%, #2A2420 100%);
-      color: rgba(255, 255, 255, 0.7);
-      padding: 60px 0 30px;
-      position: relative;
-    }
-
-    .footer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: var(--gold-gradient);
-    }
-
-    .footer .sitename {
-      font-size: 26px;
-      font-weight: 700;
-      font-family: var(--font-heading);
-      background: var(--gold-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      letter-spacing: 1px;
-    }
-
-    .footer p {
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 1.8;
-      font-family: var(--font-body);
-      text-align: left;
-    }
-
-    .footer h4 {
-      color: #fff;
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      font-family: var(--font-heading);
-      text-align: left;
-    }
-
-    .footer .footer-links ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: left;
-    }
-
-    .footer .footer-links ul li {
-      padding: 8px 0;
-    }
-
-    .footer .footer-links ul a {
-      color: rgba(255, 255, 255, 0.5);
-      transition: all 0.4s ease;
-      font-weight: 400;
-      font-size: 15px;
-      font-family: var(--font-body);
-      text-align: left;
-      text-decoration: none;
-    }
-
-    .footer .footer-links ul a:hover {
-      color: var(--gold);
-      padding-left: 8px;
-    }
-
-    .footer .social-links {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-start;
-    }
-
-    .footer .social-links a {
-      background: rgba(255, 255, 255, 0.04);
-      color: #fff;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      border: 1px solid rgba(201, 168, 76, 0.1);
-      text-decoration: none;
-    }
-
-    .footer .social-links a:hover {
-      background: var(--gold-gradient);
-      transform: translateY(-4px);
-      box-shadow: 0 4px 25px rgba(201, 168, 76, 0.25);
-      border-color: transparent;
-    }
-
-    .footer .footer-contact {
-      text-align: left;
-    }
-
-    .footer .footer-contact p {
-      font-size: 15px;
-      margin-bottom: 5px;
-      font-family: var(--font-body);
-      text-align: left;
-    }
-
-    .footer .footer-contact a {
-      color: rgba(255, 255, 255, 0.5);
-      transition: color 0.4s ease;
-      font-size: 15px;
-      font-family: var(--font-body);
-      text-decoration: none;
-    }
-
-    .footer .footer-contact a:hover {
-      color: var(--gold);
-    }
-
-    .footer .copyright {
-      padding-top: 30px;
-      border-top: 1px solid rgba(255, 255, 255, 0.04);
-      font-weight: 400;
-      font-size: 14px;
-      font-family: var(--font-body);
-      text-align: center;
-    }
-
-    .footer .copyright .sitename {
-      font-size: 15px;
-    }
-
-    /* ---------- Footer Responsive ---------- */
-    @media (max-width: 768px) {
-      .footer .footer-about {
-        text-align: center;
-      }
-
-      .footer .footer-about p {
-        text-align: center;
-      }
-
-      .footer .footer-links ul {
-        text-align: center;
-      }
-
-      .footer .footer-links ul a {
-        text-align: center;
-        display: block;
-      }
-
-      .footer .social-links {
-        justify-content: center;
-      }
-
-      .footer .footer-contact {
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      .footer .footer-contact p {
-        text-align: center;
-      }
-
-      .footer h4 {
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 576px) {
-      .footer .sitename {
-        font-size: 22px;
-      }
-
-      .footer .footer-about {
-        text-align: center;
-      }
-
-      .footer .footer-about p {
-        text-align: center;
-      }
-
-      .footer .footer-links ul {
-        text-align: center;
-      }
-
-      .footer .footer-links ul a {
-        text-align: center;
-        display: block;
-      }
-
-      .footer .social-links {
-        justify-content: center;
-      }
-
-      .footer .footer-contact {
-        text-align: center;
-      }
-
-      .footer .footer-contact p {
-        text-align: center;
-      }
-
-      .footer h4 {
-        text-align: center;
-      }
-    }
-
     /* ---------- Floating WhatsApp ---------- */
     .wa-float {
       position: fixed;
@@ -1282,10 +1071,6 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted d-none d-lg-inline-flex text-decoration-none"
-        href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
-        target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i> Chat WhatsApp</a>
-
     </div>
   </header>
   <main class="main">
@@ -1305,10 +1090,141 @@
     </div><!-- End Page Title -->
 
     <!-- Blog Posts Section -->
-        <section id="blog-posts" class="blog-posts section">
+    <section id="blog-posts" class="blog-posts section">
       <div class="container">
+
+        <!-- Elegant & Professional Blog Filter Toolbar -->
+        <div class="blog-filter-bar mb-5" data-aos="fade-up">
+          <div class="row g-3 align-items-center">
+            
+            <!-- Live Search Bar -->
+            <div class="col-md-7 col-12">
+              <div class="search-input-wrapper">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" id="blogSearchInput" class="search-control" placeholder="Cari topik atau artikel..." autocomplete="off">
+                <button type="button" id="clearSearchBtn" class="clear-btn d-none" aria-label="Hapus pencarian"><i class="bi bi-x"></i></button>
+              </div>
+            </div>
+
+            <!-- Category Dropdown Selector (Clean & Icon-free) -->
+            <div class="col-md-5 col-12">
+              <div class="category-dropdown-wrapper" id="categoryDropdownWrapper">
+                <button type="button" class="category-select-btn" id="categoryDropdownBtn" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2 text-truncate">
+                    <span class="cat-label-prefix text-muted">Kategori:</span>
+                    <span class="selected-cat-name" id="selectedCatLabel">Semua Kategori</span>
+                  </div>
+                  <i class="bi bi-chevron-down dropdown-arrow" id="dropdownArrow"></i>
+                </button>
+                <ul class="category-dropdown-menu" id="categoryDropdownMenu">
+                  <li><a href="javascript:void(0)" class="dropdown-item active" data-filter="all">Semua Kategori</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="natal">Hampers Natal &amp; Tahun Baru</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="corporate">Corporate Gift &amp; Kantor</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="vip">Hampers VIP &amp; Eksekutif</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="hariraya">Hampers Hari Raya</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="wedding">Souvenir Pernikahan</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="souvenir">Merchandise &amp; Box Kayu</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Info / Reset -->
+          <div class="filter-footer d-flex align-items-center justify-content-between mt-3 pt-2">
+            <span class="count-badge" id="articlesCount">Menampilkan semua artikel</span>
+            <button type="button" class="reset-link d-none" id="resetFiltersBtn">Reset Filter</button>
+          </div>
+        </div>
+
+        <!-- Empty State (When no article matches) -->
+        <div id="noArticlesFound" class="text-center py-5 d-none" data-aos="fade-up">
+          <div class="empty-icon mb-3" style="font-size: 48px; color: var(--gold);"><i class="bi bi-journal-x"></i></div>
+          <h4 style="font-family: var(--font-heading); color: var(--charcoal); font-weight: 700;">Artikel Tidak Ditemukan</h4>
+          <p class="text-muted" style="max-width: 500px; margin: 0 auto 20px;">Maaf, tidak ada artikel yang cocok dengan kata kunci atau kategori yang Anda pilih.</p>
+          <button type="button" class="btn btn-sm" id="emptyResetBtn" style="background: var(--gold-gradient); color: #fff; border-radius: 50px; padding: 8px 24px; border: none; font-weight: 600;">Lihat Semua Artikel</button>
+        </div>
+
         <!-- Unified Grid -->
-        <div class="row gy-4">
+        <div class="row gy-4" id="blogGrid">
+<div class="col-lg-4 col-md-6">
+  <article>
+    <div class="post-img">
+      <img src="assets/img/blog/hampers-natal-karyawan-bandung.webp" alt="Ide Hampers Natal Karyawan Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026" loading="lazy">
+      <span class="post-category-badge" style="background: linear-gradient(135deg, #1A5276 0%, #2E86AB 40%, #1A5276 70%, #0E3B5A 100%);">Hampers Karyawan</span>
+    </div>
+    <div class="post-body">
+      <div class="post-category"><i class="bi bi-tag"></i> Hampers Karyawan</div>
+      <h2 class="title">
+        <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html">Ide Hampers Natal Karyawan Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026</a>
+      </h2>
+      <p class="post-excerpt">Ide hampers Natal karyawan perusahaan Bandung yang fungsional dan hemat budget untuk bulk order. Simak estimasi budget Rp95rb - Rp300rb dan tips distribusinya...</p>
+      <div class="post-meta-wrap">
+        <div class="post-author-group">
+          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+          <div>
+            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          </div>
+        </div>
+        <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<div class="col-lg-4 col-md-6">
+  <article>
+    <div class="post-img">
+      <img src="assets/img/blog/hampers-natal-premium-vip-bandung.webp" alt="Paket Hampers Natal Premium untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif" loading="lazy">
+      <span class="post-category-badge" style="background: linear-gradient(135deg, #1A1A1A 0%, #B8860B 40%, #DAA520 70%, #1A1A1A 100%);">Hampers VIP</span>
+    </div>
+    <div class="post-body">
+      <div class="post-category"><i class="bi bi-tag"></i> Hampers VIP</div>
+      <h2 class="title">
+        <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html">Paket Hampers Natal Premium untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif</a>
+      </h2>
+      <p class="post-excerpt">Hampers Natal premium untuk klien VIP perusahaan di Bandung dengan gift box branding eksklusif. Cek isi paket artisan lokal, budget Rp250rb - Rp650rb+, dan cara pesannya...</p>
+      <div class="post-meta-wrap">
+        <div class="post-author-group">
+          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+          <div>
+            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          </div>
+        </div>
+        <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<div class="col-lg-4 col-md-6">
+  <article>
+    <div class="post-img">
+      <img src="assets/img/blog/hampers-natal-perusahaan-bandung.webp" alt="Hampers Natal Perusahaan Bandung: Paket &amp; Harga 2026 yang Berkesan" loading="lazy">
+      <span class="post-category-badge" style="background: linear-gradient(135deg, #1E4D2B 0%, #8B1E22 50%, #C9A84C 100%);">Hampers Natal</span>
+    </div>
+    <div class="post-body">
+      <div class="post-category"><i class="bi bi-tag"></i> Hampers Natal</div>
+      <h2 class="title">
+        <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html">Hampers Natal Perusahaan Bandung: Paket &amp; Harga 2026 yang Berkesan</a>
+      </h2>
+      <p class="post-excerpt">Cari hampers Natal perusahaan Bandung yang berkesan? Simak kisaran harga mulai Rp89.000 hingga paket VIP artisan luxury, rekomendasi produk lokal, dan panduan custom branding...</p>
+      <div class="post-meta-wrap">
+        <div class="post-author-group">
+          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+          <div>
+            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          </div>
+        </div>
+        <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </article>
+</div>
+
 <div class="col-lg-4 col-md-6">
   <article>
     <div class="post-img">
@@ -2466,89 +2382,146 @@
 
   </main>
 
-        <footer id="footer" class="footer dark-background">
-    <div class="container footer-top">
+          <footer id="footer" class="footer dark-background">
+
+    <!-- Main Footer Content (5 Kolom Arsitektural Vertikal) -->
+    <div class="container footer-main">
       <div class="row g-4 justify-content-between">
-        <div class="col-lg-3 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
-            <span class="sitename">Vendor Hampers</span>
-          </a>
-          <p>Vendor hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga, mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
-          <div class="social-links d-flex mt-3">
-            <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
-              target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        
+        <!-- 1. Vendor Hampers -->
+        <div class="col-lg-3 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <a href="index.html" class="vertical-title-link">
+                <span>Vendor Hampers</span>
+              </a>
+            </div>
+            <div class="footer-block-content">
+              <span class="footer-tagline">Corporate Gift &amp; Hampers Specialist</span>
+              <p>Membantu perusahaan dan korporasi menghadirkan apresiasi berkelas melalui kurasi hampers eksklusif, souvenir kantor fungsional, dan packaging kustom bernilai tinggi.</p>
+              <div class="social-links d-flex justify-content-center justify-content-lg-start mt-3">
+                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
+                  target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 col-6 footer-links">
-          <h4>Jelajahi</h4>
-          <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="produk.html">Produk</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-6 footer-links">
-          <h4>Kategori</h4>
-          <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-cities">
-          <h4>Lokasi Layanan</h4>
-          <div class="row g-0">
-            <div class="col-6">
-              <ul class="footer-city-list">
-                <li><span>Jakarta</span></li>
-                <li><span>Surabaya</span></li>
-                <li><span>Bandung</span></li>
-                <li><span>Yogyakarta</span></li>
-                <li><span>Semarang</span></li>
-                <li><span>Malang</span></li>
-              </ul>
+        <!-- 2. Jelajahi -->
+        <div class="col-lg-2 col-md-3 col-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Jelajahi</span>
             </div>
-            <div class="col-6">
-              <ul class="footer-city-list">
-                <li><span>Denpasar</span></li>
-                <li><span>Makassar</span></li>
-                <li><span>Balikpapan</span></li>
-                <li><span>Samarinda</span></li>
-                <li><span>Palembang</span></li>
+            <div class="footer-block-content">
+              <ul class="footer-nav-list">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="blog.html">Blog &amp; Artikel</a></li>
+                <li><a href="galeri.html">Galeri Foto</a></li>
+                <li><a href="kontak.html">Hubungi Kami</a></li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>Hubungi Kami</h4>
-          <p class="mb-2">
-            <a href="https://wa.me/6288989643555" target="_blank" rel="noopener" class="d-inline-flex align-items-center text-decoration-none">
-              <i class="bi bi-whatsapp text-success me-2"></i> +62 889-8964-3555
-            </a>
-          </p>
-          <div class="footer-partner-box mt-3">
-            <span class="partner-label d-block text-white-50 mb-1" style="font-size: 12px;">Website Rekanan:</span>
-            <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="footer-partner-clean-link">
-              <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
-            </a>
+        <!-- 3. Kategori -->
+        <div class="col-lg-2 col-md-3 col-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Kategori</span>
+            </div>
+            <div class="footer-block-content">
+              <ul class="footer-nav-list">
+                <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
+                <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
+                <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Tahun Baru 2027</a></li>
+                <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
+                <li><a href="Hampers-Eksekutif.html">Corporate Gift VIP</a></li>
+                <li><a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Box Kayu Custom</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Website Rekanan Resmi -->
+        <div class="col-lg-2 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Rekanan</span>
+            </div>
+            <div class="footer-block-content">
+              <div class="partner-card">
+                <p class="partner-desc">Solusi merchandise promosi &amp; souvenir event kantor terpercaya:</p>
+                <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="partner-link-btn">
+                  <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
+                </a>
+                <span class="partner-badge"><i class="bi bi-patch-check-fill text-gold me-1"></i> Official Network</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Hubungi Kami -->
+        <div class="col-lg-3 col-md-6 footer-col">
+          <div class="footer-block-side">
+            <div class="footer-vertical-label">
+              <span class="vertical-title">Kontak</span>
+            </div>
+            <div class="footer-block-content">
+              <div class="footer-concierge-card">
+                <div class="concierge-badge">
+                  <span class="pulse-dot"></span> B2B Specialist
+                </div>
+                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20konsultasi%20paket%20corporate%20gift" 
+                   target="_blank" rel="noopener" class="btn-footer-wa">
+                  <i class="bi bi-whatsapp"></i> Chat WhatsApp Sales
+                </a>
+                <div class="footer-schedule">
+                  <div><i class="bi bi-clock me-1 text-gold"></i> Senin - Sabtu: 09.00 - 18.00 WIB</div>
+                  <div><i class="bi bi-geo-alt me-1 text-gold"></i> Workshop Malang &bull; Kirim Seluruh Indonesia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lokasi Layanan (Dibawah 5 Kolom - Mewah & Profesional) -->
+    <div class="footer-locations-strip">
+      <div class="container">
+        <div class="locations-wrapper">
+          <div class="locations-header">
+            <span class="loc-icon"><i class="bi bi-geo-alt-fill"></i></span>
+            <span class="loc-title">Jangkauan Layanan &amp; Pengiriman:</span>
+          </div>
+          <div class="locations-tags">
+            <span class="loc-tag">Jakarta</span>
+            <span class="loc-tag">Surabaya</span>
+            <span class="loc-tag">Bandung</span>
+            <span class="loc-tag">Yogyakarta</span>
+            <span class="loc-tag">Semarang</span>
+            <span class="loc-tag">Malang</span>
+            <span class="loc-tag">Denpasar</span>
+            <span class="loc-tag">Makassar</span>
+            <span class="loc-tag">Balikpapan</span>
+            <span class="loc-tag">Samarinda</span>
+            <span class="loc-tag">Palembang</span>
+            <span class="loc-tag highlight"><i class="bi bi-truck me-1"></i>Seluruh Indonesia</span>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span></p>
+    <!-- Copyright -->
+    <div class="container copyright text-center">
+      <p class="mb-0">&copy; <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span> &bull; <span class="text-white-50">Solusi Corporate Gift &amp; Hampers Premium Indonesia</span></p>
     </div>
   </footer>
 
@@ -2578,164 +2551,412 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- Floating Category Filter -->
+  <!-- Blog Filter Toolbar Styles & Interactive Script -->
+  <!-- Clean & Professional Corporate Blog Filter Toolbar Styles & Interactive Script -->
   <style>
-    .filter-float-wrapper {
-      position: fixed;
-      bottom: 100px;
-      left: 30px;
-      z-index: 999;
+    /* ---------- Clean & Professional Blog Filter Toolbar ---------- */
+    .blog-filter-bar {
+      background: #FAF7F2;
+      border-radius: 14px;
+      padding: 14px 18px;
+      border: 1px solid rgba(201, 168, 76, 0.25);
+      position: relative;
     }
-    .filter-float-btn {
-      background: var(--charcoal);
-      color: #fff;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
+
+    /* Live Search Input */
+    .search-input-wrapper {
+      position: relative;
       display: flex;
       align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      transition: all 0.3s ease;
-      border: none;
+      width: 100%;
     }
-    .filter-float-btn:hover {
-      background: var(--gold);
-      transform: scale(1.05);
-    }
-    .filter-menu {
+
+    .search-input-wrapper .search-icon {
       position: absolute;
-      bottom: 75px;
+      left: 14px;
+      color: #8C8275;
+      font-size: 15px;
+      pointer-events: none;
+    }
+
+    .search-input-wrapper .search-control {
+      width: 100%;
+      height: 46px;
+      padding: 8px 36px 8px 38px;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      background: #FFFFFF;
+      font-size: 14px;
+      font-family: var(--font-body);
+      color: var(--charcoal);
+      transition: all 0.25s ease;
+    }
+
+    .search-input-wrapper .search-control:focus {
+      background: #FFFFFF;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.12);
+      outline: none;
+    }
+
+    .search-input-wrapper .clear-btn {
+      position: absolute;
+      right: 12px;
+      background: none;
+      border: none;
+      color: #A0988A;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 0;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+
+    .search-input-wrapper .clear-btn:hover {
+      color: var(--charcoal);
+    }
+
+    /* Category Dropdown Wrapper */
+    .category-dropdown-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .category-select-btn {
+      width: 100%;
+      height: 46px;
+      padding: 8px 16px;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      background: #FFFFFF;
+      color: var(--charcoal);
+      font-size: 14px;
+      font-family: var(--font-body);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .category-select-btn:hover,
+    .category-select-btn.active {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.12);
+    }
+
+    .category-select-btn .cat-label-prefix {
+      font-size: 12.5px;
+      color: #8C8275;
+      font-weight: 400;
+    }
+
+    .category-select-btn .selected-cat-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--charcoal);
+    }
+
+    .category-select-btn .dropdown-arrow {
+      color: #8C8275;
+      font-size: 11px;
+      transition: transform 0.25s ease;
+    }
+
+    .category-dropdown-wrapper.open .dropdown-arrow {
+      transform: rotate(180deg);
+    }
+
+    /* Dropdown Menu (Clean & Icon-free) */
+    .category-dropdown-menu {
+      position: absolute;
+      top: calc(100% + 6px);
       left: 0;
-      background: #fff;
-      border-radius: 15px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-      padding: 20px;
-      width: 260px;
+      right: 0;
+      background: #FFFFFF;
+      border-radius: 12px;
+      border: 1px solid rgba(201, 168, 76, 0.22);
+      box-shadow: 0 10px 30px rgba(42, 36, 32, 0.08);
+      padding: 6px;
+      margin: 0;
+      list-style: none;
+      z-index: 1000;
+      max-height: 270px;
+      overflow-y: auto;
       opacity: 0;
       visibility: hidden;
-      transform: translateY(20px);
-      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      border: 1px solid rgba(201, 168, 76, 0.2);
+      transform: translateY(6px);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
-    .filter-menu.active {
+
+    .category-dropdown-wrapper.open .category-dropdown-menu {
       opacity: 1;
       visibility: visible;
       transform: translateY(0);
     }
-    .filter-menu h4 {
-      font-size: 16px;
-      margin-bottom: 15px;
-      font-family: var(--font-heading);
-      color: var(--charcoal);
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
+
+    .category-dropdown-menu::-webkit-scrollbar {
+      width: 5px;
     }
-    .filter-options {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
+
+    .category-dropdown-menu::-webkit-scrollbar-track {
+      background: #FAF7F2;
+      border-radius: 6px;
     }
-    .filter-opt-btn {
-      background: #f8f9fa;
-      border: 1px solid #eee;
-      padding: 10px 15px;
-      border-radius: 8px;
-      text-align: left;
-      font-size: 14px;
-      cursor: pointer;
-      transition: all 0.2s ease;
+
+    .category-dropdown-menu::-webkit-scrollbar-thumb {
+      background: var(--gold-dark);
+      border-radius: 6px;
+    }
+
+    .category-dropdown-menu li {
+      margin-bottom: 2px;
+    }
+
+    .category-dropdown-menu li:last-child {
+      margin-bottom: 0;
+    }
+
+    .category-dropdown-menu .dropdown-item {
+      display: block;
+      padding: 9px 14px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #4A453E;
+      text-decoration: none;
       font-family: var(--font-body);
-      color: var(--default-color);
+      font-weight: 400;
+      border-left: 3px solid transparent;
+      transition: all 0.15s ease;
+      cursor: pointer;
     }
-    .filter-opt-btn:hover, .filter-opt-btn.active {
-      background: var(--gold-gradient);
-      color: #fff;
-      border-color: transparent;
+
+    .category-dropdown-menu .dropdown-item:hover {
+      background: #F8F4EE;
+      color: var(--charcoal);
+      border-left-color: rgba(201, 168, 76, 0.4);
     }
-    @media (max-width: 768px) {
-      .filter-float-wrapper {
-        bottom: 90px;
-        left: 20px;
-      }
-      .filter-float-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
+
+    .category-dropdown-menu .dropdown-item.active {
+      background: #F4EFE6;
+      color: var(--gold-dark) !important;
+      font-weight: 600;
+      border-left-color: var(--gold);
+    }
+
+    /* Footer Info Bar */
+    .filter-footer {
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      font-size: 13px;
+      font-family: var(--font-body);
+    }
+
+    .count-badge {
+      color: #8C8275;
+      font-size: 12.5px;
+    }
+
+    .reset-link {
+      background: none;
+      border: none;
+      color: var(--gold-dark);
+      font-size: 12.5px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .reset-link:hover {
+      color: var(--charcoal);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 767px) {
+      .blog-filter-bar {
+        padding: 12px;
       }
     }
   </style>
 
-  <div class="filter-float-wrapper">
-    <button class="filter-float-btn" id="filterToggleBtn" title="Filter Kategori">
-      <i class="bi bi-funnel-fill"></i>
-    </button>
-    <div class="filter-menu" id="filterMenu">
-      <h4>Filter Kategori</h4>
-      <div class="filter-options" id="filterOptionsContainer">
-        <!-- JS will populate -->
-      </div>
-    </div>
-  </div>
-
-    <script>
+  <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const toggleBtn = document.getElementById('filterToggleBtn');
-    const menu = document.getElementById('filterMenu');
-    const container = document.getElementById('filterOptionsContainer');
-    const articles = document.querySelectorAll('.blog-posts article');
-    
-    if(!toggleBtn || !menu) return;
+    const dropdownWrapper = document.getElementById('categoryDropdownWrapper');
+    const dropdownBtn = document.getElementById('categoryDropdownBtn');
+    const dropdownMenu = document.getElementById('categoryDropdownMenu');
+    const selectedCatLabel = document.getElementById('selectedCatLabel');
+    const searchInput = document.getElementById('blogSearchInput');
+    const clearSearchBtn = document.getElementById('clearSearchBtn');
+    const articlesCountEl = document.getElementById('articlesCount');
+    const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+    const noArticlesFound = document.getElementById('noArticlesFound');
+    const emptyResetBtn = document.getElementById('emptyResetBtn');
+    const articleCards = document.querySelectorAll('#blogGrid > div');
 
-    toggleBtn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      menu.classList.toggle('active');
-    });
+    let currentFilter = 'all';
+    let currentSearch = '';
+    const totalArticles = articleCards.length;
 
+    // Toggle Dropdown
+    if (dropdownBtn && dropdownWrapper) {
+      dropdownBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdownWrapper.classList.toggle('open');
+      });
+    }
+
+    // Close Dropdown on Click Outside
     document.addEventListener('click', function(e) {
-      if (!menu.contains(e.target) && !toggleBtn.contains(e.target)) {
-        menu.classList.remove('active');
+      if (dropdownWrapper && !dropdownWrapper.contains(e.target)) {
+        dropdownWrapper.classList.remove('open');
       }
     });
 
-    const categories = new Set();
-    articles.forEach(article => {
-      const catEl = article.querySelector('.post-category');
-      if (catEl) {
-        let text = catEl.textContent.trim();
-        categories.add(text);
-        article.setAttribute('data-category', text);
+    function applyFilterAndSearch() {
+      let visibleCount = 0;
+      const searchTerms = currentSearch.toLowerCase().trim();
+
+      articleCards.forEach(card => {
+        const article = card.querySelector('article');
+        if (!article) return;
+
+        const categoryText = (article.querySelector('.post-category')?.textContent || '').toLowerCase();
+        const titleText = (article.querySelector('.title')?.textContent || '').toLowerCase();
+        const excerptText = (article.querySelector('.post-excerpt')?.textContent || '').toLowerCase();
+        const combinedText = categoryText + ' ' + titleText + ' ' + excerptText;
+
+        // Check Category Match
+        let matchesCategory = false;
+        if (currentFilter === 'all') {
+          matchesCategory = true;
+        } else if (currentFilter === 'natal') {
+          matchesCategory = combinedText.includes('natal') || combinedText.includes('christmas');
+        } else if (currentFilter === 'corporate') {
+          matchesCategory = combinedText.includes('corporate') || combinedText.includes('kantor') || combinedText.includes('karyawan') || combinedText.includes('perusahaan') || combinedText.includes('bisnis') || combinedText.includes('seminar');
+        } else if (currentFilter === 'vip') {
+          matchesCategory = combinedText.includes('vip') || combinedText.includes('eksekutif') || combinedText.includes('executive') || combinedText.includes('luxury');
+        } else if (currentFilter === 'hariraya') {
+          matchesCategory = combinedText.includes('raya') || combinedText.includes('lebaran') || combinedText.includes('imlek') || combinedText.includes('idul fitri');
+        } else if (currentFilter === 'wedding') {
+          matchesCategory = combinedText.includes('pernikahan') || combinedText.includes('wedding') || combinedText.includes('nikah');
+        } else if (currentFilter === 'souvenir') {
+          matchesCategory = combinedText.includes('kayu') || combinedText.includes('merchandise') || combinedText.includes('box') || combinedText.includes('tumbler') || combinedText.includes('mug') || combinedText.includes('souvenir');
+        }
+
+        // Check Search Match
+        let matchesSearch = true;
+        if (searchTerms.length > 0) {
+          matchesSearch = combinedText.includes(searchTerms);
+        }
+
+        if (matchesCategory && matchesSearch) {
+          card.style.display = '';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Update Count
+      if (articlesCountEl) {
+        if (searchTerms.length > 0 || currentFilter !== 'all') {
+          articlesCountEl.textContent = `Menampilkan ${visibleCount} dari ${totalArticles} artikel`;
+        } else {
+          articlesCountEl.textContent = `Menampilkan semua (${totalArticles}) artikel`;
+        }
       }
-    });
 
-    let html = '<button class="filter-opt-btn active" data-filter="all">Semua Kategori</button>';
-    categories.forEach(cat => {
-      html += '<button class="filter-opt-btn" data-filter="' + cat + '">' + cat + '</button>';
-    });
-    container.innerHTML = html;
+      // Show/Hide Reset Filter
+      if (resetFiltersBtn) {
+        if (currentFilter !== 'all' || searchTerms.length > 0) {
+          resetFiltersBtn.classList.remove('d-none');
+        } else {
+          resetFiltersBtn.classList.add('d-none');
+        }
+      }
 
-    const filterBtns = container.querySelectorAll('.filter-opt-btn');
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', function() {
-        filterBtns.forEach(b => b.classList.remove('active'));
+      // Show/Hide Empty State
+      if (noArticlesFound) {
+        if (visibleCount === 0) {
+          noArticlesFound.classList.remove('d-none');
+        } else {
+          noArticlesFound.classList.add('d-none');
+        }
+      }
+    }
+
+    // Dropdown Item Clicks
+    const dropdownItems = document.querySelectorAll('#categoryDropdownMenu .dropdown-item');
+    dropdownItems.forEach(item => {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        dropdownItems.forEach(i => i.classList.remove('active'));
         this.classList.add('active');
-        
-        const targetCat = this.getAttribute('data-filter');
-        
-        articles.forEach(article => {
-          if (targetCat === 'all' || article.getAttribute('data-category') === targetCat) {
-            article.parentElement.style.display = 'block';
-          } else {
-            article.parentElement.style.display = 'none';
-          }
-        });
-        
-        menu.classList.remove('active');
-        document.getElementById('blog-posts').scrollIntoView({ behavior: 'smooth' });
+
+        currentFilter = this.getAttribute('data-filter') || 'all';
+        const labelText = this.textContent.trim();
+
+        if (selectedCatLabel) selectedCatLabel.textContent = labelText;
+        if (dropdownWrapper) dropdownWrapper.classList.remove('open');
+        applyFilterAndSearch();
       });
     });
+
+    // Search Input Typing
+    if (searchInput) {
+      searchInput.addEventListener('input', function() {
+        currentSearch = this.value;
+        if (clearSearchBtn) {
+          if (currentSearch.length > 0) {
+            clearSearchBtn.classList.remove('d-none');
+          } else {
+            clearSearchBtn.classList.add('d-none');
+          }
+        }
+        applyFilterAndSearch();
+      });
+    }
+
+    // Clear Search Button
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener('click', function() {
+        if (searchInput) {
+          searchInput.value = '';
+          currentSearch = '';
+          clearSearchBtn.classList.add('d-none');
+          searchInput.focus();
+          applyFilterAndSearch();
+        }
+      });
+    }
+
+    // Reset All Filters function
+    function resetAllFilters() {
+      currentFilter = 'all';
+      currentSearch = '';
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.classList.add('d-none');
+      
+      dropdownItems.forEach(i => {
+        if (i.getAttribute('data-filter') === 'all') {
+          i.classList.add('active');
+        } else {
+          i.classList.remove('active');
+        }
+      });
+
+      if (selectedCatLabel) selectedCatLabel.textContent = 'Semua Kategori';
+      if (dropdownWrapper) dropdownWrapper.classList.remove('open');
+
+      applyFilterAndSearch();
+    }
+
+    if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetAllFilters);
+    if (emptyResetBtn) emptyResetBtn.addEventListener('click', resetAllFilters);
+
+    // Initial count
+    applyFilterAndSearch();
   });
   </script>
 </body>

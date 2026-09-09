@@ -59,13 +59,23 @@
   });
 
   /**
-   * Preloader
+   * Preloader (Instant & Safe Removal)
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
+    const removePreloader = () => {
+      if (preloader && preloader.parentNode) {
+        preloader.classList.add('loaded');
+        setTimeout(() => {
+          if (preloader.parentNode) preloader.remove();
+        }, 150);
+      }
+    };
+    window.addEventListener('load', removePreloader);
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(removePreloader, 300);
     });
+    setTimeout(removePreloader, 800);
   }
 
   /**
