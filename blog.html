@@ -818,7 +818,8 @@
     .scroll-top.active {
       visibility: visible;
       opacity: 1;
-      bottom: 105px; right: 35px;
+      bottom: 105px;
+      right: 35px;
     }
 
     .scroll-top:hover {
@@ -1096,13 +1097,15 @@
         <!-- Elegant & Professional Blog Filter Toolbar -->
         <div class="blog-filter-bar mb-5" data-aos="fade-up">
           <div class="row g-3 align-items-center">
-            
+
             <!-- Live Search Bar -->
             <div class="col-md-7 col-12">
               <div class="search-input-wrapper">
                 <i class="bi bi-search search-icon"></i>
-                <input type="text" id="blogSearchInput" class="search-control" placeholder="Cari topik atau artikel..." autocomplete="off">
-                <button type="button" id="clearSearchBtn" class="clear-btn d-none" aria-label="Hapus pencarian"><i class="bi bi-x"></i></button>
+                <input type="text" id="blogSearchInput" class="search-control" placeholder="Cari topik atau artikel..."
+                  autocomplete="off">
+                <button type="button" id="clearSearchBtn" class="clear-btn d-none" aria-label="Hapus pencarian"><i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
 
@@ -1117,13 +1120,20 @@
                   <i class="bi bi-chevron-down dropdown-arrow" id="dropdownArrow"></i>
                 </button>
                 <ul class="category-dropdown-menu" id="categoryDropdownMenu">
-                  <li><a href="javascript:void(0)" class="dropdown-item active" data-filter="all">Semua Kategori</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="natal">Hampers Natal &amp; Tahun Baru</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="corporate">Corporate Gift &amp; Kantor</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="vip">Hampers VIP &amp; Eksekutif</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="hariraya">Hampers Hari Raya</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="wedding">Souvenir Pernikahan</a></li>
-                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="souvenir">Merchandise &amp; Box Kayu</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item active" data-filter="all">Semua Kategori</a>
+                  </li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="natal">Hampers Natal &amp; Tahun
+                      Baru</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="corporate">Corporate Gift &amp;
+                      Kantor</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="vip">Hampers VIP &amp;
+                      Eksekutif</a></li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="hariraya">Hampers Hari Raya</a>
+                  </li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="wedding">Souvenir Pernikahan</a>
+                  </li>
+                  <li><a href="javascript:void(0)" class="dropdown-item" data-filter="souvenir">Merchandise &amp; Box
+                      Kayu</a></li>
                 </ul>
               </div>
             </div>
@@ -1139,1302 +1149,1470 @@
 
         <!-- Empty State (When no article matches) -->
         <div id="noArticlesFound" class="text-center py-5 d-none" data-aos="fade-up">
-          <div class="empty-icon mb-3" style="font-size: 48px; color: var(--gold);"><i class="bi bi-journal-x"></i></div>
-          <h4 style="font-family: var(--font-heading); color: var(--charcoal); font-weight: 700;">Artikel Tidak Ditemukan</h4>
-          <p class="text-muted" style="max-width: 500px; margin: 0 auto 20px;">Maaf, tidak ada artikel yang cocok dengan kata kunci atau kategori yang Anda pilih.</p>
-          <button type="button" class="btn btn-sm" id="emptyResetBtn" style="background: var(--gold-gradient); color: #fff; border-radius: 50px; padding: 8px 24px; border: none; font-weight: 600;">Lihat Semua Artikel</button>
+          <div class="empty-icon mb-3" style="font-size: 48px; color: var(--gold);"><i class="bi bi-journal-x"></i>
+          </div>
+          <h4 style="font-family: var(--font-heading); color: var(--charcoal); font-weight: 700;">Artikel Tidak
+            Ditemukan</h4>
+          <p class="text-muted" style="max-width: 500px; margin: 0 auto 20px;">Maaf, tidak ada artikel yang cocok dengan
+            kata kunci atau kategori yang Anda pilih.</p>
+          <button type="button" class="btn btn-sm" id="emptyResetBtn"
+            style="background: var(--gold-gradient); color: #fff; border-radius: 50px; padding: 8px 24px; border: none; font-weight: 600;">Lihat
+            Semua Artikel</button>
         </div>
 
         <!-- Unified Grid -->
         <div class="row gy-4" id="blogGrid">
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/timeline-produksi-corporate-gift-jakarta.webp" alt="Proses Corporate Gift Custom Logo Jakarta: Hitung Mundur" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Corporate Gift</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-      <h2 class="title">
-        <a href="proses-corporate-gift-custom-logo-jakarta-berapa-hari.html">Proses Corporate Gift Custom Logo Jakarta: Hitung Mundur 14 Hari Sebelum Acara</a>
-      </h2>
-      <p class="post-excerpt">Corporate gift custom logo Jakarta butuh berapa hari? Ini hitung mundur 7-14 hari lengkap plus cara pangkas waktu lewat vendorhampers.web.id...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/seminar-kit-yogyakarta-kampus.webp"
+                  alt="Souvenir Seminar Kit Yogyakarta 2026: Paket &amp; Harga" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #1A2B4C 0%, #C9A84C 40%, #1A2B4C 70%, #0F1B33 100%);">Seminar Kit</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Souvenir &amp; Seminar Kit</div>
+                <h2 class="title">
+                  <a href="paket-souvenir-seminar-kit-yogyakarta-harga.html">Souvenir Seminar Kit Yogyakarta 2026: Paket Lengkap &amp; Kisaran Harga</a>
+                </h2>
+                <p class="post-excerpt">Cari souvenir seminar kit Yogyakarta untuk event kampus atau asosiasi profesi? Simak 3 tier paket, kisaran harga, dan cara pesan di vendorhampers.web.id...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 11 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="paket-souvenir-seminar-kit-yogyakarta-harga.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="proses-corporate-gift-custom-logo-jakarta-berapa-hari.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/corporate-gift-jakarta-custom-logo.webp" alt="Corporate Gift Jakarta Custom Logo: Anti Telat, Anti Boncos" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Corporate Gift</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-      <h2 class="title">
-        <a href="corporate-gift-jakarta-custom-logo.html">Corporate Gift Jakarta Custom Logo: Anti Telat, Anti Boncos</a>
-      </h2>
-      <p class="post-excerpt">Corporate gift Jakarta custom logo bisa jadi 7 hari, mulai Rp45.000/set. Cek 4 kesalahan yang bikin gift telat & paket siap pakai vendorhampers.web.id...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/teknik-grafir-laser-uv-printing.webp"
+                  alt="Teknik Custom Logo Corporate Gift Jakarta: Panduan Pilih" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Branding
+                  &amp; Custom</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Branding &amp; Custom</div>
+                <h2 class="title">
+                  <a href="teknik-custom-logo-corporate-gift-jakarta.html">Teknik Custom Logo Corporate Gift Jakarta:
+                    Biar Logo Nggak Cuma Nempel, Tapi Diingat</a>
+                </h2>
+                <p class="post-excerpt">Grafir laser, UV printing, atau bordir untuk corporate gift custom logo Jakarta?
+                  Cek panduan pilih teknik biar logo awet, bukan cuma nempel...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 11 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="teknik-custom-logo-corporate-gift-jakarta.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="corporate-gift-jakarta-custom-logo.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/kategori-produk-corporate-gift-budget.webp"
+                  alt="Corporate Gift Custom Logo Jakarta per Budget Kantor" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Corporate
+                  Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="rekomendasi-corporate-gift-custom-logo-jakarta-sesuai-budget.html">Corporate Gift Custom Logo
+                    Jakarta: Pilihan Tepat di Setiap Level Budget Kantor</a>
+                </h2>
+                <p class="post-excerpt">Corporate gift custom logo Jakarta untuk tiap budget: di bawah Rp50rb sampai di
+                  atas Rp200rb. Cek rekomendasi produk dan paket vendorhampers.web.id...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 11 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="rekomendasi-corporate-gift-custom-logo-jakarta-sesuai-budget.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/timeline-produksi-corporate-gift-jakarta.webp"
+                  alt="Proses Corporate Gift Custom Logo Jakarta: Hitung Mundur" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Corporate
+                  Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="proses-corporate-gift-custom-logo-jakarta-berapa-hari.html">Proses Corporate Gift Custom Logo
+                    Jakarta: Hitung Mundur 14 Hari Sebelum Acara</a>
+                </h2>
+                <p class="post-excerpt">Corporate gift custom logo Jakarta butuh berapa hari? Ini hitung mundur 7-14
+                  hari lengkap plus cara pangkas waktu lewat vendorhampers.web.id...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="proses-corporate-gift-custom-logo-jakarta-berapa-hari.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/corporate-gift-jakarta-custom-logo.webp"
+                  alt="Corporate Gift Jakarta Custom Logo: Anti Telat, Anti Boncos" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #0F2A4A 0%, #C9A84C 40%, #0F2A4A 70%, #081A30 100%);">Corporate
+                  Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="corporate-gift-jakarta-custom-logo.html">Corporate Gift Jakarta Custom Logo: Anti Telat, Anti
+                    Boncos</a>
+                </h2>
+                <p class="post-excerpt">Corporate gift Jakarta custom logo bisa jadi 7 hari, mulai Rp45.000/set. Cek 4
+                  kesalahan yang bikin gift telat & paket siap pakai vendorhampers.web.id...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="corporate-gift-jakarta-custom-logo.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/cara-memilih-vendor-hampers-natal-bandung.webp" alt="Cara Memilih Vendor Hampers Natal Bandung: Checklist 2026" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #1B2A4A 0%, #4A6FA5 40%, #1B2A4A 70%, #0F1D33 100%);">Panduan Procurement</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Panduan Procurement</div>
-      <h2 class="title">
-        <a href="cara-memilih-vendor-hampers-natal-perusahaan-bandung-checklist.html">Cara Memilih Vendor Hampers Natal Perusahaan di Bandung: Checklist Lengkap 2026</a>
-      </h2>
-      <p class="post-excerpt">Bingung pilih vendor hampers Natal perusahaan di Bandung? Ini checklist kapasitas produksi, MOQ, lead time, dan dokumen legal sebelum kerja sama...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/cara-memilih-vendor-hampers-natal-bandung.webp"
+                  alt="Cara Memilih Vendor Hampers Natal Bandung: Checklist 2026" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #1B2A4A 0%, #4A6FA5 40%, #1B2A4A 70%, #0F1D33 100%);">Panduan
+                  Procurement</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Panduan Procurement</div>
+                <h2 class="title">
+                  <a href="cara-memilih-vendor-hampers-natal-perusahaan-bandung-checklist.html">Cara Memilih Vendor
+                    Hampers Natal Perusahaan di Bandung: Checklist Lengkap 2026</a>
+                </h2>
+                <p class="post-excerpt">Bingung pilih vendor hampers Natal perusahaan di Bandung? Ini checklist
+                  kapasitas produksi, MOQ, lead time, dan dokumen legal sebelum kerja sama...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="cara-memilih-vendor-hampers-natal-perusahaan-bandung-checklist.html"
+                    class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="cara-memilih-vendor-hampers-natal-perusahaan-bandung-checklist.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-natal-karyawan-bandung.webp" alt="Ide Hampers Natal Karyawan Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #1A5276 0%, #2E86AB 40%, #1A5276 70%, #0E3B5A 100%);">Hampers Karyawan</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Hampers Karyawan</div>
-      <h2 class="title">
-        <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html">Ide Hampers Natal Karyawan Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026</a>
-      </h2>
-      <p class="post-excerpt">Ide hampers Natal karyawan perusahaan Bandung yang fungsional dan hemat budget untuk bulk order. Simak estimasi budget Rp95rb - Rp300rb dan tips distribusinya...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-natal-karyawan-bandung.webp"
+                  alt="Ide Hampers Natal Karyawan Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026"
+                  loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #1A5276 0%, #2E86AB 40%, #1A5276 70%, #0E3B5A 100%);">Hampers
+                  Karyawan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Karyawan</div>
+                <h2 class="title">
+                  <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html">Ide Hampers Natal Karyawan
+                    Perusahaan Bandung: Fungsional, Hemat, dan Berkesan 2026</a>
+                </h2>
+                <p class="post-excerpt">Ide hampers Natal karyawan perusahaan Bandung yang fungsional dan hemat budget
+                  untuk bulk order. Simak estimasi budget Rp95rb - Rp300rb dan tips distribusinya...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="hampers-natal-karyawan-perusahaan-bandung-ide-budget.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-natal-premium-vip-bandung.webp" alt="Paket Hampers Natal Premium untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #1A1A1A 0%, #B8860B 40%, #DAA520 70%, #1A1A1A 100%);">Hampers VIP</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Hampers VIP</div>
-      <h2 class="title">
-        <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html">Paket Hampers Natal Premium untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif</a>
-      </h2>
-      <p class="post-excerpt">Hampers Natal premium untuk klien VIP perusahaan di Bandung dengan gift box branding eksklusif. Cek isi paket artisan lokal, budget Rp250rb - Rp650rb+, dan cara pesannya...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-natal-premium-vip-bandung.webp"
+                  alt="Paket Hampers Natal Premium untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif"
+                  loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #1A1A1A 0%, #B8860B 40%, #DAA520 70%, #1A1A1A 100%);">Hampers
+                  VIP</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers VIP</div>
+                <h2 class="title">
+                  <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html">Paket Hampers Natal Premium
+                    untuk Klien VIP Perusahaan Bandung: Gift Box Branding Eksklusif</a>
+                </h2>
+                <p class="post-excerpt">Hampers Natal premium untuk klien VIP perusahaan di Bandung dengan gift box
+                  branding eksklusif. Cek isi paket artisan lokal, budget Rp250rb - Rp650rb+, dan cara pesannya...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="hampers-natal-premium-klien-vip-bandung-gift-box-branding.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-natal-perusahaan-bandung.webp" alt="Hampers Natal Perusahaan Bandung: Paket &amp; Harga 2026 yang Berkesan" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #1E4D2B 0%, #8B1E22 50%, #C9A84C 100%);">Hampers Natal</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Hampers Natal</div>
-      <h2 class="title">
-        <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html">Hampers Natal Perusahaan Bandung: Paket &amp; Harga 2026 yang Berkesan</a>
-      </h2>
-      <p class="post-excerpt">Cari hampers Natal perusahaan Bandung yang berkesan? Simak kisaran harga mulai Rp89.000 hingga paket VIP artisan luxury, rekomendasi produk lokal, dan panduan custom branding...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway" alt="Yolanda Deva Apriliana Putri" class="post-author-img">
-          <div>
-            <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-natal-perusahaan-bandung.webp"
+                  alt="Hampers Natal Perusahaan Bandung: Paket &amp; Harga 2026 yang Berkesan" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #1E4D2B 0%, #8B1E22 50%, #C9A84C 100%);">Hampers
+                  Natal</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Natal</div>
+                <h2 class="title">
+                  <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html">Hampers Natal Perusahaan
+                    Bandung: Paket &amp; Harga 2026 yang Berkesan</a>
+                </h2>
+                <p class="post-excerpt">Cari hampers Natal perusahaan Bandung yang berkesan? Simak kisaran harga mulai
+                  Rp89.000 hingga paket VIP artisan luxury, rekomendasi produk lokal, dan panduan custom branding...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=YUL&font=raleway"
+                      alt="Yolanda Deva Apriliana Putri" class="post-author-img">
+                    <div>
+                      <p class="post-author">Published by Yolanda Deva Apriliana Putri (YUL)</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 9 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="hampers-natal-perusahaan-bandung-panduan-paket-harga-2026.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/box-souvenir-kayu-custom.webp" alt="Pesanan Box Souvenir Kayu Custom Finishing Premium untuk Klien Perusahaan" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #8B6B4F 0%, #C4A88A 40%, #8B6B4F 100%);">Souvenir Kayu</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Souvenir Kayu</div>
-      <h2 class="title">
-        <a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Pesanan Box Souvenir Kayu Custom Finishing Premium untuk Klien Perusahaan</a>
-      </h2>
-      <p class="post-excerpt">Ingin cetak grafir di kayu jati belanda untuk box souvenir perusahaan Anda? Box souvenir kayu custom kini semakin diminati sebagai kemasan premium tahan lama...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru" class="post-author-img">
-          <div>
-            <p class="post-author">Reza Maulana Nehru</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/box-souvenir-kayu-custom.webp"
+                  alt="Pesanan Box Souvenir Kayu Custom Finishing Premium untuk Klien Perusahaan" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #8B6B4F 0%, #C4A88A 40%, #8B6B4F 100%);">Souvenir
+                  Kayu</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Souvenir Kayu</div>
+                <h2 class="title">
+                  <a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Pesanan Box
+                    Souvenir Kayu Custom Finishing Premium untuk Klien Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Ingin cetak grafir di kayu jati belanda untuk box souvenir perusahaan Anda? Box
+                  souvenir kayu custom kini semakin diminati sebagai kemasan premium tahan lama...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html"
+                    class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-imlek-perusahaan.webp" alt="Ide Isian Hampers Imlek Perusahaan, Nuansa Merah Emas yang Berkesan" loading="lazy">
-      <span class="post-category-badge" style="background: linear-gradient(135deg, #C41E24 0%, #D4A832 100%);">Hampers Imlek</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Hampers Imlek</div>
-      <h2 class="title">
-        <a href="ide-isian-hampers-imlek-perusahaan-nuansa-merah-emas-yang-berkesan.html">Ide Isian Hampers Imlek Perusahaan, Nuansa Merah Emas yang Berkesan</a>
-      </h2>
-      <p class="post-excerpt">Menjelang Imlek, banyak perusahaan butuh dekorasi box premium dan isian yang pas untuk hampers yang dikirim ke klien maupun kolega bisnis...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru" class="post-author-img">
-          <div>
-            <p class="post-author">Reza Maulana Nehru</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-imlek-perusahaan.webp"
+                  alt="Ide Isian Hampers Imlek Perusahaan, Nuansa Merah Emas yang Berkesan" loading="lazy">
+                <span class="post-category-badge"
+                  style="background: linear-gradient(135deg, #C41E24 0%, #D4A832 100%);">Hampers Imlek</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Imlek</div>
+                <h2 class="title">
+                  <a href="ide-isian-hampers-imlek-perusahaan-nuansa-merah-emas-yang-berkesan.html">Ide Isian Hampers
+                    Imlek Perusahaan, Nuansa Merah Emas yang Berkesan</a>
+                </h2>
+                <p class="post-excerpt">Menjelang Imlek, banyak perusahaan butuh dekorasi box premium dan isian yang pas
+                  untuk hampers yang dikirim ke klien maupun kolega bisnis...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="ide-isian-hampers-imlek-perusahaan-nuansa-merah-emas-yang-berkesan.html"
+                    class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="ide-isian-hampers-imlek-perusahaan-nuansa-merah-emas-yang-berkesan.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/souvenir-pernikahan-mewah.webp" alt="Souvenir Pernikahan Mewah dan Berkesan untuk Wedding 2026" loading="lazy">
-      <span class="post-category-badge">Souvenir Pernikahan</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Souvenir Pernikahan</div>
-      <h2 class="title">
-        <a href="souvenir-pernikahan-mewah-dan-berkesan-untuk-wedding-2026.html">Souvenir Pernikahan Mewah dan Berkesan untuk Wedding 2026</a>
-      </h2>
-      <p class="post-excerpt">Ingin resepsi pernikahan yang terasa eksklusif sampai ke detail souvenir yang dibawa pulang tamu? Souvenir pernikahan mewah bukan lagi sekadar pelengkap...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru" class="post-author-img">
-          <div>
-            <p class="post-author">Reza Maulana Nehru</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/souvenir-pernikahan-mewah.webp"
+                  alt="Souvenir Pernikahan Mewah dan Berkesan untuk Wedding 2026" loading="lazy">
+                <span class="post-category-badge">Souvenir Pernikahan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Souvenir Pernikahan</div>
+                <h2 class="title">
+                  <a href="souvenir-pernikahan-mewah-dan-berkesan-untuk-wedding-2026.html">Souvenir Pernikahan Mewah dan
+                    Berkesan untuk Wedding 2026</a>
+                </h2>
+                <p class="post-excerpt">Ingin resepsi pernikahan yang terasa eksklusif sampai ke detail souvenir yang
+                  dibawa pulang tamu? Souvenir pernikahan mewah bukan lagi sekadar pelengkap...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RN&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 8 Sep 2026</p>
+                    </div>
+                  </div>
+                  <a href="souvenir-pernikahan-mewah-dan-berkesan-untuk-wedding-2026.html" class="btn-read-more">Baca
+                    Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="souvenir-pernikahan-mewah-dan-berkesan-untuk-wedding-2026.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-corporate-premium-overview.webp" alt="Paket Seminar Kit Murah" loading="lazy">
-      <span class="post-category-badge">Seminar Kit</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Seminar Kit</div>
-      <h2 class="title">
-        <a href="seminar-kit-day1.html">Paket Seminar Kit Murah Meriah di Jakarta Hemat Budget - Pilihan Hari 1</a>
-      </h2>
-      <p class="post-excerpt">Menyelenggarakan sebuah acara besar seperti seminar, pelatihan, atau workshop di kota metropolitan tentu membutuhkan persiapan matang...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial" class="post-author-img">
-          <div>
-            <p class="post-author">Tim Editorial</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-premium-overview.webp" alt="Paket Seminar Kit Murah"
+                  loading="lazy">
+                <span class="post-category-badge">Seminar Kit</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Seminar Kit</div>
+                <h2 class="title">
+                  <a href="seminar-kit-day1.html">Paket Seminar Kit Murah Meriah di Jakarta Hemat Budget - Pilihan Hari
+                    1</a>
+                </h2>
+                <p class="post-excerpt">Menyelenggarakan sebuah acara besar seperti seminar, pelatihan, atau workshop di
+                  kota metropolitan tentu membutuhkan persiapan matang...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Tim Editorial</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+                    </div>
+                  </div>
+                  <a href="seminar-kit-day1.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="seminar-kit-day1.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp" alt="Rekomendasi Souvenir Pernikahan" loading="lazy">
-      <span class="post-category-badge">Souvenir Pernikahan</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Souvenir Pernikahan</div>
-      <h2 class="title">
-        <a href="artikel-rekomendasi-souvenir-day1.html">Rekomendasi Souvenir Pernikahan Bermanfaat Harga Grosir - Pilihan Hari 1</a>
-      </h2>
-      <p class="post-excerpt">Mempersiapkan hari pernikahan adalah momen yang paling membahagiakan sekaligus menguras energi dan pikiran. Pemilihan tanda terima kasih...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial" class="post-author-img">
-          <div>
-            <p class="post-author">Tim Editorial</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp"
+                  alt="Rekomendasi Souvenir Pernikahan" loading="lazy">
+                <span class="post-category-badge">Souvenir Pernikahan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Souvenir Pernikahan</div>
+                <h2 class="title">
+                  <a href="artikel-rekomendasi-souvenir-day1.html">Rekomendasi Souvenir Pernikahan Bermanfaat Harga
+                    Grosir - Pilihan Hari 1</a>
+                </h2>
+                <p class="post-excerpt">Mempersiapkan hari pernikahan adalah momen yang paling membahagiakan sekaligus
+                  menguras energi dan pikiran. Pemilihan tanda terima kasih...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Tim Editorial</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+                    </div>
+                  </div>
+                  <a href="artikel-rekomendasi-souvenir-day1.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="artikel-rekomendasi-souvenir-day1.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
 
-<div class="col-lg-4 col-md-6">
-  <article>
-    <div class="post-img">
-      <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp" alt="Ide Hampers Lebaran" loading="lazy">
-      <span class="post-category-badge">Hampers Hari Raya</span>
-    </div>
-    <div class="post-body">
-      <div class="post-category"><i class="bi bi-tag"></i> Hampers Hari Raya</div>
-      <h2 class="title">
-        <a href="artikel-ide-hampers-lebaran-day1.html">Inspirasi Ide Hampers Lebaran Unik & Eksklusif Anti-Mainstream - Pilihan Hari 1</a>
-      </h2>
-      <p class="post-excerpt">Momen Idul Fitri senantiasa diwarnai dengan tradisi berbagi suka cita dan mempererat tali silaturahmi. Salah satu caranya adalah dengan...</p>
-      <div class="post-meta-wrap">
-        <div class="post-author-group">
-          <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial" class="post-author-img">
-          <div>
-            <p class="post-author">Tim Editorial</p>
-            <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp" alt="Ide Hampers Lebaran"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Hari Raya</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Hari Raya</div>
+                <h2 class="title">
+                  <a href="artikel-ide-hampers-lebaran-day1.html">Inspirasi Ide Hampers Lebaran Unik & Eksklusif
+                    Anti-Mainstream - Pilihan Hari 1</a>
+                </h2>
+                <p class="post-excerpt">Momen Idul Fitri senantiasa diwarnai dengan tradisi berbagi suka cita dan
+                  mempererat tali silaturahmi. Salah satu caranya adalah dengan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=TE&font=raleway" alt="Tim Editorial"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Tim Editorial</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 28 Ags 2026</p>
+                    </div>
+                  </div>
+                  <a href="artikel-ide-hampers-lebaran-day1.html" class="btn-read-more">Baca Selengkapnya <i
+                      class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
           </div>
-        </div>
-        <a href="artikel-ide-hampers-lebaran-day1.html" class="btn-read-more">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </article>
-</div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp"
-                    alt="Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional" loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="hampers-perusahaan-healthy-lifestyle-fungsional.html">Hampers Perusahaan
-                      Bertema Healthy Lifestyle dengan Produk yang Fungsional</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers perusahaan bertema healthy lifestyle adalah paket hadiah korporat
-                    berisi produk fungsional seperti minuman sehat, camilan rendah...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
-                        alt="Anggun Tri Stya Ningrum" class="post-author-img">
-                      <div>
-                        <p class="post-author">Anggun Tri Stya Ningrum</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp"
+                  alt="Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional" loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="hampers-perusahaan-healthy-lifestyle-fungsional.html">Hampers Perusahaan
+                    Bertema Healthy Lifestyle dengan Produk yang Fungsional</a>
+                </h2>
+                <p class="post-excerpt">Hampers perusahaan bertema healthy lifestyle adalah paket hadiah korporat
+                  berisi produk fungsional seperti minuman sehat, camilan rendah...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
+                      alt="Anggun Tri Stya Ningrum" class="post-author-img">
+                    <div>
+                      <p class="post-author">Anggun Tri Stya Ningrum</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-perusahaan-healthy-lifestyle-fungsional.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-perusahaan-healthy-lifestyle-fungsional.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/premium-gift-box-hampers-perusahaan.webp"
-                    alt="Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding" loading="lazy">
-                  <span class="post-category-badge">Hampers Perusahaan</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="hampers-perusahaan-premium-gift-box-branding.html">Hampers Perusahaan dalam
-                      Premium Gift Box yang Siap Menjadi Media Branding</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers perusahaan dalam premium gift box adalah paket hadiah korporat dengan
-                    kemasan berkualitas tinggi yang dirancang khusus agar...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
-                        alt="Anggun Tri Stya Ningrum" class="post-author-img">
-                      <div>
-                        <p class="post-author">Anggun Tri Stya Ningrum</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/premium-gift-box-hampers-perusahaan.webp"
+                  alt="Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding" loading="lazy">
+                <span class="post-category-badge">Hampers Perusahaan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="hampers-perusahaan-premium-gift-box-branding.html">Hampers Perusahaan dalam
+                    Premium Gift Box yang Siap Menjadi Media Branding</a>
+                </h2>
+                <p class="post-excerpt">Hampers perusahaan dalam premium gift box adalah paket hadiah korporat dengan
+                  kemasan berkualitas tinggi yang dirancang khusus agar...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
+                      alt="Anggun Tri Stya Ningrum" class="post-author-img">
+                    <div>
+                      <p class="post-author">Anggun Tri Stya Ningrum</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="hampers-perusahaan-premium-gift-box-branding.html" class="btn-read-more">
-                      Baca Selengkapnya<i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-perusahaan-premium-gift-box-branding.html" class="btn-read-more">
+                    Baca Selengkapnya<i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp"
-                    alt="Hampers Perusahaan Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia" loading="lazy">
-                  <span class="post-category-badge">Hampers Perusahaan</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html">Hampers Perusahaan
-                      Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers perusahaan yang melayani Bandung, Bekasi, Tangerang, dan seluruh
-                    Indonesia memungkinkan perusahaan mengirim hadiah korporat secara...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
-                        alt="Anggun Tri Stya Ningrum" class="post-author-img">
-                      <div>
-                        <p class="post-author">Anggun Tri Stya Ningrum</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp"
+                  alt="Hampers Perusahaan Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia" loading="lazy">
+                <span class="post-category-badge">Hampers Perusahaan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html">Hampers Perusahaan
+                    Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Hampers perusahaan yang melayani Bandung, Bekasi, Tangerang, dan seluruh
+                  Indonesia memungkinkan perusahaan mengirim hadiah korporat secara...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
+                      alt="Anggun Tri Stya Ningrum" class="post-author-img">
+                    <div>
+                      <p class="post-author">Anggun Tri Stya Ningrum</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya<i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya<i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp"
-                    alt="Souvenir Kantor Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Perusahaan</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="souvenir-kantor-premium-elegan-branding-perusahaan.html">Souvenir Kantor
-                      Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Souvenir kantor premium dengan sentuhan elegan adalah barang hadiah korporat
-                    berkualitas tinggi yang dirancang untuk mencerminkan identitas...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
-                        alt="Anggun Tri Stya Ningrum" class="post-author-img">
-                      <div>
-                        <p class="post-author">Anggun Tri Stya Ningrum</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp"
+                  alt="Souvenir Kantor Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Perusahaan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="souvenir-kantor-premium-elegan-branding-perusahaan.html">Souvenir Kantor
+                    Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Souvenir kantor premium dengan sentuhan elegan adalah barang hadiah korporat
+                  berkualitas tinggi yang dirancang untuk mencerminkan identitas...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AT&font=raleway"
+                      alt="Anggun Tri Stya Ningrum" class="post-author-img">
+                    <div>
+                      <p class="post-author">Anggun Tri Stya Ningrum</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="souvenir-kantor-premium-elegan-branding-perusahaan.html" class="btn-read-more">
-                      Baca Selengkapnya<i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="souvenir-kantor-premium-elegan-branding-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya<i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-perusahaan-custom-logo.webp"
-                    alt="20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate" loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="20-ide-hampers-perusahaan-custom-momen-corporate.html">20 Ide Hampers
-                      Perusahaan Custom untuk Berbagai Momen Corporate</a>
-                  </h2>
-                  <p class="post-excerpt">Souvenir Kantor menyediakan lebih dari 20 ide Hampers Perusahaan custom yang
-                    siap dikemas eksklusif dan dicetak logo, cocok untuk momen...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Asher Angelica</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-perusahaan-custom-logo.webp"
+                  alt="20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate" loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="20-ide-hampers-perusahaan-custom-momen-corporate.html">20 Ide Hampers
+                    Perusahaan Custom untuk Berbagai Momen Corporate</a>
+                </h2>
+                <p class="post-excerpt">Souvenir Kantor menyediakan lebih dari 20 ide Hampers Perusahaan custom yang
+                  siap dikemas eksklusif dan dicetak logo, cocok untuk momen...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Asher Angelica</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="20-ide-hampers-perusahaan-custom-momen-corporate.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="20-ide-hampers-perusahaan-custom-momen-corporate.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp"
-                    alt="Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Perusahaan</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html">Paket Hampers
-                      Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</a>
-                  </h2>
-                  <p class="post-excerpt">Paket Hampers Perusahaan eksklusif dirancang khusus untuk apresiasi karyawan,
-                    berisi mug premium, snack pilihan, dan kemasan box custom...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Asher Angelica</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp"
+                  alt="Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Perusahaan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html">Paket Hampers
+                    Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</a>
+                </h2>
+                <p class="post-excerpt">Paket Hampers Perusahaan eksklusif dirancang khusus untuk apresiasi karyawan,
+                  berisi mug premium, snack pilihan, dan kemasan box custom...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Asher Angelica</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/inspirasi-hampers-premium-mug.webp"
-                    alt="Inspirasi Hampers Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan" loading="lazy">
-                  <span class="post-category-badge">Hampers Perusahaan</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
-                  <h2 class="title">
-                    <a href="inspirasi-hampers-premium-mug-tumbler-snack-elegan.html">Inspirasi Hampers
-                      Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers premium dari Souvenir Kantor menggabungkan mug custom, tumbler
-                    branding, dan snack pilihan dalam satu box dengan skema warna netral...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Asher Angelica</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/inspirasi-hampers-premium-mug.webp"
+                  alt="Inspirasi Hampers Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan" loading="lazy">
+                <span class="post-category-badge">Hampers Perusahaan</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Perusahaan</div>
+                <h2 class="title">
+                  <a href="inspirasi-hampers-premium-mug-tumbler-snack-elegan.html">Inspirasi Hampers
+                    Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan</a>
+                </h2>
+                <p class="post-excerpt">Hampers premium dari Souvenir Kantor menggabungkan mug custom, tumbler
+                  branding, dan snack pilihan dalam satu box dengan skema warna netral...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Asher Angelica</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="inspirasi-hampers-premium-mug-tumbler-snack-elegan.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="inspirasi-hampers-premium-mug-tumbler-snack-elegan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp"
-                    alt="16 Hampers Corporate Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium" loading="lazy">
-                  <span class="post-category-badge">Corporate Gift</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="16-hampers-corporate-siap-kirim-seluruh-indonesia.html">16 Hampers Corporate
-                      Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium</a>
-                  </h2>
-                  <p class="post-excerpt">Souvenir Kantor menyediakan 16 pilihan Hampers Corporate dengan kemasan
-                    premium, mulai dari kategori minuman, snack, hingga alat kerja,...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Asher Angelica</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp"
+                  alt="16 Hampers Corporate Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium" loading="lazy">
+                <span class="post-category-badge">Corporate Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="16-hampers-corporate-siap-kirim-seluruh-indonesia.html">16 Hampers Corporate
+                    Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium</a>
+                </h2>
+                <p class="post-excerpt">Souvenir Kantor menyediakan 16 pilihan Hampers Corporate dengan kemasan
+                  premium, mulai dari kategori minuman, snack, hingga alat kerja,...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=AA&font=raleway" alt="Asher Angelica"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Asher Angelica</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="16-hampers-corporate-siap-kirim-seluruh-indonesia.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="16-hampers-corporate-siap-kirim-seluruh-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-premium-perusahaan.webp"
-                    alt="Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan"
-                    loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-perusahaan-strategi-apresiasi.html">Panduan Lengkap Hampers
-                      Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers premium adalah bingkisan eksklusif berisi produk berkualitas tinggi
-                    yang dikemas secara profesional untuk memberikan apresiasi...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Hawa Nadira</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-premium-perusahaan.webp"
+                  alt="Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan"
+                  loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-perusahaan-strategi-apresiasi.html">Panduan Lengkap Hampers
+                    Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers premium adalah bingkisan eksklusif berisi produk berkualitas tinggi
+                  yang dikemas secara profesional untuk memberikan apresiasi...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Hawa Nadira</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-premium-perusahaan-strategi-apresiasi.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-perusahaan-strategi-apresiasi.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-coffee-break-set.webp"
-                    alt="Hampers Premium Berkonsep Coffee Break Set yang Elegan untuk Relasi Bisnis" loading="lazy">
-                  <span class="post-category-badge">Hampers Premium</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-coffee-break-set-relasi-bisnis.html">Hampers Premium Berkonsep
-                      Coffee Break Set yang Elegan untuk Relasi Bisnis</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers premium coffee break set adalah bingkisan korporat berisi perlengkapan
-                    minum kopi eksklusif yang dirancang khusus untuk memberikan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Hawa Nadira</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-coffee-break-set.webp"
+                  alt="Hampers Premium Berkonsep Coffee Break Set yang Elegan untuk Relasi Bisnis" loading="lazy">
+                <span class="post-category-badge">Hampers Premium</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-coffee-break-set-relasi-bisnis.html">Hampers Premium Berkonsep
+                    Coffee Break Set yang Elegan untuk Relasi Bisnis</a>
+                </h2>
+                <p class="post-excerpt">Hampers premium coffee break set adalah bingkisan korporat berisi perlengkapan
+                  minum kopi eksklusif yang dirancang khusus untuk memberikan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Hawa Nadira</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="hampers-premium-coffee-break-set-relasi-bisnis.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-coffee-break-set-relasi-bisnis.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-lifestyle-branding.webp"
-                    alt="Hampers Premium Berisi Produk Lifestyle Favorit yang Siap Diberi Branding Perusahaan"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Premium</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-produk-lifestyle-branding-perusahaan.html">Hampers Premium
-                      Berisi Produk Lifestyle Favorit yang Siap Diberi Branding Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers premium produk lifestyle adalah koleksi barang perlengkapan
-                    sehari-hari berkualitas tinggi yang dapat disesuaikan dengan logo...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Hawa Nadira</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-lifestyle-branding.webp"
+                  alt="Hampers Premium Berisi Produk Lifestyle Favorit yang Siap Diberi Branding Perusahaan"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Premium</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-produk-lifestyle-branding-perusahaan.html">Hampers Premium
+                    Berisi Produk Lifestyle Favorit yang Siap Diberi Branding Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers premium produk lifestyle adalah koleksi barang perlengkapan
+                  sehari-hari berkualitas tinggi yang dapat disesuaikan dengan logo...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Hawa Nadira</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-premium-produk-lifestyle-branding-perusahaan.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-produk-lifestyle-branding-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/pemenuhan-hampers-nasional.webp"
-                    alt="Hampers Premium Melayani Bandung, Depok, Bogor, dan Seluruh Indonesia" loading="lazy">
-                  <span class="post-category-badge">Hampers Premium</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-bandung-depok-bogor-indonesia.html">Hampers Premium Melayani
-                      Bandung, Depok, Bogor, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Layanan hampers premium melayani pengadaan dan pengiriman bingkisan korporat
-                    eksklusif untuk area Bandung, Depok, Bogor, serta jangkauan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Hawa Nadira</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/pemenuhan-hampers-nasional.webp"
+                  alt="Hampers Premium Melayani Bandung, Depok, Bogor, dan Seluruh Indonesia" loading="lazy">
+                <span class="post-category-badge">Hampers Premium</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-bandung-depok-bogor-indonesia.html">Hampers Premium Melayani
+                    Bandung, Depok, Bogor, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Layanan hampers premium melayani pengadaan dan pengiriman bingkisan korporat
+                  eksklusif untuk area Bandung, Depok, Bogor, serta jangkauan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=HN&font=raleway" alt="Hawa Nadira"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Hawa Nadira</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="hampers-premium-bandung-depok-bogor-indonesia.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-bandung-depok-bogor-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-kantor-set-lengkap.webp"
-                    alt="Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan"
-                    loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
-                  <h2 class="title">
-                    <a href="hampers-kantor-berkualitas-momen-perusahaan.html">Hampers Kantor dengan Pilihan
-                      Produk Berkualitas untuk Berbagai Momen Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers kantor adalah paket hadiah berisi kumpulan barang bernilai guna yang
-                    disusun rapi dalam satu kemasan untuk keperluan perusahaan,...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Indriana Safitri</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-kantor-set-lengkap.webp"
+                  alt="Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan" loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
+                <h2 class="title">
+                  <a href="hampers-kantor-berkualitas-momen-perusahaan.html">Hampers Kantor dengan Pilihan
+                    Produk Berkualitas untuk Berbagai Momen Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers kantor adalah paket hadiah berisi kumpulan barang bernilai guna yang
+                  disusun rapi dalam satu kemasan untuk keperluan perusahaan,...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Indriana Safitri</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-kantor-berkualitas-momen-perusahaan.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-kantor-berkualitas-momen-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-office-essentials.webp"
-                    alt="Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan" loading="lazy">
-                  <span class="post-category-badge">Hampers Kantor</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
-                  <h2 class="title">
-                    <a href="hampers-kantor-office-essentials-fungsional.html">Hampers Kantor Berkonsep
-                      Office Essentials yang Fungsional untuk Karyawan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers kantor office essentials adalah paket hadiah yang berisi barang-barang
-                    kebutuhan kerja sehari-hari, dirancang agar dapat langsung...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Indriana Safitri</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-office-essentials.webp"
+                  alt="Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan" loading="lazy">
+                <span class="post-category-badge">Hampers Kantor</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
+                <h2 class="title">
+                  <a href="hampers-kantor-office-essentials-fungsional.html">Hampers Kantor Berkonsep
+                    Office Essentials yang Fungsional untuk Karyawan</a>
+                </h2>
+                <p class="post-excerpt">Hampers kantor office essentials adalah paket hadiah yang berisi barang-barang
+                  kebutuhan kerja sehari-hari, dirancang agar dapat langsung...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Indriana Safitri</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="hampers-kantor-office-essentials-fungsional.html" class="btn-read-more">
-                      Baca Selengkapnya  <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-kantor-office-essentials-fungsional.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-kantor-premium-pengiriman.webp"
-                    alt="Hampers Kantor Premium Melayani Semarang, Salatiga, dan Seluruh Indonesia" loading="lazy">
-                  <span class="post-category-badge">Hampers Kantor</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
-                  <h2 class="title">
-                    <a href="hampers-kantor-premium-semarang-salatiga-indonesia.html">Hampers Kantor Premium
-                      Melayani Semarang, Salatiga, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers kantor premium adalah layanan hadiah korporat dengan kualitas produk
-                    dan kemasan yang lebih tinggi, yang umumnya juga didukung...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Indriana Safitri</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-kantor-premium-pengiriman.webp"
+                  alt="Hampers Kantor Premium Melayani Semarang, Salatiga, dan Seluruh Indonesia" loading="lazy">
+                <span class="post-category-badge">Hampers Kantor</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
+                <h2 class="title">
+                  <a href="hampers-kantor-premium-semarang-salatiga-indonesia.html">Hampers Kantor Premium
+                    Melayani Semarang, Salatiga, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Hampers kantor premium adalah layanan hadiah korporat dengan kualitas produk
+                  dan kemasan yang lebih tinggi, yang umumnya juga didukung...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Indriana Safitri</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-kantor-premium-semarang-salatiga-indonesia.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-kantor-premium-semarang-salatiga-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-tumbler-notebook-mug-snack.webp"
-                    alt="Hampers Kantor Berisi Tumbler, Notebook, Mug, dan Snack dalam Satu Gift Box Elegan"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Kantor</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
-                  <h2 class="title">
-                    <a href="hampers-kantor-tumbler-notebook-mug-snack.html">Hampers Kantor Berisi Tumbler,
-                      Notebook, Mug, dan Snack dalam Satu Gift Box Elegan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers kantor dengan kombinasi tumbler, notebook, mug, dan snack merupakan
-                    salah satu susunan paket hadiah paling populer karena...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Indriana Safitri</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-tumbler-notebook-mug-snack.webp"
+                  alt="Hampers Kantor Berisi Tumbler, Notebook, Mug, dan Snack dalam Satu Gift Box Elegan"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Kantor</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
+                <h2 class="title">
+                  <a href="hampers-kantor-tumbler-notebook-mug-snack.html">Hampers Kantor Berisi Tumbler,
+                    Notebook, Mug, dan Snack dalam Satu Gift Box Elegan</a>
+                </h2>
+                <p class="post-excerpt">Hampers kantor dengan kombinasi tumbler, notebook, mug, dan snack merupakan
+                  salah satu susunan paket hadiah paling populer karena...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=IS&font=raleway" alt="Indriana Safitri"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Indriana Safitri</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="hampers-kantor-tumbler-notebook-mug-snack.html" class="btn-read-more">
-                      Baca Selengkapnya  <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-kantor-tumbler-notebook-mug-snack.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-corporate-premium-overview.webp"
-                    alt="Hampers Corporate dengan Pilihan Isi Premium untuk Berbagai Agenda Perusahaan" loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="hampers-corporate-premium-perusahaan.html">Hampers Corporate dengan Pilihan Isi
-                      Premium untuk Berbagai Agenda Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers corporate adalah bingkisan eksklusif berisi produk berkualitas yang
-                    dikemas profesional untuk memperkuat hubungan bisnis,...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Mega Anggun</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-premium-overview.webp"
+                  alt="Hampers Corporate dengan Pilihan Isi Premium untuk Berbagai Agenda Perusahaan" loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="hampers-corporate-premium-perusahaan.html">Hampers Corporate dengan Pilihan Isi
+                    Premium untuk Berbagai Agenda Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers corporate adalah bingkisan eksklusif berisi produk berkualitas yang
+                  dikemas profesional untuk memperkuat hubungan bisnis,...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Mega Anggun</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-corporate-premium-perusahaan.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-corporate-premium-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/executive-gift-box-premium.webp"
-                    alt="Hampers Corporate Berkonsep Executive Gift Box dengan Produk Pilihan" loading="lazy">
-                  <span class="post-category-badge">Corporate Gift</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="hampers-corporate-executive-gift-box.html">Hampers Corporate Berkonsep
-                      Executive Gift Box dengan Produk Pilihan</a>
-                  </h2>
-                  <p class="post-excerpt">Executive gift box adalah paket hampers corporate kelas atas yang dirancang
-                    khusus dengan kemasan kotak keras (hardbox) premium untuk...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Mega Anggun</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/executive-gift-box-premium.webp"
+                  alt="Hampers Corporate Berkonsep Executive Gift Box dengan Produk Pilihan" loading="lazy">
+                <span class="post-category-badge">Corporate Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="hampers-corporate-executive-gift-box.html">Hampers Corporate Berkonsep
+                    Executive Gift Box dengan Produk Pilihan</a>
+                </h2>
+                <p class="post-excerpt">Executive gift box adalah paket hampers corporate kelas atas yang dirancang
+                  khusus dengan kemasan kotak keras (hardbox) premium untuk...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Mega Anggun</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="hampers-corporate-executive-gift-box.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-corporate-executive-gift-box.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp"
-                    alt="Hampers Corporate Melayani Palembang, Jambi, dan Seluruh Indonesia" loading="lazy">
-                  <span class="post-category-badge">Corporate Gift</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="hampers-corporate-palembang-jambi-indonesia.html">Hampers Corporate Melayani
-                      Palembang, Jambi, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers corporate melayani kebutuhan pengadaan dan pengiriman bingkisan
-                    perusahaan untuk area Palembang, Jambi, serta seluruh pelosok...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Mega Anggun</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp"
+                  alt="Hampers Corporate Melayani Palembang, Jambi, dan Seluruh Indonesia" loading="lazy">
+                <span class="post-category-badge">Corporate Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="hampers-corporate-palembang-jambi-indonesia.html">Hampers Corporate Melayani
+                    Palembang, Jambi, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Hampers corporate melayani kebutuhan pengadaan dan pengiriman bingkisan
+                  perusahaan untuk area Palembang, Jambi, serta seluruh pelosok...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Mega Anggun</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-corporate-palembang-jambi-indonesia.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-corporate-palembang-jambi-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/office-essentials-hampers-set.webp"
-                    alt="Hampers Corporate Berisi Office Essentials yang Siap Custom Logo Perusahaan" loading="lazy">
-                  <span class="post-category-badge">Corporate Gift</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
-                  <h2 class="title">
-                    <a href="hampers-corporate-office-essentials.html">Hampers Corporate Berisi Office
-                      Essentials yang Siap Custom Logo Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers corporate berisi office essentials adalah paket bingkisan perlengkapan
-                    kerja kantor yang dicetak dengan logo kustom perusahaan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Mega Anggun</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/office-essentials-hampers-set.webp"
+                  alt="Hampers Corporate Berisi Office Essentials yang Siap Custom Logo Perusahaan" loading="lazy">
+                <span class="post-category-badge">Corporate Gift</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Corporate Gift</div>
+                <h2 class="title">
+                  <a href="hampers-corporate-office-essentials.html">Hampers Corporate Berisi Office
+                    Essentials yang Siap Custom Logo Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers corporate berisi office essentials adalah paket bingkisan perlengkapan
+                  kerja kantor yang dicetak dengan logo kustom perusahaan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MA&font=raleway" alt="Mega Anggun"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Mega Anggun</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="hampers-corporate-office-essentials.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-corporate-office-essentials.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-premium-perusahaan-navy-gold.webp"
-                    alt="Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate"
-                    loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-perusahaan.html">Hampers Premium Perusahaan untuk Menciptakan
-                      Kesan Eksklusif di Setiap Momen Corporate</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers premium perusahaan adalah paket hadiah bernilai tinggi yang dirancang
-                    khusus untuk kebutuhan bisnis, mulai dari apresiasi karyawan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Meilita Mujayanti</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-premium-perusahaan-navy-gold.webp"
+                  alt="Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate"
+                  loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-perusahaan.html">Hampers Premium Perusahaan untuk Menciptakan
+                    Kesan Eksklusif di Setiap Momen Corporate</a>
+                </h2>
+                <p class="post-excerpt">Hampers premium perusahaan adalah paket hadiah bernilai tinggi yang dirancang
+                  khusus untuk kebutuhan bisnis, mulai dari apresiasi karyawan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Meilita Mujayanti</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-premium-perusahaan.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/office-essentials-premium-hampers-karyawan.webp"
-                    alt="Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis" loading="lazy">
-                  <span class="post-category-badge">Hampers Kantor</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
-                  <h2 class="title">
-                    <a href="premium-office-hampers-karyawan-mitra-bisnis.html">Premium Office Hampers
-                      Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis</a>
-                  </h2>
-                  <p class="post-excerpt">Premium Office Hampers adalah paket hadiah korporat yang menggabungkan
-                    produk-produk kerja berkualitas dengan sentuhan eksklusif, dirancang...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Meilita Mujayanti</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/office-essentials-premium-hampers-karyawan.webp"
+                  alt="Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis" loading="lazy">
+                <span class="post-category-badge">Hampers Kantor</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Kantor</div>
+                <h2 class="title">
+                  <a href="premium-office-hampers-karyawan-mitra-bisnis.html">Premium Office Hampers
+                    Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis</a>
+                </h2>
+                <p class="post-excerpt">Premium Office Hampers adalah paket hadiah korporat yang menggabungkan
+                  produk-produk kerja berkualitas dengan sentuhan eksklusif, dirancang...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Meilita Mujayanti</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="premium-office-hampers-karyawan-mitra-bisnis.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="premium-office-hampers-karyawan-mitra-bisnis.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-premium-perusahaan-denpasar.webp"
-                    alt="Hampers Premium Perusahaan Melayani Denpasar, Mataram, dan Seluruh Indonesia" loading="lazy">
-                  <span class="post-category-badge">Hampers Premium</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-perusahaan-denpasar-mataram-indonesia.html">Hampers Premium
-                      Perusahaan Melayani Denpasar, Mataram, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers Premium Perusahaan yang melayani Denpasar, Mataram, dan seluruh
-                    Indonesia memberikan kesempatan bagi perusahaan dengan cabang atau...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Meilita Mujayanti</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-premium-perusahaan-denpasar.webp"
+                  alt="Hampers Premium Perusahaan Melayani Denpasar, Mataram, dan Seluruh Indonesia" loading="lazy">
+                <span class="post-category-badge">Hampers Premium</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-perusahaan-denpasar-mataram-indonesia.html">Hampers Premium
+                    Perusahaan Melayani Denpasar, Mataram, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Hampers Premium Perusahaan yang melayani Denpasar, Mataram, dan seluruh
+                  Indonesia memberikan kesempatan bagi perusahaan dengan cabang atau...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Meilita Mujayanti</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-premium-perusahaan-denpasar-mataram-indonesia.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-perusahaan-denpasar-mataram-indonesia.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-premium-office-essentials-lifestyle.webp"
-                    alt="Hampers Premium Perusahaan dengan Kombinasi Office Essentials dan Lifestyle Products"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Premium</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
-                  <h2 class="title">
-                    <a href="hampers-premium-perusahaan-office-essentials-lifestyle.html">Hampers Premium
-                      Perusahaan dengan Kombinasi Office Essentials dan Lifestyle Products</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers Premium Perusahaan dengan kombinasi office essentials dan lifestyle
-                    products menggabungkan produk fungsional untuk kerja dengan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Meilita Mujayanti</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-premium-office-essentials-lifestyle.webp"
+                  alt="Hampers Premium Perusahaan dengan Kombinasi Office Essentials dan Lifestyle Products"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Premium</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Premium</div>
+                <h2 class="title">
+                  <a href="hampers-premium-perusahaan-office-essentials-lifestyle.html">Hampers Premium
+                    Perusahaan dengan Kombinasi Office Essentials dan Lifestyle Products</a>
+                </h2>
+                <p class="post-excerpt">Hampers Premium Perusahaan dengan kombinasi office essentials dan lifestyle
+                  products menggabungkan produk fungsional untuk kerja dengan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=MM&font=raleway" alt="Meilita Mujayanti"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Meilita Mujayanti</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="hampers-premium-perusahaan-office-essentials-lifestyle.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-premium-perusahaan-office-essentials-lifestyle.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-custom-perusahaan-01.webp"
-                    alt="Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan" loading="lazy">
-                  <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
-                  <h2 class="title">
-                    <a href="hampers-custom-untuk-perusahaan.html">Hampers Custom untuk Perusahaan dengan
-                      Pilihan Isi yang Fleksibel dan Elegan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers custom untuk perusahaan adalah paket hadiah yang isi, tema, dan
-                    kemasannya dapat disesuaikan dengan kebutuhan, budget, dan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Nazhima Nadine</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-custom-perusahaan-01.webp"
+                  alt="Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan" loading="lazy">
+                <span class="post-category-badge pilar-badge">Panduan Lengkap</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
+                <h2 class="title">
+                  <a href="hampers-custom-untuk-perusahaan.html">Hampers Custom untuk Perusahaan dengan
+                    Pilihan Isi yang Fleksibel dan Elegan</a>
+                </h2>
+                <p class="post-excerpt">Hampers custom untuk perusahaan adalah paket hadiah yang isi, tema, dan
+                  kemasannya dapat disesuaikan dengan kebutuhan, budget, dan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Nazhima Nadine</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 30 Jul 2026</p>
                     </div>
-                    <a href="hampers-custom-untuk-perusahaan.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-custom-untuk-perusahaan.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-custom-lifestyle-01.webp"
-                    alt="Hampers Custom Berisi Produk Lifestyle yang Siap Menampilkan Identitas Brand Perusahaan"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Custom</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
-                  <h2 class="title">
-                    <a href="hampers-custom-produk-lifestyle.html">Hampers Custom Berisi Produk Lifestyle
-                      yang Siap Menampilkan Identitas Brand Perusahaan</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers custom berisi produk lifestyle adalah paket hadiah berisi barang
-                    fungsional sehari-hari seperti tumbler, tote bag, dan notebook...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Nazhima Nadine</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-custom-lifestyle-01.webp"
+                  alt="Hampers Custom Berisi Produk Lifestyle yang Siap Menampilkan Identitas Brand Perusahaan"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Custom</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
+                <h2 class="title">
+                  <a href="hampers-custom-produk-lifestyle.html">Hampers Custom Berisi Produk Lifestyle
+                    yang Siap Menampilkan Identitas Brand Perusahaan</a>
+                </h2>
+                <p class="post-excerpt">Hampers custom berisi produk lifestyle adalah paket hadiah berisi barang
+                  fungsional sehari-hari seperti tumbler, tote bag, dan notebook...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Nazhima Nadine</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 31 Jul 2026</p>
                     </div>
-                    <a href="hampers-custom-produk-lifestyle.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-custom-produk-lifestyle.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-custom-premium-yogyakarta-01.webp"
-                    alt="Hampers Custom dalam Premium Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Custom</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
-                  <h2 class="title">
-                    <a href="hampers-custom-premium-gift-box-yogyakarta.html">Hampers Custom dalam Premium
-                      Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers custom dalam premium gift box adalah hampers dengan kemasan
-                    berkualitas tinggi yang tersedia untuk wilayah Yogyakarta, Sleman,...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Nazhima Nadine</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-custom-premium-yogyakarta-01.webp"
+                  alt="Hampers Custom dalam Premium Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Custom</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
+                <h2 class="title">
+                  <a href="hampers-custom-premium-gift-box-yogyakarta.html">Hampers Custom dalam Premium
+                    Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia</a>
+                </h2>
+                <p class="post-excerpt">Hampers custom dalam premium gift box adalah hampers dengan kemasan
+                  berkualitas tinggi yang tersedia untuk wilayah Yogyakarta, Sleman,...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Nazhima Nadine</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 1 Ags 2026</p>
                     </div>
-                    <a href="hampers-custom-premium-gift-box-yogyakarta.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-custom-premium-gift-box-yogyakarta.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp"
-                    alt="Inspirasi Hampers Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium"
-                    loading="lazy">
-                  <span class="post-category-badge">Hampers Custom</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
-                  <h2 class="title">
-                    <a href="inspirasi-hampers-custom-tumbler-mug-notebook-snack.html">Inspirasi Hampers
-                      Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium</a>
-                  </h2>
-                  <p class="post-excerpt">Inspirasi hampers custom dengan kombinasi tumbler, mug, notebook, dan snack
-                    premium banyak dipilih karena memadukan produk fungsional dan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Nazhima Nadine</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp"
+                  alt="Inspirasi Hampers Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium"
+                  loading="lazy">
+                <span class="post-category-badge">Hampers Custom</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Custom</div>
+                <h2 class="title">
+                  <a href="inspirasi-hampers-custom-tumbler-mug-notebook-snack.html">Inspirasi Hampers
+                    Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium</a>
+                </h2>
+                <p class="post-excerpt">Inspirasi hampers custom dengan kombinasi tumbler, mug, notebook, dan snack
+                  premium banyak dipilih karena memadukan produk fungsional dan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=NN&font=raleway" alt="Nazhima Nadine"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Nazhima Nadine</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 3 Ags 2026</p>
                     </div>
-                    <a href="inspirasi-hampers-custom-tumbler-mug-notebook-snack.html"
-                      class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="inspirasi-hampers-custom-tumbler-mug-notebook-snack.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/hampers-corporate.webp"
-                    alt="Hampers Korporat Solusi Hadiah Bisnis Profesional 2026" loading="lazy">
-                  <span class="post-category-badge">Hampers Bisnis</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
-                  <h2 class="title">
-                    <a href="hampers-korporat-solusi-hadiah-bisnis-profesional.html">Hampers Korporat:
-                      Solusi Hadiah Bisnis Profesional 2026</a>
-                  </h2>
-                  <p class="post-excerpt">Hampers korporat adalah paket hadiah premium yang dirancang khusus
-                    untuk kebutuhan perusahaan dalam mempererat hubungan dengan...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Reza Maulana Nehru</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/hampers-corporate.webp"
+                  alt="Hampers Korporat Solusi Hadiah Bisnis Profesional 2026" loading="lazy">
+                <span class="post-category-badge">Hampers Bisnis</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
+                <h2 class="title">
+                  <a href="hampers-korporat-solusi-hadiah-bisnis-profesional.html">Hampers Korporat:
+                    Solusi Hadiah Bisnis Profesional 2026</a>
+                </h2>
+                <p class="post-excerpt">Hampers korporat adalah paket hadiah premium yang dirancang khusus
+                  untuk kebutuhan perusahaan dalam mempererat hubungan dengan...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
                     </div>
-                    <a href="hampers-korporat-solusi-hadiah-bisnis-profesional.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="hampers-korporat-solusi-hadiah-bisnis-profesional.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/parcel-hampers-custom.webp"
-                    alt="Parcel Perusahaan Hadiah Elegan untuk Relasi Bisnis 2026" loading="lazy">
-                  <span class="post-category-badge">Hampers Bisnis</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
-                  <h2 class="title">
-                    <a href="parcel-perusahaan-hadiah-elegan-relasi-bisnis.html">Parcel Perusahaan:
-                      Hadiah Elegan untuk Relasi Bisnis 2026</a>
-                  </h2>
-                  <p class="post-excerpt">Parcel perusahaan adalah paket hadiah berisi kombinasi produk pilihan
-                    dengan kemasan premium yang dirancang untuk keperluan bisnis...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Reza Maulana Nehru</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/parcel-hampers-custom.webp"
+                  alt="Parcel Perusahaan Hadiah Elegan untuk Relasi Bisnis 2026" loading="lazy">
+                <span class="post-category-badge">Hampers Bisnis</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
+                <h2 class="title">
+                  <a href="parcel-perusahaan-hadiah-elegan-relasi-bisnis.html">Parcel Perusahaan:
+                    Hadiah Elegan untuk Relasi Bisnis 2026</a>
+                </h2>
+                <p class="post-excerpt">Parcel perusahaan adalah paket hadiah berisi kombinasi produk pilihan
+                  dengan kemasan premium yang dirancang untuk keperluan bisnis...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
                     </div>
-                    <a href="parcel-perusahaan-hadiah-elegan-relasi-bisnis.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="parcel-perusahaan-hadiah-elegan-relasi-bisnis.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
-<div class="col-lg-4 col-md-6">
-              <article>
-                <div class="post-img">
-                  <img src="assets/img/blog/sourvenir-corporate.webp"
-                    alt="Souvenir Korporat Hadiah Berkesan untuk Klien & Mitra 2026" loading="lazy">
-                  <span class="post-category-badge">Hampers Bisnis</span>
-                </div>
-                <div class="post-body">
-                  <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
-                  <h2 class="title">
-                    <a href="souvenir-korporat-hadiah-berkesan-klien-mitra.html">Souvenir Korporat:
-                      Hadiah Berkesan untuk Klien &amp; Mitra 2026</a>
-                  </h2>
-                  <p class="post-excerpt">Souvenir korporat adalah hadiah atau cinderamata yang diberikan
-                    perusahaan kepada klien, mitra, karyawan, atau relasi bisnis...</p>
-                  <div class="post-meta-wrap">
-                    <div class="post-author-group">
-                      <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
-                        class="post-author-img">
-                      <div>
-                        <p class="post-author">Reza Maulana Nehru</p>
-                        <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
-                      </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/blog/sourvenir-corporate.webp"
+                  alt="Souvenir Korporat Hadiah Berkesan untuk Klien & Mitra 2026" loading="lazy">
+                <span class="post-category-badge">Hampers Bisnis</span>
+              </div>
+              <div class="post-body">
+                <div class="post-category"><i class="bi bi-tag"></i> Hampers Bisnis</div>
+                <h2 class="title">
+                  <a href="souvenir-korporat-hadiah-berkesan-klien-mitra.html">Souvenir Korporat:
+                    Hadiah Berkesan untuk Klien &amp; Mitra 2026</a>
+                </h2>
+                <p class="post-excerpt">Souvenir korporat adalah hadiah atau cinderamata yang diberikan
+                  perusahaan kepada klien, mitra, karyawan, atau relasi bisnis...</p>
+                <div class="post-meta-wrap">
+                  <div class="post-author-group">
+                    <img src="https://placehold.co/48x48/2b2622/ffffff?text=RM&font=raleway" alt="Reza Maulana Nehru"
+                      class="post-author-img">
+                    <div>
+                      <p class="post-author">Reza Maulana Nehru</p>
+                      <p class="post-date"><i class="bi bi-calendar3"></i> 22 Ags 2026</p>
                     </div>
-                    <a href="souvenir-korporat-hadiah-berkesan-klien-mitra.html" class="btn-read-more">
-                      Baca Selengkapnya <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
+                  <a href="souvenir-korporat-hadiah-berkesan-klien-mitra.html" class="btn-read-more">
+                    Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section><!-- /Blog Posts Section -->
@@ -2459,12 +2637,12 @@
 
   </main>
 
-          <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background">
 
     <!-- Main Footer Content (5 Kolom Arsitektural Vertikal) -->
     <div class="container footer-main">
       <div class="row g-4 justify-content-between">
-        
+
         <!-- 1. Vendor Hampers -->
         <div class="col-lg-3 col-md-6 footer-col">
           <div class="footer-block-side">
@@ -2475,7 +2653,8 @@
             </div>
             <div class="footer-block-content">
               <span class="footer-tagline">Corporate Gift &amp; Hampers Specialist</span>
-              <p>Membantu perusahaan dan korporasi menghadirkan apresiasi berkelas melalui kurasi hampers eksklusif, souvenir kantor fungsional, dan packaging kustom bernilai tinggi.</p>
+              <p>Membantu perusahaan dan korporasi menghadirkan apresiasi berkelas melalui kurasi hampers eksklusif,
+                souvenir kantor fungsional, dan packaging kustom bernilai tinggi.</p>
               <div class="social-links d-flex justify-content-center justify-content-lg-start mt-3">
                 <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers"
                   target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
@@ -2519,7 +2698,8 @@
                 <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Tahun Baru 2027</a></li>
                 <li><a href="Tumbler-Custom-Logo.html">Souvenir Kantor</a></li>
                 <li><a href="Hampers-Eksekutif.html">Corporate Gift VIP</a></li>
-                <li><a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Box Kayu Custom</a></li>
+                <li><a href="pesanan-box-souvenir-kayu-custom-finishing-premium-untuk-klien-perusahaan.html">Box Kayu
+                    Custom</a></li>
               </ul>
             </div>
           </div>
@@ -2537,7 +2717,8 @@
                 <a href="https://vendormerchandise.web.id/" target="_blank" rel="noopener" class="partner-link-btn">
                   <i class="bi bi-box-arrow-up-right me-1 text-gold"></i> vendormerchandise.web.id
                 </a>
-                <span class="partner-badge"><i class="bi bi-patch-check-fill text-gold me-1"></i> Official Network</span>
+                <span class="partner-badge"><i class="bi bi-patch-check-fill text-gold me-1"></i> Official
+                  Network</span>
               </div>
             </div>
           </div>
@@ -2554,8 +2735,8 @@
                 <div class="concierge-badge">
                   <span class="pulse-dot"></span> B2B Specialist
                 </div>
-                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20konsultasi%20paket%20corporate%20gift" 
-                   target="_blank" rel="noopener" class="btn-footer-wa">
+                <a href="https://wa.me/6288989643555?text=Halo%20Vendor%20Hampers%2C%20saya%20ingin%20konsultasi%20paket%20corporate%20gift"
+                  target="_blank" rel="noopener" class="btn-footer-wa">
                   <i class="bi bi-whatsapp"></i> Chat WhatsApp Sales
                 </a>
                 <div class="footer-schedule">
@@ -2598,7 +2779,9 @@
 
     <!-- Copyright -->
     <div class="container copyright text-center">
-      <p class="mb-0">&copy; <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights Reserved</span> &bull; <span class="text-white-50">Solusi Corporate Gift &amp; Hampers Premium Indonesia</span></p>
+      <p class="mb-0">&copy; <span>2026</span> <strong class="px-1 sitename">Vendor Hampers</strong> <span>All Rights
+          Reserved</span> &bull; <span class="text-white-50">Solusi Corporate Gift &amp; Hampers Premium
+          Indonesia</span></p>
     </div>
   </footer>
 
@@ -2858,183 +3041,183 @@
   </style>
 
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const dropdownWrapper = document.getElementById('categoryDropdownWrapper');
-    const dropdownBtn = document.getElementById('categoryDropdownBtn');
-    const dropdownMenu = document.getElementById('categoryDropdownMenu');
-    const selectedCatLabel = document.getElementById('selectedCatLabel');
-    const searchInput = document.getElementById('blogSearchInput');
-    const clearSearchBtn = document.getElementById('clearSearchBtn');
-    const articlesCountEl = document.getElementById('articlesCount');
-    const resetFiltersBtn = document.getElementById('resetFiltersBtn');
-    const noArticlesFound = document.getElementById('noArticlesFound');
-    const emptyResetBtn = document.getElementById('emptyResetBtn');
-    const articleCards = document.querySelectorAll('#blogGrid > div');
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownWrapper = document.getElementById('categoryDropdownWrapper');
+      const dropdownBtn = document.getElementById('categoryDropdownBtn');
+      const dropdownMenu = document.getElementById('categoryDropdownMenu');
+      const selectedCatLabel = document.getElementById('selectedCatLabel');
+      const searchInput = document.getElementById('blogSearchInput');
+      const clearSearchBtn = document.getElementById('clearSearchBtn');
+      const articlesCountEl = document.getElementById('articlesCount');
+      const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+      const noArticlesFound = document.getElementById('noArticlesFound');
+      const emptyResetBtn = document.getElementById('emptyResetBtn');
+      const articleCards = document.querySelectorAll('#blogGrid > div');
 
-    let currentFilter = 'all';
-    let currentSearch = '';
-    const totalArticles = articleCards.length;
+      let currentFilter = 'all';
+      let currentSearch = '';
+      const totalArticles = articleCards.length;
 
-    // Toggle Dropdown
-    if (dropdownBtn && dropdownWrapper) {
-      dropdownBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        dropdownWrapper.classList.toggle('open');
-      });
-    }
-
-    // Close Dropdown on Click Outside
-    document.addEventListener('click', function(e) {
-      if (dropdownWrapper && !dropdownWrapper.contains(e.target)) {
-        dropdownWrapper.classList.remove('open');
+      // Toggle Dropdown
+      if (dropdownBtn && dropdownWrapper) {
+        dropdownBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          dropdownWrapper.classList.toggle('open');
+        });
       }
-    });
 
-    function applyFilterAndSearch() {
-      let visibleCount = 0;
-      const searchTerms = currentSearch.toLowerCase().trim();
-
-      articleCards.forEach(card => {
-        const article = card.querySelector('article');
-        if (!article) return;
-
-        const categoryText = (article.querySelector('.post-category')?.textContent || '').toLowerCase();
-        const titleText = (article.querySelector('.title')?.textContent || '').toLowerCase();
-        const excerptText = (article.querySelector('.post-excerpt')?.textContent || '').toLowerCase();
-        const combinedText = categoryText + ' ' + titleText + ' ' + excerptText;
-
-        // Check Category Match
-        let matchesCategory = false;
-        if (currentFilter === 'all') {
-          matchesCategory = true;
-        } else if (currentFilter === 'natal') {
-          matchesCategory = combinedText.includes('natal') || combinedText.includes('christmas');
-        } else if (currentFilter === 'corporate') {
-          matchesCategory = combinedText.includes('corporate') || combinedText.includes('kantor') || combinedText.includes('karyawan') || combinedText.includes('perusahaan') || combinedText.includes('bisnis') || combinedText.includes('seminar');
-        } else if (currentFilter === 'vip') {
-          matchesCategory = combinedText.includes('vip') || combinedText.includes('eksekutif') || combinedText.includes('executive') || combinedText.includes('luxury');
-        } else if (currentFilter === 'hariraya') {
-          matchesCategory = combinedText.includes('raya') || combinedText.includes('lebaran') || combinedText.includes('imlek') || combinedText.includes('idul fitri');
-        } else if (currentFilter === 'wedding') {
-          matchesCategory = combinedText.includes('pernikahan') || combinedText.includes('wedding') || combinedText.includes('nikah');
-        } else if (currentFilter === 'souvenir') {
-          matchesCategory = combinedText.includes('kayu') || combinedText.includes('merchandise') || combinedText.includes('box') || combinedText.includes('tumbler') || combinedText.includes('mug') || combinedText.includes('souvenir');
-        }
-
-        // Check Search Match
-        let matchesSearch = true;
-        if (searchTerms.length > 0) {
-          matchesSearch = combinedText.includes(searchTerms);
-        }
-
-        if (matchesCategory && matchesSearch) {
-          card.style.display = '';
-          visibleCount++;
-        } else {
-          card.style.display = 'none';
+      // Close Dropdown on Click Outside
+      document.addEventListener('click', function (e) {
+        if (dropdownWrapper && !dropdownWrapper.contains(e.target)) {
+          dropdownWrapper.classList.remove('open');
         }
       });
 
-      // Update Count
-      if (articlesCountEl) {
-        if (searchTerms.length > 0 || currentFilter !== 'all') {
-          articlesCountEl.textContent = `Menampilkan ${visibleCount} dari ${totalArticles} artikel`;
-        } else {
-          articlesCountEl.textContent = `Menampilkan semua (${totalArticles}) artikel`;
-        }
-      }
+      function applyFilterAndSearch() {
+        let visibleCount = 0;
+        const searchTerms = currentSearch.toLowerCase().trim();
 
-      // Show/Hide Reset Filter
-      if (resetFiltersBtn) {
-        if (currentFilter !== 'all' || searchTerms.length > 0) {
-          resetFiltersBtn.classList.remove('d-none');
-        } else {
-          resetFiltersBtn.classList.add('d-none');
-        }
-      }
+        articleCards.forEach(card => {
+          const article = card.querySelector('article');
+          if (!article) return;
 
-      // Show/Hide Empty State
-      if (noArticlesFound) {
-        if (visibleCount === 0) {
-          noArticlesFound.classList.remove('d-none');
-        } else {
-          noArticlesFound.classList.add('d-none');
-        }
-      }
-    }
+          const categoryText = (article.querySelector('.post-category')?.textContent || '').toLowerCase();
+          const titleText = (article.querySelector('.title')?.textContent || '').toLowerCase();
+          const excerptText = (article.querySelector('.post-excerpt')?.textContent || '').toLowerCase();
+          const combinedText = categoryText + ' ' + titleText + ' ' + excerptText;
 
-    // Dropdown Item Clicks
-    const dropdownItems = document.querySelectorAll('#categoryDropdownMenu .dropdown-item');
-    dropdownItems.forEach(item => {
-      item.addEventListener('click', function(e) {
-        e.preventDefault();
-        dropdownItems.forEach(i => i.classList.remove('active'));
-        this.classList.add('active');
+          // Check Category Match
+          let matchesCategory = false;
+          if (currentFilter === 'all') {
+            matchesCategory = true;
+          } else if (currentFilter === 'natal') {
+            matchesCategory = combinedText.includes('natal') || combinedText.includes('christmas');
+          } else if (currentFilter === 'corporate') {
+            matchesCategory = combinedText.includes('corporate') || combinedText.includes('kantor') || combinedText.includes('karyawan') || combinedText.includes('perusahaan') || combinedText.includes('bisnis') || combinedText.includes('seminar');
+          } else if (currentFilter === 'vip') {
+            matchesCategory = combinedText.includes('vip') || combinedText.includes('eksekutif') || combinedText.includes('executive') || combinedText.includes('luxury');
+          } else if (currentFilter === 'hariraya') {
+            matchesCategory = combinedText.includes('raya') || combinedText.includes('lebaran') || combinedText.includes('imlek') || combinedText.includes('idul fitri');
+          } else if (currentFilter === 'wedding') {
+            matchesCategory = combinedText.includes('pernikahan') || combinedText.includes('wedding') || combinedText.includes('nikah');
+          } else if (currentFilter === 'souvenir') {
+            matchesCategory = combinedText.includes('kayu') || combinedText.includes('merchandise') || combinedText.includes('box') || combinedText.includes('tumbler') || combinedText.includes('mug') || combinedText.includes('souvenir');
+          }
 
-        currentFilter = this.getAttribute('data-filter') || 'all';
-        const labelText = this.textContent.trim();
+          // Check Search Match
+          let matchesSearch = true;
+          if (searchTerms.length > 0) {
+            matchesSearch = combinedText.includes(searchTerms);
+          }
 
-        if (selectedCatLabel) selectedCatLabel.textContent = labelText;
-        if (dropdownWrapper) dropdownWrapper.classList.remove('open');
-        applyFilterAndSearch();
-      });
-    });
-
-    // Search Input Typing
-    if (searchInput) {
-      searchInput.addEventListener('input', function() {
-        currentSearch = this.value;
-        if (clearSearchBtn) {
-          if (currentSearch.length > 0) {
-            clearSearchBtn.classList.remove('d-none');
+          if (matchesCategory && matchesSearch) {
+            card.style.display = '';
+            visibleCount++;
           } else {
-            clearSearchBtn.classList.add('d-none');
+            card.style.display = 'none';
+          }
+        });
+
+        // Update Count
+        if (articlesCountEl) {
+          if (searchTerms.length > 0 || currentFilter !== 'all') {
+            articlesCountEl.textContent = `Menampilkan ${visibleCount} dari ${totalArticles} artikel`;
+          } else {
+            articlesCountEl.textContent = `Menampilkan semua (${totalArticles}) artikel`;
           }
         }
-        applyFilterAndSearch();
-      });
-    }
 
-    // Clear Search Button
-    if (clearSearchBtn) {
-      clearSearchBtn.addEventListener('click', function() {
-        if (searchInput) {
-          searchInput.value = '';
-          currentSearch = '';
-          clearSearchBtn.classList.add('d-none');
-          searchInput.focus();
+        // Show/Hide Reset Filter
+        if (resetFiltersBtn) {
+          if (currentFilter !== 'all' || searchTerms.length > 0) {
+            resetFiltersBtn.classList.remove('d-none');
+          } else {
+            resetFiltersBtn.classList.add('d-none');
+          }
+        }
+
+        // Show/Hide Empty State
+        if (noArticlesFound) {
+          if (visibleCount === 0) {
+            noArticlesFound.classList.remove('d-none');
+          } else {
+            noArticlesFound.classList.add('d-none');
+          }
+        }
+      }
+
+      // Dropdown Item Clicks
+      const dropdownItems = document.querySelectorAll('#categoryDropdownMenu .dropdown-item');
+      dropdownItems.forEach(item => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault();
+          dropdownItems.forEach(i => i.classList.remove('active'));
+          this.classList.add('active');
+
+          currentFilter = this.getAttribute('data-filter') || 'all';
+          const labelText = this.textContent.trim();
+
+          if (selectedCatLabel) selectedCatLabel.textContent = labelText;
+          if (dropdownWrapper) dropdownWrapper.classList.remove('open');
           applyFilterAndSearch();
-        }
-      });
-    }
-
-    // Reset All Filters function
-    function resetAllFilters() {
-      currentFilter = 'all';
-      currentSearch = '';
-      if (searchInput) searchInput.value = '';
-      if (clearSearchBtn) clearSearchBtn.classList.add('d-none');
-      
-      dropdownItems.forEach(i => {
-        if (i.getAttribute('data-filter') === 'all') {
-          i.classList.add('active');
-        } else {
-          i.classList.remove('active');
-        }
+        });
       });
 
-      if (selectedCatLabel) selectedCatLabel.textContent = 'Semua Kategori';
-      if (dropdownWrapper) dropdownWrapper.classList.remove('open');
+      // Search Input Typing
+      if (searchInput) {
+        searchInput.addEventListener('input', function () {
+          currentSearch = this.value;
+          if (clearSearchBtn) {
+            if (currentSearch.length > 0) {
+              clearSearchBtn.classList.remove('d-none');
+            } else {
+              clearSearchBtn.classList.add('d-none');
+            }
+          }
+          applyFilterAndSearch();
+        });
+      }
 
+      // Clear Search Button
+      if (clearSearchBtn) {
+        clearSearchBtn.addEventListener('click', function () {
+          if (searchInput) {
+            searchInput.value = '';
+            currentSearch = '';
+            clearSearchBtn.classList.add('d-none');
+            searchInput.focus();
+            applyFilterAndSearch();
+          }
+        });
+      }
+
+      // Reset All Filters function
+      function resetAllFilters() {
+        currentFilter = 'all';
+        currentSearch = '';
+        if (searchInput) searchInput.value = '';
+        if (clearSearchBtn) clearSearchBtn.classList.add('d-none');
+
+        dropdownItems.forEach(i => {
+          if (i.getAttribute('data-filter') === 'all') {
+            i.classList.add('active');
+          } else {
+            i.classList.remove('active');
+          }
+        });
+
+        if (selectedCatLabel) selectedCatLabel.textContent = 'Semua Kategori';
+        if (dropdownWrapper) dropdownWrapper.classList.remove('open');
+
+        applyFilterAndSearch();
+      }
+
+      if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetAllFilters);
+      if (emptyResetBtn) emptyResetBtn.addEventListener('click', resetAllFilters);
+
+      // Initial count
       applyFilterAndSearch();
-    }
-
-    if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetAllFilters);
-    if (emptyResetBtn) emptyResetBtn.addEventListener('click', resetAllFilters);
-
-    // Initial count
-    applyFilterAndSearch();
-  });
+    });
   </script>
 </body>
 
