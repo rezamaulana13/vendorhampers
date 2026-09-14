@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://vendorhampers.web.id/hampers-lebaran-perusahaan-samarinda.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-lebaran-mukena-premium-samarinda.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hardbox-beludru-hampers-lebaran.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/harga-hampers-perusahaan-samarinda.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-corporate-medium-samarinda.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/tabel-harga-hampers-perusahaan-2026.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/hampers-perusahaan-samarinda.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-samarinda-tambang.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/packing-double-wall-hampers-kaltim.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://vendorhampers.web.id/checklist-timeline-pengadaan-souvenir-seminar-kit-yogyakarta.html</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
