@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://vendorhampers.web.id/custom-logo-hampers-corporate-premium-teknik-etika-gifting</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/custom-logo-hampers-corporate-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-material-berkelanjutan.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/paket-harga-hampers-corporate-premium-vip-karyawan</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-corporate-premium-tier.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-karyawan-vs-vip.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/tren-hampers-corporate-premium-2026-quiet-branding-micro-moments</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/tren-hampers-corporate-premium-2026.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-wellness-corporate-premium.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://vendorhampers.web.id/hampers-corporate-premium-panduan-lengkap-2026</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -347,9 +383,18 @@
   </url>
   <url>
     <loc>https://vendorhampers.web.id/blog</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/custom-logo-hampers-corporate-premium.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-corporate-premium-tier.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/tren-hampers-corporate-premium-2026.webp</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-hero.webp</image:loc>
     </image:image>
