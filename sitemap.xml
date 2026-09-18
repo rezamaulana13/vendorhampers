@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://vendorhampers.web.id/isi-hampers-eksekutif-makassar-hero-product-heritage</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/isi-hampers-eksekutif-makassar-hero-product-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/isi-hampers-eksekutif-makassar-unboxing-02.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/harga-paket-premium-corporate-hampers-makassar</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/harga-paket-hampers-eksekutif-makassar-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/harga-paket-hampers-eksekutif-makassar-02.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/premium-corporate-hampers-makassar-klien-vip</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-makassar-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-makassar-02.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://vendorhampers.web.id/custom-logo-hampers-corporate-premium-teknik-etika-gifting</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -383,9 +419,18 @@
   </url>
   <url>
     <loc>https://vendorhampers.web.id/blog</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/isi-hampers-eksekutif-makassar-hero-product-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/harga-paket-hampers-eksekutif-makassar-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-makassar-01.webp</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://vendorhampers.web.id/assets/img/blog/custom-logo-hampers-corporate-premium.webp</image:loc>
     </image:image>
