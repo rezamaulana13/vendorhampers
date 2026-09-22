@@ -2,15 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vendorhampers.web.id/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/blog</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/unboxing-welcome-kit-karyawan-baru-malang</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/unboxing-welcome-kit-karyawan-baru.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/kartu-ucapan-karyawan-baru.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/welcome-kit-karyawan-baru-custom-malang</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/lanyard-custom-karyawan-baru-malang.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/kaos-mug-stiker-welcome-kit.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vendorhampers.web.id/harga-hampers-karyawan-malang-welcome-kit</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/harga-hampers-karyawan-malang-tier.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hitung-budget-welcome-kit-karyawan.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vendorhampers.web.id/hampers-karyawan-fungsional-malang</loc>
